@@ -1,0 +1,74 @@
+#backgroundPopup{  
+	display:none;  
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6*/  
+	height:100%;  
+	width:100%;  
+	top:0;  
+	left:0;  
+	background:#000000;  
+	border:1px solid #cecece;  
+	z-index:1000;  
+}  
+
+#popupForm{  
+	display:none;  
+	position:fixed;
+	top:50px ; 
+    bottom:50px ; 
+    left:50px;
+    right:50px;
+	background:#DDDDDD;  
+	padding:10px;  
+	z-index:1001;  
+}  
+
+#innerPopupForm {
+	position:absolute;
+	top:34px ; 
+    bottom:5px ; 
+    left:5px;
+    right:5px;
+    z-index:1002;
+	background:#FFFFFF;
+	overflow:auto ; 
+	padding:10px;  
+}
+
+
+#titlePopupForm {
+	position:absolute;
+	top:0px ; 
+	left:0px ; 
+	right:31px;
+	height:32px ;
+	background:#999999;
+	background-image:url('../img/title_popup.png');
+	background-repeat:repeat-x;
+	z-index:1002;
+	padding:0px ; 
+	padding-left:20px ;
+}
+
+#titlePopupForm p {
+   font-size:15px ;
+   padding:0px ; 
+   margin:0px ; 
+   line-height:31px ; 
+}
+
+
+#popupContentArea {
+	text-align:left;  
+}
+
+#popupFormClose{  
+	right:0px;  
+	top:0px;  
+	height:32px ;
+	width:31px ; 
+	position:absolute;    
+	display:block;  
+	background:#999999;
+
+}  

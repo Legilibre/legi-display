@@ -1,0 +1,48 @@
+ul.tree, ul.tree ul { 
+	list-style-type: none; 
+	background: url("../img/tree_vline.png") repeat-y; 
+	margin: 0; padding: 0; 
+} 
+
+ul.tree ul { 
+	margin-left: 10px; 
+} 
+
+ul.tree li { 
+	margin: 0; 
+	padding: 0 12px; 
+	line-height: 20px; 
+	background: url("../img/tree_node.png") no-repeat; 
+} 
+
+ul.tree li:last-child { 
+	background: #fff url("../img/tree_lastnode.png") no-repeat; 
+}
+
+ul.tree li.minus_folder { 
+	background: url("../img/tree_node_minus.png") no-repeat; 
+}
+
+ul.tree li.plus_folder { 
+	background: url("../img/tree_node_plus.png") no-repeat; 
+}
+
+ul.tree li.minus_folder:last-child { 
+	background: #fff url("../img/tree_lastnode_minus.png") no-repeat; 
+}
+
+ul.tree li.plus_folder:last-child { 
+	background: #fff url("../img/tree_lastnode_plus.png") no-repeat; 
+}
+
+ul.tree div.loading { 
+	padding-left:18px ; 
+	background: url("../img/ajax-loader.gif") no-repeat left 3px; 
+}
+
+.highlight_placeholder {
+	border: 1px solid #A1A1A1 ; 
+	height:15px;
+	width:200px;
+}
+

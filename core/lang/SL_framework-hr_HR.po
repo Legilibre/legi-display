@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-06T15:30:13+00:00\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: Croatia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "O ..."
+
+msgid "Settings"
+msgstr "Postavke"
+
+msgid "Log options"
+msgstr "Prijava opcija"
+
+msgid "What is the debug level:"
+msgstr "Što jerazina debug :"
+
+msgid "See the debug logs"
+msgstr "Pogledajte debug dnevnike"
+
+msgid "1=log only the critical errors;"
+msgstr "1 = log samo kritične pogreške ;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2 = prijavite samo kritične pogreške i standardne pogreške"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3 = prijavite samo kritične pogreške, standardne pogreške i upozorenja ;"
+
+msgid "4=log information;"
+msgstr "4 = log informacije ;"
+
+msgid "5=log verbose;"
+msgstr "5 = prijavite preopširan ;"
+
+msgid "Multisite Management"
+msgstr "Višestranično upravljanje"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Želite li dopustiti da pod- blogovi izmijeniti prijevode dodataka:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Ako je ova opcija ne potvrdi,tab prijevod neće biti prikazan na ploči blog uprave"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr ") stranica Sažetak za dodataka razvijen s SL okviru"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Za sada , imate instaliran %s dodataka uključujući %s inovi razvijen s SedLex u okviru"
+
+msgid "The core plugin is located at %s"
+msgstr "jezgra plugin se nalazi na %s"
+
+msgid "Plugin name"
+msgstr "Plugin Naziv"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Tu jeSQL baza podataka za ovaj dodatak"
+
+msgid "Version: %s by %s"
+msgstr "Verzija : %s od %s"
+
+msgid "List of SL plugins"
+msgstr "Popis slalomskih dodataka"
+
+msgid "Parameters of the framework"
+msgstr "Parametri okviru"
+
+msgid "Manage translation of the framework"
+msgstr "Upravljanje prijevod okviru"
+
+msgid "The folder %s is not %s !"
+msgstr "mape %s nije %s !"
+
+msgid "The file %s is not %s !"
+msgstr "datoteka%s ne %s !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "mape %s ne postoji i ne može biti stvoren !"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Datoteka%s ne postoji i ne može biti stvoren !"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Postoje neka pitanja s mapama prava . Molimo corret ih što je prije moguće kako bi mogli izazvati bugova i nestabilnosti"
+
+msgid "Please see below:"
+msgstr "U nastavku pogledajte :"
+
+msgid "Filter: %s"
+msgstr "Filter : %s"
+
+msgid "%s of %s"
+msgstr "%s od %s"
+
+msgid "Current Page"
+msgstr "Trenutni Page"
+
+msgid "Donate"
+msgstr "Donirajte"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr "Ako vam se sviđa plugin , ne ustručavajte se donirati . Imajte na umu da je ovaj plugin je razvijen u svoje slobodno vrijeme besplatno"
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr "Ovo nije obavezno ! ali to može bitiznak da je ovaj plugin uklapa li treba : to me čini sretnim ..."
+
+msgid "Feedback form"
+msgstr "Obrazac ocjene"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Obrazac jejednostavan način da se obratite autoru i raspraviti pitanja / neusklađenosti / etc . s njim"
+
+msgid "Contact the author"
+msgstr "Kontaktirajte autora"
+
+msgid "Your name:"
+msgstr "Vaše ime :"
+
+msgid "Your email:"
+msgstr "Vaš e-mail :"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Korisno ... tako da autor će biti u mogućnosti da vas anwser ."
+
+msgid "Your comments:"
+msgstr "Vaši komentari :"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "Imajte na umu da su dodatne informacije o instalaciji WordPress će biti poslana na autora kako bi pomogli ispravljanje pogrešaka , ako je potrebno ( kao što su : Wordpress verziji , instaliranih dodataka , itd. )"
+
+msgid "Send feedback"
+msgstr "Pošaljite svoje mišljenje"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "Ne e su osigurana za autora ovog dodatka . Dakle ,komentar je nemoguće"
+
+msgid "The feedback has been sent"
+msgstr "povratne informacije je poslan"
+
+msgid "An error occured sending the email."
+msgstr "Došlo je do pogreške prilikom slanja poruke e-pošte."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Pobrinite se da vaš WordPress je u mogućnosti poslati e-mail ."
+
+msgid "Plugins that you may install"
+msgstr "Plugins da mogu instalirati"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "Sljedeći dodataka su razvijeni od strane autora , a još nije instaliran :"
+
+msgid "Plugin not yet installed"
+msgstr "Plugin još nije instaliran"
+
+msgid "Description and Screenshots"
+msgstr "opis i Slike"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Svi autorski dodaci su instalirani . Hvala vam !"
+
+msgid "Installed plugins"
+msgstr "Instalirani dodataka"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Već ste instalirali o autoru dodaci :"
+
+msgid "Plugin already installed"
+msgstr "Plugin već instaliran"
+
+msgid "The Wordpress page: %s"
+msgstr "Wordpress stranica : %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Neočekivana HTTP pogreška dogodila tijekom API zahtjeva ."
+
+msgid "Last update:"
+msgstr "Zadnja izmjena :"
+
+msgid "Rating: %s"
+msgstr "ocjena : %s"
+
+msgid "by %s persons"
+msgstr "od strane %s osobama"
+
+msgid "Number of download:"
+msgstr "Broj preuzimanja :"
+
+msgid "Add new"
+msgstr "Dodaj novi"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Pogreška :podnijeti vrijednost nijecijeli broj , a time ,parametar nije ažuriran !"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Pogreška :podnesen niz ne odgovara ograničenjima"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Pogreška :podnijeti datoteka ne može se učitati !"
+
+msgid "Error: security issue!"
+msgstr "Pogreška : sigurnosni problem !"
+
+msgid "Parameters"
+msgstr "Parametri"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Ovdje su parametri plugina . Mijenjati ih po volji kako bi odgovarao Vašim potrebama ."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Ovdje su parametri okvira . Mijenjati ih po volji kako bi odgovarao Vašim potrebama ."
+
+msgid "(Delete)"
+msgstr "( Izbriši )"
+
+msgid "Values"
+msgstr "Vrijednosti"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Upozorenje : neki znakovi su uklonjeni jer ovdje nije dopušteno"
+
+msgid "(integer)"
+msgstr "( cijeli broj )"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "( Ako želite izbrisati ovu datoteku , provjerite ovaj box %s )"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Reset to default values"
+msgstr "Vrati na zadane vrijednosti"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "Neki parametri nisu ažurirani zbog pogreške ( vidi dolje ) !"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "Parametri su ažurirani ( ali s nekim upozorenjima ) !"
+
+msgid "Parameters have been updated successfully!"
+msgstr "Parametri su uspješno ažurirani !"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "Parametri su vraćene na zadane vrijednosti !"
+
+msgid "Close popup"
+msgstr "Zatvori popup"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Ovdje možete podesiti na tri razine prijevoda : na razini plugin , na okvirnog razini , tako i na razini armaturne ploče ."
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "Obavještavamo vas da je vaš trenutni jezik %s . Tekst će biti preveden akoprijevod je dostupan ."
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "Ako želite promijeniti jezik , molimo idite u %s. i pronaći %s ili %s . Drugi argument je jezik i možete ga mijenjati kako želite ."
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "Prijevodi dostupni za ovaj plugin ( tj. %s )"
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "Prijevodi dostupni za SL okvira ( pohranjene u %s )"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Dodavanje novog prijevoda za tom jeziku : %s"
+
+msgid "Sentence to translate"
+msgstr "Kazna za prijevod"
+
+msgid "Translation"
+msgstr "Translation"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "( ako je vaše ime / pseudo je već na popisu , nema potrebe da ispunite ovaj ulaz )"
+
+msgid "Your email or your website:"
+msgstr "e-mail ili web stranice :"
+
+msgid "Create the translation files"
+msgstr "Napravite prijevod datoteke"
+
+msgid "Add a new translation"
+msgstr "dodati novi prijevod"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "Mijenjanje prijevod za tom jeziku : %s"
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr "broj pojavljivanja %s ne odgovara u oba niza. Imajte na umu da jeniz%s će biti zamijenjen s kontekstualnim nizu ."
+
+msgid "Modify the translation files"
+msgstr "Izmjena prijevod datoteke"
+
+msgid "Modify translations"
+msgstr "Izmjena prijevode"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s rečenice su prevedene ( tj. %s ) ."
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%s rečenice su prevedene ( tj. %s ) %s %s kazne moraju biti provjereni , jer su u neposrednoj blizini ( ali ne i identičan ) onima prevesti . %s"
+
+msgid "The translation %s have been sent"
+msgstr "translation %s su poslane"
+
+msgid "Send translation"
+msgstr "Pošalji prijevod"
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "%s datoteka ne može biti stvoren za%s jer ne postoji prevedena rečenica . Molimo , prevesti barem jednu rečenicu kako bi stvorili datoteku"
+
+msgid "%s file has been updated for %s"
+msgstr "%s datoteka je obnovljeno za %s"
+
+msgid "%s file has been updated from this file"
+msgstr "%s datoteka je izmijenjena od ove datoteke"
+
+msgid "%s file has been created with a new translation for %s"
+msgstr "%s datoteka je stvorena s novim prijevodom za %s"
+
+msgid "%s file has been created from this file"
+msgstr "%s datoteka je stvorena od ove datoteke"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr "Ako ne želite izgubiti svoje prijevode na sljedećoj nadogradnji ovog dodatka , preporučljivo je poslati prijevod datoteke autoru klikom %s %s"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr "Ako ne želite izgubiti svoje prijevode na sljedećoj nadogradnji ovog dodatka , molimo vas da ih spremiti na vaš hard disk prije nadogradnje , a zatim ih vratiti nakon nadogradnje"
+
+msgid "Confirmation"
+msgstr "Potvrda"
+
+msgid "Summary cached %s"
+msgstr "Profila spremljeno %s"
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "Rečenice koje se koriste u ovom dodatku su na engleskom jeziku . Pomoći ostalima korisnike koristeći isti jezik kao i vi prevođenjem ovog dodatka"
+
+msgid "This plugin is available in %s languages."
+msgstr "Ovaj dodatak je dostupan u %s jezicima ."
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "Postoje %s rečenice koje treba prevesti u ovom dodatku ."
+
+msgid "Language"
+msgstr "Jezik"
+
+msgid "Ratio %"
+msgstr "Omjer%"
+
+msgid "Translators"
+msgstr "Prevoditelji"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Ovo je zadani jezik plugina . To se ne može mijenjati ."
+
+msgid "Modify"
+msgstr "Izmijeni"
+
+msgid "Send to the author of the plugin"
+msgstr "Pošalji autoru plugina"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "Možete dodati novi prijevod Hereafter ( Imajte na umu da je preporučljivo poslati svoj prijevod na autora , tako da će biti u mogućnosti dodati svoj prijevod na budućim izdanjima plugina"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "&#039; SL okvir &#039; jeokvir koristi za razvija mnogo dodataka kao što je ovaj . Dakle , ako želite sudjelovati prevođenje okvira , to će biti vrlo korisno za hrpu dodataka ."
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "Tu je %s jezici podržani za &#039; SL okvira &#039; ."
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "Postoji %s rečenica koje treba prevesti u okviru ."
+
+msgid "Send to the author of the framework"
+msgstr "Pošalji autoru okviru"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+

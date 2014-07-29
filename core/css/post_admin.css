@@ -1,0 +1,62 @@
+.adminPost {font:12px/1.3em Helvetica, Arial, sans-serif;}
+
+.adminPost h1, .adminPost h2, .adminPost h3, .adminPost h4, .adminPost h5, .adminPost h6  { margin:1em 0 0.5em; }
+.adminPost h1  {font-size: 2em ; line-height: 1.3em ;} 
+.adminPost h2  {font-size: 1.8em; line-height: 1.3em ;} 
+.adminPost h3  {font-size: 1.6em; line-height: 1.1em ;} 
+.adminPost h4  {font-size: 1.2em; line-height: 0.9em ;} 
+.adminPost h5  {font-size: 1em; } 
+.adminPost h6  {font-size: 0.8em; }
+
+.adminPost p  { margin-bottom: 0.7em; font-size: 12px; }
+
+.adminPost a:link, .adminPost a:visited  { color: #000; text-decoration:none;}
+.adminPost a:hover {text-decoration:underline;}
+
+.adminPost ul  { margin-bottom: 0.4em; padding: 0 0 0 30px; }
+.adminPost ul ul  { margin: 0; }
+.adminPost ul li  {	list-style-type: disc; }
+.adminPost ul ul li  { list-style-type: circle; }
+
+.adminPost ol  { margin-bottom: 0.4em; padding: 0 0 0 30px; }
+.adminPost ol ol  { margin: 0; }
+.adminPost  ol li  { list-style-type: decimal; }
+.adminPost  ol li ol li  { list-style-type: lower-latin; }
+
+.adminPost img.aligncenter  { margin-left:auto; margin-right:auto; display:block; }
+
+.adminPost .tableofcontent {
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-size: 0.95em;
+	min-width:200px;
+	float:left ; 
+}
+
+
+.adminPost .tableofcontent h6 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	margin : 3px ; 
+	padding-top : 5px ;
+	padding-bottom : 5px ;
+}	
+.adminPost .tableofcontent p {
+	margin : 3px ; 
+	line-height:7pt;
+	padding-top : 2px ; 
+}
+.adminPost .tableofcontent ul, .tableofcontent ol {
+	list-style: none;
+	padding: 0;
+}
+.adminPost .tableofcontent ul ul, .tableofcontent ol ol {
+	margin: 0 0 0 2em;
+}
+.adminPost .tableofcontent-end {
+	clear: both;
+}

@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-23T06:40:36+00:00\n"
+"Last-Translator: SedLex <http://www.sedlex.fr/>\n"
+"Last-Translator: PierreF <pf@romanliturgy.org>\n"
+"Last-Translator: wkpixearts <wkpixeartsforall@gmail.com>\n"
+"Last-Translator: mediacop <>\n"
+"Last-Translator: FlorianP. <floflo63400@gmail.com>\n"
+"Last-Translator: Guillaume <http://www.rienasemettre.fr>\n"
+"Last-Translator: WaliAhmed <http://techmeters.uk.to>\n"
+"Last-Translator: SebastienGrenet <>\n"
+"Last-Translator: mutmut <smuteau@gmail.com>\n"
+"Last-Translator: jlmcreation <http://www.jlmcreation.fr>\n"
+"Last-Translator: allostrip <www.allostrip.fr>\n"
+"Last-Translator: Dominique <http://www.handi-voyages.org>\n"
+"Last-Translator: ChristopheLemuet <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "À propos..."
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "Log options"
+msgstr "Options du journal"
+
+msgid "What is the debug level:"
+msgstr "Quel est le niveau de débogage:"
+
+msgid "See the debug logs"
+msgstr "Voir les journaux de débogage"
+
+msgid "1=log only the critical errors;"
+msgstr "1=Journal (Erreurs critiques seulement)"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=Journal (Erreurs standard et critiques seulement)"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=Journal (Erreurs standard, avertissements et critiques seulement)"
+
+msgid "4=log information;"
+msgstr "4=Journal"
+
+msgid "5=log verbose;"
+msgstr "5=Journal détaillé"
+
+msgid "Multisite Management"
+msgstr "Gestion multi sites"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Voulez-vous autoriser les sous-blog à modifier les traductions des extensions:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Si cette option est décoché, l&#039;onglet de traduction n&#039;est pas visible dans le panneau d&#039;administration du blog"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Page de synthèse pour les plugins développés avec le framework SL"
+
+msgid "Plugin name"
+msgstr "Nom du plugin"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Il y a une base de données SQL pour cette extension"
+
+msgid "Version: %s by %s"
+msgstr "Version : %s par %s"
+
+msgid "List of SL plugins"
+msgstr "Liste des plugins SL"
+
+msgid "Parameters of the framework"
+msgstr "Paramètres du framework"
+
+msgid "Manage translation of the framework"
+msgstr "Gérer les traductions du framework"
+
+msgid "The folder %s is not %s !"
+msgstr "Le répertoire %s n&#039;est pas %s !"
+
+msgid "The file %s is not %s !"
+msgstr "Le fichier %s n&#039;est pas %s !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "Le répertoire %s n&#039;existe pas et ne peut pas être créé !"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Le fichier %s n&#039;existe pas et ne peux pas être créé !"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Il y a des problèmes avec les droits des répertoires. Merci de les corriger dès que possible afin d&#039;éviter des bugs et des instabilités."
+
+msgid "Please see below:"
+msgstr "Merci de voir ci-dessous :"
+
+msgid "Filter: %s"
+msgstr "Filtre : %s"
+
+msgid "%s of %s"
+msgstr "%s de %s"
+
+msgid "Current Page"
+msgstr "Page actuelle"
+
+msgid "Donate"
+msgstr "Faire un don"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr "Si vous aimez le plugin, n&#039;hésitez pas à faire un don. Veuillez noter que ce plugin est développé dans mon temps libre pour libre."
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr "Ce n&#039;est pas obligatoire! mais il peut être un signe que ce plug-in s&#039;intègre vos besoins: cela me rend heureuse ..."
+
+msgid "Feedback form"
+msgstr "Formulaire de feedback"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Ce formulaire est un moyen simple de contacter l&#039;auteur afin de discuter avec lui de vos problèmes, des incompatibilités rencontrées, etc."
+
+msgid "Contact the author"
+msgstr "Contact de l&#039;auteur"
+
+msgid "Your name:"
+msgstr "Votre nom :"
+
+msgid "Your email:"
+msgstr "Votre email :"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Utile ... ainsi l&#039;auteur pourra vous répondre."
+
+msgid "Your comments:"
+msgstr "Vos commentaires :"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "Merci de noter que des informations complémentaires relatives à votre installation de wordpress seront envoyées à l&#039;auteur afin d&#039;aider la correction des erreurs(comme la version de wordpress, la liste des plugins installés, etc.)"
+
+msgid "Send feedback"
+msgstr "Envoyer vos commentaires"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "Aucun email n&#039;a été communiqué par l&#039;auteur de ce plugin. Aucun feedback n&#039;est donc possible."
+
+msgid "The feedback has been sent"
+msgstr "Le feedback a été envoyé"
+
+msgid "An error occured sending the email."
+msgstr "Une erreur est survenue lors de l&#039;envoi du mail"
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Verifier que votre wordpress est en capacité d&#039;envoyer des mails"
+
+msgid "Plugins that you may install"
+msgstr "Les plugins que vous pouvez installer"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "Les plugins suivants ont été développé par l&#039;auteur et vous ne les avez pas encore installés :"
+
+msgid "Plugin not yet installed"
+msgstr "Les plugins non encore installés"
+
+msgid "Description and Screenshots"
+msgstr "Description et captures d&#039;écran"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Tous les plugins de l&#039;auteur ont été installé. Merci à vous !"
+
+msgid "Installed plugins"
+msgstr "Plugins installés"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Vous avez installés les plugins suivants de l&#039;auteur :"
+
+msgid "Plugin already installed"
+msgstr "Plugins déjà installés"
+
+msgid "The Wordpress page: %s"
+msgstr "La page Wordpress : %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Une erreur HTTP inattendue est survenue durant la requête API."
+
+msgid "Last update:"
+msgstr "Dernière mise à jour :"
+
+msgid "Rating: %s"
+msgstr "Evaluation : %s"
+
+msgid "by %s persons"
+msgstr "par %s personnes"
+
+msgid "Number of download:"
+msgstr "Nombre de téléchargement :"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Erreur : la valeur soumises n&#039;est pas un entier, la valeur du paramètre n&#039;est donc pas mise à jour"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Erreur : la chaine de caractère soumise ne respecte pas les contraines imposées"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Erreur : le fichier soumis ne peut pas être enregistré !"
+
+msgid "Error: security issue!"
+msgstr "Erreur: problème de sécurité!"
+
+msgid "Parameters"
+msgstr "Paramètres"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Voici les paramètres du plugin. Modifier les afin de satisfaire vos besoins."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Voici les paramètres du framework. Modifier les afin de satisfaire vos besoins."
+
+msgid "(Delete)"
+msgstr "Effacer"
+
+msgid "Values"
+msgstr "Valeurs"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Attention : certains caractères ont été supprimés car ils ne sont pas autorisés ici"
+
+msgid "(integer)"
+msgstr "(entier)"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(Si vous voulez effacer ce fichier, merci de cocher cette case %s)"
+
+msgid "Update"
+msgstr "Mise à jour"
+
+msgid "Reset to default values"
+msgstr "Réinitialisation des valeurs par défaut"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "Certains paramètres n&#039;ont pas été mis à jour à cause d&#039;erreurs (voir ci-dessous) !"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "Les paramètres ont été mis à jour (mais il existe des avertissements) !"
+
+msgid "Parameters have been updated successfully!"
+msgstr "Les paramètres ont été mis à jour avec succès !"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "Les paramètres ont été réinitialisés avec leur valeur par défaut"
+
+msgid "Close popup"
+msgstr "Fermer le popup"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Ici, vous pouvez configurer trois niveaux de traductions : au niveau du plugin, au niveau du framework, et au niveau de la zone d&#039;administration."
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "Veuillez-noter que votre langue actuelle est %s. Le texte sera traduit s&#039;il existe une traduction disponible."
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "Si vous souhaitez modifier une langue, allez dans %s et trouvez %s ou %s. Le deuxième argument est votre langue et vous pouvez le modifier comme vous le voulez."
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "Traductions disponibles pour ce plugin (i.e. %s)"
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "Traductions disponibles pour le SL framework (stockées dans %s)"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Ajouter une traduction pour cette langue : %s"
+
+msgid "Sentence to translate"
+msgstr "Phrase à traduire"
+
+msgid "Translation"
+msgstr "Traduction"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "(si votre nom/pseudo est déja dans la liste, il n&#039;est pas nécessaire de remplir ce champ)"
+
+msgid "Your email or your website:"
+msgstr "Votre email ou votre site internet :"
+
+msgid "Create the translation files"
+msgstr "Créer les fichiers de traduction"
+
+msgid "Add a new translation"
+msgstr "Ajouter une nouvelle traduction"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "Modifier la traduction pour cette langue : %s"
+
+msgid "Modify the translation files"
+msgstr "Modifier les fichiers de traduction"
+
+msgid "Modify translations"
+msgstr "Modifier la traduction"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s phrases ont été traduites (c&#039;est à dire %s)"
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%s phrases ont été traduites (c&#039;est à dire %s) %s %s phrases doivent être vérifiées car elles sont proches (mais pas identiques) à celles, devant être traduites.%s"
+
+msgid "The translation %s have been sent"
+msgstr "La traduction %s a été envoyée"
+
+msgid "Send translation"
+msgstr "Envoyer la traduction"
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "Impossible de créer le fichier %s pour %s car il n&#039;y a aucune phrase traduite. La traduction s&#039;il vous plaît, au moins une phrase pour créer un fichier"
+
+msgid "%s file has been updated for %s"
+msgstr "Le fichier %s a été mis à jour pour %s"
+
+msgid "%s file has been updated from this file"
+msgstr "Le fichier %s a été mis à jour à partir de ce fichier"
+
+msgid "%s file has been created with a new translation for %s"
+msgstr "Le fichier %s a été créé pour %s"
+
+msgid "%s file has been created from this file"
+msgstr "Le fichier %s a été créé à partir de ce fichier"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr "Si vous ne voulez pas perdre vos traductions à la prochaine mise à jour du plugin, il est recommandé d&#039;envoyer le fichier de traduction à l&#039;auteur en cliquant %s ici %s"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr "Si vous ne voulez pas perdre vos traductions à la prochaine mise à jour du plugin, merci de les sauver sur votre disque dur avant de mettre à jour et de les restaurer après !"
+
+msgid "Confirmation"
+msgstr "Confirmation"
+
+msgid "Summary cached %s"
+msgstr "Sommaire %s mis en cache"
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "Les phrases utilisées dans ce plugin sont en anglais. Aidez les autres utilisateurs utilisant la même langue que vous en traduisant ce plugin."
+
+msgid "This plugin is available in %s languages."
+msgstr "Le plugin est fonctionnel dans %s langues"
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "Il y a %s de phrases qui ont encore besoin d&#039;être traduites"
+
+msgid "Language"
+msgstr "Langues"
+
+msgid "Ratio %"
+msgstr "Ratio %"
+
+msgid "Translators"
+msgstr "Traducteurs"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "C&#039;est la langue par défaut du plugin. Il ne peut pas être modifié."
+
+msgid "Modify"
+msgstr "Modifier"
+
+msgid "Send to the author of the plugin"
+msgstr "Envoyer à l&#039;auteur du plugin"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "Vous pouvez ajouter une nouvelle traduction ci-après (il est recommandé d&#039;envoyer votre traduction à l&#039;auteur afin qu&#039;il puisse l&#039;ajouter dans la prochaine version du plugin !)"
+
+msgid "Add"
+msgstr "Ajouter"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "Le &#039;SL framework&#039; est un framework utilisé pour développer beaucoup d&#039;autres plugins comme celui-ci. Ainsi, si vous participez à traduire ce framework, cela sera bénéfique pour beaucoup de plugins."
+
+msgid "Send to the author of the framework"
+msgstr "Envoyer à l&#039;auteur du framework"
+
+msgid "KB"
+msgstr "Ko"
+
+msgid "MB"
+msgstr "Mo"
+
+msgid "GB"
+msgstr "Go"
+
+msgid "The file %s cannot be read. You should have a problem with file permissions or security restrictions."
+msgstr "Le fichier %s ne peut pas être lu. Vous avez probablement un problème de droit sur ce fichier et des restrictions de sécurité."
+
+msgid "An other process is still running (it runs for %s seconds)"
+msgstr "Un autre processus est en cours d&#039;exécution (il tourne depuis %s seconds)"
+
+msgid "The file %s cannot be modified/created. You should have a problem with file permissions or security restrictions."
+msgstr "Le fichier %s ne peut pas être modifié/créé. Vous avez probablement un problème de droit sur ce fichier et des restrictions de sécurité."
+
+msgid "The file %s cannot be created. You should have a problem with file permissions or security restrictions."
+msgstr "Le fichier %s ne peut pas être créé. Vous avez probablement un problème de droit sur ce fichier et des restrictions de sécurité."
+
+msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
+msgstr "Le fichier %s ne peut pas être modifié. Vous avez probablement un problème de droit sur ce fichier et des restrictions de sécurité."
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr "Le fichier %s ne peut pas être effacé. Vous avez probablement un problème de droit sur ce fichier et des restrictions de sécurité."
+
+msgid "Error: %s function is not found"
+msgstr "Erreur : la fonction %s n&#039;est pas trouvée"
+
+msgid "The folder %s cannot be opened. You should have a problem with folder permissions or security restrictions."
+msgstr "Le répertoire %s ne peut pas être ouvert. Vous avez probablement un problème de droit sur ce répertoire et des restrictions de sécurité."
+
+msgid "The file %s cannot be compressed."
+msgstr "Le fichier %s ne peut pas être compressé."
+
+msgid "The file %s cannot be renamed. You should have a problem with file permissions or security restrictions."
+msgstr "Le fichier %s ne peut pas être renommé. Vous avez probablement un problème de droit sur ce fichier et des restrictions de sécurité."
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "Les plugins suivants ont été développés par l&#039;auteur et n&#039;ont pas encore été installés:"
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "%s phrases sont prises en charge par le &#039;SL framework&#039;"
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "%s phrases sont à traduire dans le framework"
+

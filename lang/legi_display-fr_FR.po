@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-07-29T09:39:09+00:00\n"
+"Last-Translator: SedLex <http://www.sedlex.fr/>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "List the available LEGI code that you have imported"
+msgstr "Lister les codes LEGI disponibles et que vous avez importés"
+
+msgid "The code does not seems to be an appropriate code."
+msgstr "Le code ne semble pas correct"
+
+msgid "The cache file %s has been deleted: it will be recreated in the next rendering of this code."
+msgstr "Le fichier de cache %s a été supprimé : il sera recrée au prochain affichage de la page"
+
+msgid "Code that has just been imported"
+msgstr "Un code vient juste d&#039;être importé"
+
+msgid "Choose a code to import/update in the following list:"
+msgstr "Choississez un code à importer dans la liste suivante : "
+
+msgid "Import"
+msgstr "Importer"
+
+msgid "No code detected in your upload folder."
+msgstr "Aucun code détecté dans le répertoire d&#039;upload"
+
+msgid "Here is the list of code that has already been imported:"
+msgstr "Voici une liste de codes ayant déjà été importés"
+
+msgid "No code has been imported."
+msgstr "Aucun code n&#039;a été importé"
+
+msgid "Already imported"
+msgstr "Déjà importé"
+
+msgid "Import a code"
+msgstr "Importer un code"
+
+msgid "This plugin Display French Codes and laws once the XML files are retrieved from %s. See %s for the licence."
+msgstr "Ce plugin affiche les codes et lois françaises une fois que le XML a été récupéré depuis %s. Regarder %s pour la licence."
+
+msgid "Purpose of that plugin"
+msgstr "But de ce plugin"
+
+msgid "At first, download the file %s on %s."
+msgstr "Dans un premier temps, télécharger le fichier %s dans %s."
+
+msgid "Unpack this file on your website (for instance, with %s if your are on Windows or any other compatible software)."
+msgstr "Décompresser ce fichier sur votre site web (par exemple, avec %s si vous utilisez Windows ou avec n&#039;importe quel logiciel compatible)"
+
+msgid "The unpacked files should be stored without modification on you website, in the %s folder (and therefore, the path should be something like this %s)."
+msgstr "Les fichiers décompressés doivent être stockés sans modification sur votre site web, dans le répertoire %s (ainsi, le chemin doit ressembler à %s)."
+
+msgid "Once this done, we should be able to import code in the Import tab."
+msgstr "Une fois cela effectué, nous devrions être capable d&#039;importer un code depuis l&#039;onglet d&#039;importation."
+
+msgid "How to import the codes?"
+msgstr "Comment importer les codes?"
+
+msgid "After the importation, you may insert in a page the shortcode %s in order to create a list of all imported codes. There is also a button in the page editor to insert such shortcode."
+msgstr "Après l&#039;importation, vous pourrez ajouter à vos page le code %s afin de créer uen liste de tous les codes importés. Il existe également un bouton dans l&#039;éditeur d&#039;article permettant d&#039;insérer un tel code. "
+
+msgid "How to consult a code?"
+msgstr "Comment consulter un code ?"
+
+msgid "How To"
+msgstr ""
+
+msgid "Sub-Dir"
+msgstr "Sous-répertoire"
+
+msgid "The name of the folder that will be used for displaying the French Code:"
+msgstr "Le nom du répertoire sera utilisé afin d&#039;afficher les codes français :"
+
+msgid "If the folder is %s, the url to access the code would be something like %s."
+msgstr "Si le répertoire est %s, l&#039;URL d&#039;accès sera de la forme %s."
+
+msgid "For consistency, you may create a page accessible through this url and add a shortcode %s to display the list of all code you imported."
+msgstr "Par souci de cohérence, vous pouvez créer une page accessible par ce lien et ajouter un shortcode %s pour afficher la liste de tous les codes que vous avez importé."
+
+msgid "Web-Crawlers"
+msgstr "Robots d&#039;indexation"
+
+msgid "Allow the web crawlers (%s) to index the codes/articles:"
+msgstr "Permettre aux robots d&#039;indexation (%s) d&#039;indexer les codes / articles:"
+
+msgid "It is recommended to de-activate this option as most of the crawlers penalize websites with a lot of new/similar contents."
+msgstr "Il est recommandé de désactiver cette option car la plupart des robots pénalise les sites avec beaucoup de nouveaux coontenus ou des contenus identiques à d&#039;autres sites."
+
+msgid "Appearance"
+msgstr "Apparence"
+
+msgid "The CSS to be used:"
+msgstr "Le CSS à utiliser :"
+
+msgid "The default value is:"
+msgstr "La valeur par défaut est :"
+
+msgid "Parameters"
+msgstr "Paramètres"
+
+msgid "Manage translations"
+msgstr "Gérer les traductions"
+
+msgid "Give feedback"
+msgstr "Donner un feedback"
+
+msgid "Other plugins"
+msgstr "Autres plugins"
+
+msgid "No folder %s may be found in %s: Please dowload the XML file on %s and upload the appropriate folder here."
+msgstr "Aucun dossier %s ne peut être trouvé dans %s : s&#039;il vous plaît télécharger la fichier XML %s et télécharger le dossier approprié ici."
+
+msgid "The ID of the code should be 20 characters long (here, we have a %s characters long ID)."
+msgstr "L&#039;identifiant du code doit être d&#039;une longueur de 20 caractères (ici, la longueur est de %s)."
+
+msgid "No folder %s may be found in %s. Please make sure that the ID is correct."
+msgstr "Aucun dossier %s ne peut être trouvé dans %s. Merci de vérifier que l&#039;identifiant est correct."
+
+msgid "%s entries have been imported (i.e. %s new entries and %s updated entries)."
+msgstr "%s entrées a été importées (i.e. %s nouvelles entrées et %s entrées mises à jour)."
+
+msgid "Error: no id provided"
+msgstr "Erreur: aucun identifiant soumis"
+

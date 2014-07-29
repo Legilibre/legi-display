@@ -1,0 +1,13 @@
+/* 
+VersionTranslationCss : 1.0
+*/
+
+.pt_flag {
+	display:block;
+	float:left ; 
+	width:18px ; 
+	height:12px ; 
+	margin:0px 10px ; 
+	background:url('../img/flags_sprite.png') no-repeat;
+}
+

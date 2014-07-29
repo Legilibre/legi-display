@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-24T09:39:54+00:00\n"
+"Last-Translator: GaithBader <http://www.bader.cc>\n"
+"Last-Translator: ahmed <senior.a.miro@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: Jordan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "حَول"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Update"
+msgstr "تحديث"
+
+msgid "Translation"
+msgstr "ترجمة"
+
+msgid "Your name:"
+msgstr "إسمك:"
+
+msgid "Language"
+msgstr "لغة"
+
+msgid "Information"
+msgstr "معلومات"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Donate"
+msgstr "تبرع"
+
+msgid "Contact the author"
+msgstr "يرجى الاتصال بالمؤلف"
+
+msgid "Send feedback"
+msgstr "أرسل ملاحظاتك"
+
+msgid "The feedback has been sent"
+msgstr "تم إرسال ملاحظاتك"
+
+msgid "Current Page"
+msgstr "الصفحة الحالية"
+
+msgid "Installed plugins"
+msgstr "تثبيت الاضافات"
+
+msgid "Last update:"
+msgstr "آخر تحديث:"
+
+msgid "Log options"
+msgstr "سجل الإعدادات"
+
+msgid "Your email:"
+msgstr "بريدك الإلكتروني:"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "Version: %s by %s"
+msgstr "إصدار: %s بواسطة  %s"
+
+msgid "Your comments:"
+msgstr "تعليقك :"
+
+msgid "Plugins that you may install"
+msgstr "إضافات يمكنك تثبيتها"
+
+msgid "Error: security issue!"
+msgstr "خطأ : مشكلة امنية"
+
+msgid "Parameters"
+msgstr "المتغيرات"
+
+msgid "(Delete)"
+msgstr "( حذف )"
+
+msgid "Values"
+msgstr "القيمة"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "تحذير : بعض الحروف قد تم إزالتها لانها غير مصرح بها هنا"
+
+msgid "(integer)"
+msgstr "( رقم )"
+
+msgid "Reset to default values"
+msgstr "إسترجاع القيم الإفتراضية"
+
+msgid "Add a new translation"
+msgstr "اضف ترجمة جديدة"
+
+msgid "The translation %s have been sent"
+msgstr "الترجمة %s قد أرسلت"
+
+msgid "Send translation"
+msgstr "أرسل الترجمة"
+
+msgid "Ratio %"
+msgstr "نسبة مئوية %"
+
+msgid "Translators"
+msgstr "مترجم"
+

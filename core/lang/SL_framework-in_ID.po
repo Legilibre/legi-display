@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-14T17:09:16+00:00\n"
+"Last-Translator: rudysyahnaya <foritonsite.org>\n"
+"Last-Translator: PradiktaDwiAnthony <pradikta.anthony@gmail.com>\n"
+"Last-Translator: Prihantoosa <pht854@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: Indonesia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Tentang"
+
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgid "Log options"
+msgstr "Opsi rekaman"
+
+msgid "What is the debug level:"
+msgstr "Level debug:"
+
+msgid "See the debug logs"
+msgstr "Lihat catatan debug"
+
+msgid "1=log only the critical errors;"
+msgstr "Hanya rekam data error yang kritis"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "Hanya rekam data error yang standar dan kritis"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "Hanya rekam data error yang kritis, standar, dan peringatan"
+
+msgid "4=log information;"
+msgstr "Informasi rekaman"
+
+msgid "Multisite Management"
+msgstr "Pengaturan &quot;multisite&quot;"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Apakah Anda ingin mengizinkan sub-blog untuk memodifikasi terjemahan plugins:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "jika opsi ini tidak dipilih, tab terjemahan tidak akan ditampilkan pada panel administrasi blog"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Ringkasan halaman untuk plugin yang dikembangkan dengan SL Framework"
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr "Untuk saat ini, Anda telah menginstall %d plugins termasuk %d plugins yang dikembangkan dengan &quot;Framework SL&quot;:"
+
+msgid "Plugin name"
+msgstr "Nama plugin"
+
+msgid "Description"
+msgstr "Deskripsi"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Terdapat database SQL untuk plugin ini"
+
+msgid "Version: %s by %s"
+msgstr "Versi: %s Oleh %s"
+
+msgid "List of SL plugins"
+msgstr "List dari SL Plugins"
+
+msgid "Parameters of the framework"
+msgstr "Paramater Framework"
+
+msgid "Manage translation of the framework"
+msgstr "Mengelola terjemahan dari Framework"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Parameters"
+msgstr "Parameter"
+
+msgid "Values"
+msgstr "Nilai"
+
+msgid "(integer)"
+msgstr "(integer)"
+
+msgid "Update"
+msgstr "Pembaharuan"
+
+msgid "Sentence to translate"
+msgstr "kalimat untuk diterjemahkan"
+
+msgid "Translation"
+msgstr "Terjemahan"
+
+msgid "Your name:"
+msgstr "Nama Anda:"
+
+msgid "Your email or your website:"
+msgstr "Email atau website anda:"
+
+msgid "Create the translation files"
+msgstr "Buat file terjemahan"
+
+msgid "Modify the translation files"
+msgstr "Perbaiki file terjemahan"
+
+msgid "Language"
+msgstr "Bahasa"
+
+msgid "Information"
+msgstr "Informasi"
+
+msgid "Translators"
+msgstr "Penerjemah"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Ini adalah bahasa default plugin. ini tidak dapat dimodifikasi."
+
+msgid "Modify"
+msgstr "Diubah"
+
+msgid "Send to the author of the plugin"
+msgstr "Kirim ke author plugin"
+
+msgid "Add a new translation"
+msgstr "Tambah terjemahan baru"
+
+msgid "Add"
+msgstr "Tambah"
+
+msgid "Send to the author of the framework"
+msgstr "Kirim ke author framework"
+
+msgid "Contact the author"
+msgstr "Kontak author"
+
+msgid "Your email:"
+msgstr "Email anda:"
+
+msgid "Your comments:"
+msgstr "Komentar anda:"
+
+msgid "Plugins that you may install"
+msgstr "Plugin yang dapat anda install"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "Plugin berikut telah dikembangkan oleh author dan belum diinstal:"
+
+msgid "Plugin not yet installed"
+msgstr "Plugin belum terinstall"
+
+msgid "Description and Screenshots"
+msgstr "Deskripsi &amp; Gambar Layar"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Semua plugin author telah dipasang. Terima kasih!"
+
+msgid "Installed plugins"
+msgstr "Plugins terinstall"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Anda telah menginstal plugin author berikut ini:"
+
+msgid "Plugin already installed"
+msgstr "Plugin sudah terinstall"
+
+msgid "The Wordpress page: %s"
+msgstr "Halaman Wordpress: %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Kesalahan pada HTTP terjadi pada saat permintaan API"
+
+msgid "Last update:"
+msgstr "Update terakhir"
+
+msgid "Rating: %s"
+msgstr "Rangking: %s"
+
+msgid "by %s persons"
+msgstr "oleh %s orang"
+
+msgid "Number of download:"
+msgstr "Jumlah download:"
+
+msgid "Close popup"
+msgstr "Tutup popup"
+
+msgid "The folder %s is not %s !"
+msgstr "Folder %s bukan %s !"
+
+msgid "The file %s is not %s !"
+msgstr "Berkas %s bukan %s !"
+

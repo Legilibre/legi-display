@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-30T09:27:56+00:00\n"
+"Last-Translator: Gediminas <http://it.main.lt>\n"
+"Last-Translator: Zydrius <isvetain>\n"
+"Last-Translator: zydrius <1001203@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: Lithuania\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Apie..."
+
+msgid "Settings"
+msgstr "Parametrai"
+
+msgid "Log options"
+msgstr "Log parinktis"
+
+msgid "What is the debug level:"
+msgstr "Kas yra derinimo lygis:"
+
+msgid "See the debug logs"
+msgstr "Pamatyti derinimo žurnalą"
+
+msgid "1=log only the critical errors;"
+msgstr "1=log tik kritinės klaidos;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=log tik kritinės kllaidos ir standartinės klaidos;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=logi tik kritinės klaidos, standartinės klaidos ir įspėjimai;"
+
+msgid "4=log information;"
+msgstr "4=log informaciją;"
+
+msgid "5=log verbose;"
+msgstr "5=log išsami;"
+
+msgid "Multisite Management"
+msgstr "Kelių tinklapių valdymas"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Ar norite leisti sub-blogo keisti įskiepio vertimus:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Jei ši parinktis nepažymėta, vertimo skirtukas nebus rodomos blogo administravimo skydelyje."
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Puslapio suvestinės sukūrtos su SL framework"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Dabar, turite įdiegti %s įskiepį, įskaitant %s įskiepį sukūrtą SedLex framework"
+
+msgid "The core plugin is located at %s"
+msgstr "Pagrindiniai įskiepiai yra %s"
+
+msgid "Plugin name"
+msgstr "Įskiepio pavadinimas"
+
+msgid "Description"
+msgstr "Aprašymas"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Nėra SQL duomenų bazės šiam įskiepiui"
+
+msgid "Version: %s by %s"
+msgstr "Versija: %s iš %s"
+
+msgid "List of SL plugins"
+msgstr "SL įskiepių sąrašas"
+
+msgid "Parameters of the framework"
+msgstr "Framework parametrai"
+
+msgid "Manage translation of the framework"
+msgstr "Valdyti framework vertimus"
+
+msgid "The folder %s is not %s !"
+msgstr "Aplanko %s nėra %s!"
+
+msgid "The file %s is not %s !"
+msgstr "Failo %s nėra %s!"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "Aplanko %s nėra ir negali būti sukurtas!"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Failo %s nėra ir negali būti sukurtas!"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Yra kai kurių aplankų teisės. Prašome priskirti juos kuo greičiau, nes jie gali sukelti klaidas ir nestabilumą."
+
+msgid "Please see below:"
+msgstr "Žiūrėkite žemiau:"
+
+msgid "Close popup"
+msgstr "Uždaryti Iššokantis langas"
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "Informuojame, kad savo dabartinėje kalboje yra %s. Tekstas išverčiamas per vertėją."
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "Galimi vertimai šiems įskiepiams (t. y. %s)"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Pridėti naujos kalbos vertimą: %s"
+
+msgid "Sentence to translate"
+msgstr "Išversti sakinį"
+
+msgid "Translation"
+msgstr "Vertimas"
+
+msgid "Your name:"
+msgstr "Jūsų vardas:"
+
+msgid "Your email or your website:"
+msgstr "Jūsų el. pašto adresas arba jūsų svetainės adresas:"
+
+msgid "Create the translation files"
+msgstr "Sukurti vertimo failą"
+
+msgid "Add a new translation"
+msgstr "Pridėti naują vertimą"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "Taisyti šios kalbos vertimą: %s"
+
+msgid "Modify the translation files"
+msgstr "Keisti vertimo failą"
+
+msgid "Modify translations"
+msgstr "Keisti vertimą"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s sakinių išversta (t. y. %s)."
+
+msgid "The translation %s have been sent"
+msgstr "Vertimas %s buvo išsiustas"
+
+msgid "An error occured sending the email."
+msgstr "Įvyko klaida siunčiant elektroniniu paštu."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Įsitikinkite, kad jūsų wordpress turi galimybę siųsti laišką."
+
+msgid "Send translation"
+msgstr "Atsiųsti vertimą"
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "%s failo negaliu sukurti %sm nes nėra išversta nei vieno sakinio. Išverskite bent vieną sakinį, kad sukurti failą"
+
+msgid "%s file has been updated for %s"
+msgstr "%s failas buvo atnaujintas %s"
+
+msgid "%s file has been updated from this file"
+msgstr "%s failas buvo atnaujintas iš šio failo"
+
+msgid "%s file has been created with a new translation for %s"
+msgstr "%s failas buvo atnaujintas su nauju vertimu iš %s"
+
+msgid "%s file has been created from this file"
+msgstr "%s failas buvo sukurtas iš šio failo"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr "Jei nenorite prarasti savo vertimo atnaujinant, šio modulio vertimą patartina siųsti autoriui spustelėdami %s čia %s!"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr "Jei nenorite prarasti savo vertimo atnaujinant, šio įskiepio failą įrašykite į kietąjį diską prieš atnaujinimą ir tada atkurkite juos po atnaujinimo!"
+
+msgid "Confirmation"
+msgstr "Patvirtinimas"
+
+msgid "Summary cached %s"
+msgstr "Suvestinės suma %s"
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "Naudoti šio įskiepio sakiniai yra anglų kalba. Padėti kitiems vartotojams naudoti ta pačia kalba kaip jūs, išverčiant šį įskiepį."
+
+msgid "This plugin is available in %s languages."
+msgstr "Šis įskiepis yra %s kalbomis."
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "%s sakiniai turi būti išversti šiame įskiepyje."
+
+msgid "Language"
+msgstr "Kalba"
+
+msgid "Ratio %"
+msgstr "Santykis %"
+
+msgid "Translators"
+msgstr "Vertėjai"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Įskiepis yra įjungtas numatytąja kalba. Jis negali būti pakeistas."
+
+msgid "Modify"
+msgstr "Keisti"
+
+msgid "Send to the author of the plugin"
+msgstr "Siųsti įskiepio autoriui"
+
+msgid "Add"
+msgstr "Pridėti"
+
+msgid "Add new"
+msgstr "Pridėti naują"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Čia, galite konfigūruoti trijų lygių vertimus: įskiepiu lygiu, sistemos lygiu, ir ataskaitų srities lygmeniu."
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "Jei norite pakeisti kalbą, eikite į %s ir surasti %s arba %s. Antrasis argumentas yra jūsų kalboje ir galite modifikuoti jį kaip norite."
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "Vertimai galimi pagal SL (saugomi %s)"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "(jei jūsų vardas/pseudo jau sąraše, nebūtina užpildyti šio lauko)"
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr "%s skaičiai neatitinka eilutėje. Atkreipkite dėmesį, kad seka %s pakeis kontekstinę vertę."
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%s sakinių yra išversta (t. y. %s) %s %s sakinius reikia patikrinti, nes jie yra uždaryti (tačiau ne identiški) vertime.%s"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "Galite pridėti naujų vertimų toliau (Atkreipkite dėmesį, kad rekomenduojama siųsti savo vertimą autoriui, kad jis galėtų pridėti vertimą prie naujos įskiepio versijos!)"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "&quot;SL framework&quot; – tai sistema naudojama plėtoti daug įskiepių kaip ši. Taigi jūsų išversta sistema padės įskiepių kūrėjams."
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "%s kalbos palaiko &quot;SL framework&quot;."
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "%s sakiniai yra išversti šioje sistemoje."
+
+msgid "Send to the author of the framework"
+msgstr "Siųsti autoriui"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Klaida: pateikta reikšmė nėra sveikasis skaičius ir tokiu būdu, parametras nebuvo atnaujintas!"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Klaida: pateikta eilutė nesutampa su apribojimų"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Klaida: pateikta byla gali būti nenusiųsta!"
+
+msgid "Error: security issue!"
+msgstr "Klaida: saugumo spraga!"
+
+msgid "Parameters"
+msgstr "Parametrai"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Yra įjungti šie parametrai. Modifikuoti bus, kurie atitinka jūsų poreikius."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Šie parametrai iš framework. Modifikuoti bus kurie atitinka jūsų poreikius."
+
+msgid "(Delete)"
+msgstr "(Naikinti)"
+
+msgid "Values"
+msgstr "Reikšmės"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Įspėjimas: kai kurie simboliai jau buvo pašalinti, nes jie čia negali būti"
+
+msgid "(integer)"
+msgstr "(sveikasis skaičius)"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(Jei norite ištrinti šį failą, patikrinkite šį langelį %s)"
+
+msgid "Update"
+msgstr "Atnaujinimas"
+
+msgid "Reset to default values"
+msgstr "Iš naujo nustatyti numatytąsias reikšmes"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "Kai kurių parametrų negalima atnaujinti dėl klaidų (žr. toliau)!"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "Atnaujinti parametrus (bet yra keletas įspėjimų)!"
+
+msgid "Parameters have been updated successfully!"
+msgstr "Parametrai atnaujinti sėkmingai!"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "Parametrai jau buvo iš naujo nustatyti į numatytąsias reikšmes!"
+
+msgid "Plugins that you may install"
+msgstr "Įskiepį galite įdiegti"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "Šių įskiepių parengė autorius ir dar nebuvo įdiegta:"
+
+msgid "Plugin not yet installed"
+msgstr "Įskiepis dar neįdiegtas"
+
+msgid "Description and Screenshots"
+msgstr "Aprašymas ir užsklanda"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Visi autoriaus įskiepiai yra įdiegti. Ačiū!"
+
+msgid "Installed plugins"
+msgstr "Įdiegti papildiniai"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Šio autoriaus įskiepiai yra:"
+
+msgid "Plugin already installed"
+msgstr "Įskiepis jau įdiegtas"
+
+msgid "The Wordpress page: %s"
+msgstr "Wordpress puslapis: %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Netikėta HTTP klaida vykdant API užklausa."
+
+msgid "Last update:"
+msgstr "Paskutinis atnaujinimas:"
+
+msgid "Rating: %s"
+msgstr "Reitingas: %s"
+
+msgid "by %s persons"
+msgstr "%s asmenys"
+
+msgid "Number of download:"
+msgstr "Parsiųsta kartu:"
+
+msgid "Filter: %s"
+msgstr "Filtras: %s"
+
+msgid "%s of %s"
+msgstr "%s iš %s"
+
+msgid "Current Page"
+msgstr "Esamas puslapis"
+
+msgid "Donate"
+msgstr "Parama"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr "Jei šis įskiepis jums patinka, tai paremkite mane. Šis įskiepis kurtas laisvu mano laiku ir yra nemokamas."
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr "Tai nėra privaloma! Bet tai gali būti ženklas, kad šis įskiepis atitinka jūsų poreikius."
+
+msgid "Feedback form"
+msgstr "Užklausos forma"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Ši forma yra paprastas būdas susisiekti su autoriumi ir aptarti įvairius klausimus/nesuderinamumo/ir t.t."
+
+msgid "Contact the author"
+msgstr "Autoriaus kontaktai"
+
+msgid "Your email:"
+msgstr "Jūsų el.paštas:"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Naudinga.... nes autorius galės su jumis susiekti."
+
+msgid "Your comments:"
+msgstr "Jūsų komentarai:"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "Atkreipkite dėmesį, kad papildomos informacijos apie savo WordPress diegimo bus išsiųstas autoriui, siekiant padėti derinti, jei reikia (pavyzdžiui: WordPress versija, įdiegta įskiepių ir tt)"
+
+msgid "Send feedback"
+msgstr "Siusti užklausą"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "Laiškų pateikti neimanoma šiam įskiepių autoriui. Todėl, kad grįžtamasis ryšys yra neįmanomas"
+
+msgid "The feedback has been sent"
+msgstr "Atsiliepimas išsiųstas"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Error: %s function is not found"
+msgstr "Klaida: %s funkcija nerasta"
+
+msgid "The file %s cannot be read. You should have a problem with file permissions or security restrictions."
+msgstr "Failas%s negali būti perskaitytas. Jūs turite failą su leidimais ar saugumo apribojimo problemų."
+
+msgid "The folder %s cannot be opened. You should have a problem with folder permissions or security restrictions."
+msgstr "Byla %s negali būti atidarytas. Jūs turite failą su leidimais ar saugumo apribojimo problemų."
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr "Failas%s negali būti ištrintas. Jūs turite failą su leidimais ar saugumo apribojimo problemų."
+
+msgid "An other process is still running (it runs for %s seconds)"
+msgstr "Kitas procesas vis dar veikia (tai trunka%s sekundžių)"
+
+msgid "The file %s cannot be modified/created. You should have a problem with file permissions or security restrictions."
+msgstr "Failas %s negali būti keičiamas/sukurtas. Jūs turite failą su leidimais ar saugumo apribojimo problemų."
+
+msgid "The file %s cannot be created. You should have a problem with file permissions or security restrictions."
+msgstr "Failas %s negali būti sukurtas. Jūs turite failą su leidimais ar saugumo apribojimo problemų."
+
+msgid "The file %s cannot be compressed."
+msgstr "Failas %s negali būti suspaustas."
+
+msgid "The file %s cannot be renamed. You should have a problem with file permissions or security restrictions."
+msgstr "Failas %s negali būti pervardintas. Jūs turite failą su leidimais ar saugumo apribojimo problemų."
+
+msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
+msgstr "Failas %s negali būti keičiamas. Jūs turite failą su leidimais ar saugumo apribojimo problemų."
+

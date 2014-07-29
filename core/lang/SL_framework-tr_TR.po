@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-05T19:18:04+00:00\n"
+"Last-Translator: GeneticAjans <http://www.geneticajans.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: Turkey\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Hakkında..."
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Log options"
+msgstr "Kayıt Seçenekleri"
+
+msgid "What is the debug level:"
+msgstr "Hata ayıklama seviyesi:"
+
+msgid "See the debug logs"
+msgstr "Hata kayıtlarını göster"
+
+msgid "1=log only the critical errors;"
+msgstr "1=sadece kritik hatalar;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=sadece kritik ve standart hatalar;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=sadece kritik hatalar, standart hatalar ve uyarılar;"
+
+msgid "4=log information;"
+msgstr "4=kayıt bilgileri;"
+
+msgid "5=log verbose;"
+msgstr "5=ayrıntılı kayıt"
+
+msgid "Multisite Management"
+msgstr "Multisite Yönetimi"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Alt bloglara bu eklentinin dil çevirisini yapabilme iznini vermek ister misiniz:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Bu seçenek aktif değilse, çeviri tab&#039;ı blog yönetim sayfasında gösterilmeyecek."
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "SL framework ile geliştirilen eklentinin özet sayfası"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Şimdi, SedLex&#039;s framework ile geliştirilen %s ve %s eklentilerinin yüklediniz"
+
+msgid "The core plugin is located at %s"
+msgstr "Çekirdek eklenti %s dizininde yüklü"
+
+msgid "Plugin name"
+msgstr "Eklenti adı"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Bu eklenti için SQL veritabanı bulunmaktadır"
+
+msgid "Version: %s by %s"
+msgstr "Versiyon: %s by %s"
+
+msgid "List of SL plugins"
+msgstr "SL Eklenti Listesi"
+
+msgid "Parameters of the framework"
+msgstr "Framework parametreleri"
+
+msgid "Manage translation of the framework"
+msgstr "Framework Çeviri Yönetimi"
+
+msgid "The folder %s is not %s !"
+msgstr "Bu klasör (%s) %s klasörü değil !"
+
+msgid "The file %s is not %s !"
+msgstr "Bu dosya (%s) %s dosyası değil !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "Bu klasör (%s) bulunamadı ve yenisi oluşturulamadı !"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Bu dosya (%s) bulunamadı ve yenisi oluşturulamadı !"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Klasör izinleri ile ilgili bazı sorun var. Sistemde hata oluşmaması için bunu en kısa zamanda düzeltiniz."
+
+msgid "Please see below:"
+msgstr "Aşağıya bakın:"
+
+msgid "Close popup"
+msgstr "Popup Kapat"
+
+msgid "Sentence to translate"
+msgstr "Çeviri cümlesi"
+
+msgid "Translation"
+msgstr "Çeviri"
+
+msgid "Your name:"
+msgstr "Adınız:"
+
+msgid "The translation %s have been sent"
+msgstr "Çeviri %s gönderildi"
+
+msgid "Send translation"
+msgstr "Çeviri Gönder"
+
+msgid "Confirmation"
+msgstr "Onaylama"
+
+msgid "This plugin is available in %s languages."
+msgstr "Bu eklenti %s dillerinde kullanılabilir."
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "Bu eklentide %s adet cümle bulunmaktadır."
+
+msgid "Language"
+msgstr "Dil"
+
+msgid "Ratio %"
+msgstr "Oran %"
+
+msgid "Translators"
+msgstr "Çeviri Ekibi"
+
+msgid "Modify"
+msgstr "Düzenle"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Error: security issue!"
+msgstr "Hata: Güvenlik Sorunu!"
+
+msgid "Parameters"
+msgstr "Parametreler"
+
+msgid "Update"
+msgstr "Güncelle"
+
+msgid "Plugin already installed"
+msgstr "Eklenti zaten yüklü"
+
+msgid "Last update:"
+msgstr "Son Güncelleme:"
+
+msgid "Rating: %s"
+msgstr "Oylama: %s"
+
+msgid "by %s persons"
+msgstr "%s kişi tarafından oylandı"
+
+msgid "Filter: %s"
+msgstr "Filtre: %s"
+
+msgid "%s of %s"
+msgstr "%s of %s"
+
+msgid "Current Page"
+msgstr "Şuanki Sayfa"
+
+msgid "Donate"
+msgstr "Bağış"
+
+msgid "Feedback form"
+msgstr "Geribildirim formu"
+
+msgid "Contact the author"
+msgstr "Yazar ile irtibata geç"
+
+msgid "Your email:"
+msgstr "E-Posta:"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Geçerli... Yazar, artık sizinle irtibata geçebilir."
+
+msgid "Your comments:"
+msgstr "Yorumlarınız:"
+
+msgid "Send feedback"
+msgstr "Geribildirim gönder"
+
+msgid "The feedback has been sent"
+msgstr "Geribildirim gönderildi."
+
+msgid "KB"
+msgstr "KM"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Error: %s function is not found"
+msgstr "Hata: %s fonksiyonu bulunamadı"
+

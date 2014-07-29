@@ -1,0 +1,14 @@
+.paramLine {
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:0px;
+	line-height:12px;
+}
+
+.paramComment {
+	padding-left:50px;
+	padding-top:5px;
+	padding-bottom:0px;
+	line-height:12px;
+	color:#A4A4A4; 
+}

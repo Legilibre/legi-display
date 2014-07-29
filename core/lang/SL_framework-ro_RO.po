@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-07-15T15:01:35+00:00\n"
+"Last-Translator: KreativFont <www.kreativfont.com>\n"
+"Last-Translator: CosminPetrisor <petrisor_cosmin_ioan@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2); \n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Despre..."
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Log options"
+msgstr "Opţiuni jurnal"
+
+msgid "What is the debug level:"
+msgstr "Care este nivelul de debug:"
+
+msgid "See the debug logs"
+msgstr "Vezi jurnalele de debug"
+
+msgid "Plugin name"
+msgstr "Nume plugin"
+
+msgid "Description"
+msgstr "Descriere"
+
+msgid "List of SL plugins"
+msgstr "Lista plugin-urilor SL"
+
+msgid "Translation"
+msgstr "Traducere"
+
+msgid "Your name:"
+msgstr "Numele tau:"
+
+msgid "Add a new translation"
+msgstr "Adauga o noua traducere"
+
+msgid "Modify translations"
+msgstr "Modifica traducerile"
+
+msgid "Error: security issue!"
+msgstr "Eroare: problema de securitate!"
+
+msgid "Parameters"
+msgstr "Parametrii"
+
+msgid "(Delete)"
+msgstr "(Sterge)"
+
+msgid "Values"
+msgstr "Valori"
+
+msgid "(integer)"
+msgstr "(numai intreg)"
+
+msgid "Update"
+msgstr "Actualizeaza"
+
+msgid "Description and Screenshots"
+msgstr "Descriere si imagini"
+
+msgid "Last update:"
+msgstr "Ultima actualizare"
+
+msgid "Rating: %s"
+msgstr "Evaluare: %s"
+
+msgid "by %s persons"
+msgstr "de catre %s persoane"
+
+msgid "Number of download:"
+msgstr "Numar de descarcari"
+
+msgid "Current Page"
+msgstr "Pagina curenta"
+
+msgid "Donate"
+msgstr "Doneaza"
+
+msgid "Feedback form"
+msgstr "Formular pentru contact"
+
+msgid "Contact the author"
+msgstr "Contacteaza autorul"
+
+msgid "Your email:"
+msgstr "Adresa ta de email"
+
+msgid "Your comments:"
+msgstr "Comentariile tale"
+
+msgid "Send feedback"
+msgstr "Trimite mesaj"
+
+msgid "The feedback has been sent"
+msgstr "Mesajul a fost trimis"
+
+msgid "KB"
+msgstr "Kb"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "GB"
+msgstr "Gb"
+
+msgid "1=log only the critical errors;"
+msgstr "1=reţine în jurnal doar erorile critice;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=reţine în jurnal doar erorile critice şi cele standard;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=reţine în jurnal doar erorile critice, cele standard si avertzările;"
+
+msgid "4=log information;"
+msgstr "4=reţine în jurnal informaţia;"
+

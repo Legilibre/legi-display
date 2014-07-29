@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-12T14:26:27+00:00\n"
+"Last-Translator: MarcelJansen <http://caddvision.org>\n"
+"Last-Translator: Erik <www.digihulpdienst.nl>\n"
+"Last-Translator: Mark <http://www.pandoraz.com>\n"
+"Last-Translator: infotittenraus.com <http://tittenraus.com/http://AssTheBest.com/>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: Netherlands\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About SL plugins..."
+msgstr "Over SL Plugins..."
+
+msgid "About..."
+msgstr "Over.."
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Log options"
+msgstr "Log opties"
+
+msgid "What is the debug level:"
+msgstr "Wat is het Debug niveau"
+
+msgid "See the debug logs"
+msgstr "Kijk in de debug logs"
+
+msgid "1=log only the critical errors;"
+msgstr "1=noteer alleen de kritische fouten;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=noteer alleen de kritische fouten en de standaard fouten;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=noteer alleen de kritische fouten, standaard fouten en de waarschuwingen;"
+
+msgid "4=log information;"
+msgstr "4=log informatie;"
+
+msgid "5=log verbose;"
+msgstr ""
+
+msgid "Multisite Management"
+msgstr "Multisite Beheer"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Wilt u sub-blogs toestaan om de vertalingen van de plugins te wijzigen"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Als deze optie is aangevinkt, wordt het tabblad vertaling niet worden weergegeven in de blog administratie paneel."
+
+msgid "Location of the SL plugins"
+msgstr "Lokatie van de SL Plugin"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Waar moet de SL Plugin worden weergegeven:"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Overzichtspagina voor de plugins die zijn ontwikkeld met de SL Plugin kader"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Voor nu, heb je geïnstalleerd %s  plugins waaronder %s  plugins ontwikkeld met de SedLex kader"
+
+msgid "The core plugin is located at %s"
+msgstr "De kern plugin bevindt zich op deze locatie %s"
+
+msgid "Plugin name"
+msgstr "Plugin naam"
+
+msgid "Description"
+msgstr "Omschrijving"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Daar is de SQL database voor de plugin"
+
+msgid "Version: %s by %s"
+msgstr "Versie: %s bij %s"
+
+msgid "List of SL plugins"
+msgstr "Lijst met de SL plugins"
+
+msgid "Parameters of the framework"
+msgstr "Maatstaf van het kader"
+
+msgid "Manage translation of the framework"
+msgstr "Bewerk de vertaling van het kader"
+
+msgid "The folder %s is not %s !"
+msgstr "De bestandsmap %s is niet %s!"
+
+msgid "The file %s is not %s !"
+msgstr "Het bestand %s is niet %s !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "De map %s bestaat niet en kan niet aangemaakt worden !"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Het bestand %s bestaat niet en kan niet worden gecreerd !"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Er zijn enkele problemen met maprechten. Aanpassingen zijn noodzakelijk om ​​instabiliteit te voorkomen."
+
+msgid "Please see below:"
+msgstr "Kijk hieronder:"
+
+msgid "Standard"
+msgstr "Standaard"
+
+msgid "under Plugins"
+msgstr "onder Plugins"
+
+msgid "under Tools"
+msgstr "onder Gereedschap"
+
+msgid "under Settings"
+msgstr "onder Instellingen"
+
+msgid "Filter: %s"
+msgstr "Fliter: %s"
+
+msgid "%s of %s"
+msgstr "%s van %s"
+
+msgid "Current Page"
+msgstr "Huidige pagina"
+
+msgid "Donate"
+msgstr "Doneer"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr "Vind je de plugin handig, aarzel dan niet om te doneren. Let op: deze plugin is ontwikkeld in mijn vrije tijd zodat je het gratis kan gebruiken."
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr "Dit is geen verplichting! maar het zou zeer gewaardeerd worden..."
+
+msgid "Feedback form"
+msgstr "Antwoord formulier"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Dit formulier is een gemakkelijke manier om contact met de auteur en te bespreken vraagstukken / onverenigbaarheden / etc. met hem"
+
+msgid "Contact the author"
+msgstr "Neem contact op met de auteur"
+
+msgid "Your name:"
+msgstr "Jouw naam:"
+
+msgid "Your email:"
+msgstr "Jouw e-mail:"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Handig zo dat de auteur jouw vragen kan beantwoorden."
+
+msgid "Your comments:"
+msgstr "Uw commentaar:"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "Houdt u er rekening mee dat er bepaalde informatie van uw WordPress-installatie naar de auteur wordt gestuurd om het debuggen te helpen als dat nodig is (zoals: de wordpress versie, de geïnstalleerde plugins, etc.)"
+
+msgid "Send feedback"
+msgstr "Verstuur commentaar"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "U heeft geen e-mail ingevuld hierdoor kan de auteur geen contact met u opnemen."
+
+msgid "The feedback has been sent"
+msgstr "Het commentaar is verzonden."
+
+msgid "An error occured sending the email."
+msgstr "Er heeft zich een probleem voor gedaan bij het versturen van u e-mail."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Zorg dat u Wordpress site geconfigureerd is om e-mails te verzenden."
+
+msgid "Plugins that you may install"
+msgstr "Plugins die u kunt installeren."
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "De volgende plugin is ontwikkeld door de auteur maar is nog niet geinstalleerd:"
+
+msgid "Plugin not yet installed"
+msgstr "Plugin is nog niet geïnstalleerd."
+
+msgid "Description and Screenshots"
+msgstr "Omschrijvingen en screenshots"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Alle plugins van de auteur zijn geinstalleerd. Dank u!"
+
+msgid "Installed plugins"
+msgstr "Geïnstalleerde plugins"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "U heeft de volgende plugins al geinstalleerd:"
+
+msgid "Plugin already installed"
+msgstr "Plugin is al geïnstalleerd"
+
+msgid "The Wordpress page: %s"
+msgstr "De Wordpress pagina: %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Een nog onbekende HTTP fout geconstateerd tijdens de API aanvraag."
+
+msgid "Last update:"
+msgstr "Laatste update:"
+
+msgid "Rating: %s"
+msgstr "Verhouding: %s"
+
+msgid "by %s persons"
+msgstr "Bij %s personen"
+
+msgid "Number of download:"
+msgstr "Aantal downloads"
+
+msgid "Add new"
+msgstr "Nieuwe toevoegen"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Fout: de verzonden waarde is niet voledig daardoor is de parameter niet geupdate!"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Fout: de ingediende string niet overeen met de beperking"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Fout: Bestand kon niet worden geupload!"
+
+msgid "Error: security issue!"
+msgstr "Fout: veiligheids probleem!"
+
+msgid "Parameters"
+msgstr "Parameters"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Hier zijn de parameters van de plugin. Pas ze aan naar behoefte."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Hier zijn de parameters van het framework. Pas ze aan naar behoefte."
+
+msgid "(Delete)"
+msgstr "(Gewist)"
+
+msgid "Values"
+msgstr "Waardes"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Waarschuwing: sommige karakters zijn verwijderd omdat ze niet zijn toegestaan"
+
+msgid "(integer)"
+msgstr "(geheel getal)"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "De URL klopt en het ID van het mediabestand is %s."
+
+msgid "The URL is not a media file."
+msgstr "De URk is geen mediabestand."
+
+msgid "Choose a media"
+msgstr "Kies een Bestand"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(selecteer hier %s als je dit bestand wilt verwijderen)"
+
+msgid "Update"
+msgstr "Aanpassen"
+
+msgid "Reset to default values"
+msgstr "Herstel naar standaard waardes"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "Sommige parameters zijn niet bijgewerkt door fouten (zie hieronder)!"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "Parameter zijn bijgewerkt (maar met een aantal waarschuwingen)!"
+
+msgid "Parameters have been updated successfully!"
+msgstr "Parameter zijn succesvol bijgewerkt !"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "Parameter zijn gereset naar standaardinstellingen!"
+
+msgid "Close popup"
+msgstr "Sluit Popup"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Hier, kunt u drie niveaus van de vertaling configureren: dashboard niveau,plugin niveau,kader niveau."
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "Let op uw huidige taal is %s.Tekst wordt pas vertaald als een vertaling beschikbaar is."
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "Als u de taal wilt wijzigen, ga dan naar %s  en vind %s  of %s . Het tweede argument is uw taal en u kunt het aanpassen als je wilt."
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "Vertalingen beschikbaar voor deze plugin (dat wil zeggen %s)"
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "Vertalingen beschikbaar voor de SL kader(opgeslagen in %s)"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Voeg een nieuwe vertaling toe voor deze taal: %s"
+
+msgid "Sentence to translate"
+msgstr "Zin om te vertalen"
+
+msgid "Translation"
+msgstr "Vertaling"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "(als je naam / pseudo is al in de lijst, is er geen noodzaak om deze input te vullen)"
+
+msgid "Your email or your website:"
+msgstr "Jouw email of jouw website"
+
+msgid "Create the translation files"
+msgstr "Creer de vertallings bestanden"
+
+msgid "Add a new translation"
+msgstr "Voeg een nieuwe vertaling toe"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "Het wijzigen van de vertaling voor deze taal:%s "
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr "Het aantal optreden van %s  komt niet overeen beide reeks. Houd er rekening mee dat de reeks %s zal worden vervangen door een contextuele reeks."
+
+msgid "Modify the translation files"
+msgstr "De vertalings bestand aanpassen"
+
+msgid "Modify translations"
+msgstr "Vertaling aanpassen"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s zinnen zijn vertaald (i.e %s)"
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%s  zinnen zijn vertaald (dwz %s) %s  %s  zinnen moeten worden gecontroleerd omdat ze gesloten (maar niet identiek) aan die te vertalen.%s "
+
+msgid "The translation %s have been sent"
+msgstr "De vertaling %s is verzonden"
+
+msgid "Send translation"
+msgstr "Verstuur vertalling"
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "%s  bestand kan niet worden gemaakt voor %s  omdat er geen vertaade zin is. Alstublieft, vertalen tenminste een zin aan een bestand aan te maken"
+
+msgid "%s file has been updated for %s"
+msgstr "%s bestand is geupdate voor %s"
+
+msgid "%s file has been updated from this file"
+msgstr "%s bestand is geupdate vanaf dit bestand"
+
+msgid "%s file has been created with a new translation for %s"
+msgstr "%s bestand is gemaakt met een nieuwe vertalling voor %s"
+
+msgid "%s file has been created from this file"
+msgstr "%s bestand is gemaakt voor dit bestand"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr "Als u niet wilt dat uw vertalingen verdwijnt met volgende opwaardering van deze plugin, is het raadzaam om het vertalings bestand naar de auteur te sturen door hier te klikken %s  of hier %s !"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr "Als u niet wilt dat uw vertalingen verdwijnt de volgende opwaardering van deze plugin, gelieve deze op te slaan op uw harde schijf voordat u een upgrade installeerd"
+
+msgid "Confirmation"
+msgstr "Bevestigd"
+
+msgid "Summary cached %s"
+msgstr "Samenvatting cached %s "
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "De zinnen die in deze plugin zijn in het Engels. De anderen helpen gebruikers met behulp van dezelfde taal als u door het vertalen van deze plugin."
+
+msgid "This plugin is available in %s languages."
+msgstr "Deze plugin is beschikbaar in %s  talen."
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "Er zijn %s zinnen te vertalen in deze plugin."
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Ratio %"
+msgstr "Verhouding %"
+
+msgid "Translators"
+msgstr "Vertalers"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Dit is de standaard taalinstelling van de plugin. Deze kan niet worden veranderd."
+
+msgid "Modify"
+msgstr "Aanpassen"
+
+msgid "Send to the author of the plugin"
+msgstr "Stuur naar de auteur van de plugin"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "U kunt een nieuwe vertaling hiernamaals toe te voegen (Let op: het is aan te raden om uw vertaling te sturen aan de auteur, zodat hij in staat om uw vertaling toe te voegen aan de toekomstige versie van de plugin zou zijn!)"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "De &#039;SL framework&#039; is een raamwerk gebruikt voor het ontwikkelen van vele plugins zoals deze. Dus, als u zou willen deelnemen in het vertalen van het kader, zal het zeer nuttig zijn voor een heleboel plugins."
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "Er zijn %s talen ondersteund voor de &#039;SL kader&#039;."
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "Er zijn %s zinnen te vertalen in het kader."
+
+msgid "Send to the author of the framework"
+msgstr "Verzenden aan de auteur van het kader"
+
+msgid "KB"
+msgstr "kB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+

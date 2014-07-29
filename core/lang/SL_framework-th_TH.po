@@ -1,0 +1,742 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-07-20T15:25:38+00:00\n"
+"Last-Translator: tontan <zxcvbm4@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Thai\n"
+"X-Poedit-Country: Thailand\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "เกี่ยวกับ"
+
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+msgid "Log options"
+msgstr "เข้าสู่ระบบตัวเลือก"
+
+msgid "What is the debug level:"
+msgstr "ระดับการแก้ปัญหาคืออะไร:"
+
+msgid "See the debug logs"
+msgstr "ดูบันทึกการแก้ปัญหา"
+
+msgid "1=log only the critical errors;"
+msgstr ""
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr ""
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr ""
+
+msgid "4=log information;"
+msgstr ""
+
+msgid "5=log verbose;"
+msgstr ""
+
+msgid "Multisite Management"
+msgstr ""
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "คุณต้องการที่จะช่วยให้ย่อยบล็อกเพื่อปรับเปลี่ยนคำแปลของปลั๊กอิน:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr ""
+
+msgid "Advanced options"
+msgstr "ตัวเลือกขั้นสูง"
+
+msgid "Show the advanced options:"
+msgstr ""
+
+msgid "Will display additionnal information on the plugin (including SVN features). Recommended for developpers which develop plugins with this framework."
+msgstr ""
+
+msgid "Show the developpers documentation:"
+msgstr ""
+
+msgid "You should register a new wordpress plugin first on %s."
+msgstr ""
+
+msgid "What is your SVN Login:"
+msgstr ""
+
+msgid "You should have an account on %s before. Thus, the login will be the same!"
+msgstr ""
+
+msgid "What is your SVN Password:"
+msgstr ""
+
+msgid "Same comment as above..."
+msgstr ""
+
+msgid "What is your Author Name:"
+msgstr ""
+
+msgid "Your author name is the name that is displayed in your plugin."
+msgstr "ชื่อผู้เขียนของคุณเป็นชื่อที่แสดงอยู่ในปลั๊กอินของคุณ"
+
+msgid "Do you want to udate the translations files when the plugin page is called:"
+msgstr ""
+
+msgid "This is useful if you develop a plugin, thus you will see when new sentences need to be translated."
+msgstr "ซึ่งเป็นประโยชน์ถ้าคุณพัฒนาปลั๊กอินทำให้คุณจะเห็นเมื่อประโยคใหม่จำเป็นต้องได้รับการแปล"
+
+msgid "IMAP Login:"
+msgstr "IMAP Login:"
+
+msgid "This is useful if you want that the framework retrieve automatically the translations file into an IMAP mailbox"
+msgstr ""
+
+msgid "IMAP Password:"
+msgstr "IMAP Password:"
+
+msgid "IMAP Server:"
+msgstr "IMAP Server:"
+
+msgid "Should be something like %s"
+msgstr ""
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr ""
+
+msgid "The core file used for the SedLex plugins is:"
+msgstr ""
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr ""
+
+msgid "Plugin name"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "SVN Management"
+msgstr ""
+
+msgid "Update plugin information..."
+msgstr ""
+
+msgid "There is a SQL database for this plugin"
+msgstr ""
+
+msgid "Version: %s by %s"
+msgstr ""
+
+msgid "Getting SVN information..."
+msgstr ""
+
+msgid "List of SL plugins"
+msgstr ""
+
+msgid "Parameters of the framework"
+msgstr ""
+
+msgid "The following description is a quick tutorial on about how to create a plugin with the SL framework. (Please note that the following description is in English for developpers, sorry for this inconvenience)"
+msgstr "รายละเอียดดังต่อไปนี้คือการกวดวิชาอย่างรวดเร็วในเกี่ยวกับวิธีการสร้างปลั๊กอินที่มีการ SL กรอบ (โปรดทราบว่ารายละเอียดดังต่อไปนี้เป็นภาษาอังกฤษสำหรับ developpers ขออภัยในความไม่สะดวก)"
+
+msgid "How to develop a plugin?"
+msgstr "วิธีการพัฒนาปลั๊กอิน?"
+
+msgid "Framework documentation"
+msgstr ""
+
+msgid "Manage translation of the framework"
+msgstr ""
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+msgid "This plugin does not seem to be hosted on the wordpress repository."
+msgstr ""
+
+msgid "The Wordpress page: %s"
+msgstr ""
+
+msgid "Last update:"
+msgstr ""
+
+msgid "Rating: %s"
+msgstr ""
+
+msgid "by %s persons"
+msgstr ""
+
+msgid "Number of download: %s"
+msgstr ""
+
+msgid "An error occured when retrieving the version of the plugin on Wordpress.org. Please retry!"
+msgstr ""
+
+msgid "Update of the core ..."
+msgstr ""
+
+msgid "1) Update with the core of the %s plugin"
+msgstr ""
+
+msgid "1) The core of the plugin is up-to-date"
+msgstr ""
+
+msgid "2) Modify the version (but the files of plugin are unchanged)"
+msgstr ""
+
+msgid "2) Modify the version (the files of the plugin have been changed)"
+msgstr ""
+
+msgid "2) Modify the readme.txt (as the version has been already changed)"
+msgstr ""
+
+msgid "3) Update the SVN repository (without modifying the version)"
+msgstr ""
+
+msgid "3) Update the SVN repository (and release a new version %s)"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Change the plugin version for %s"
+msgstr ""
+
+msgid "Version number"
+msgstr ""
+
+msgid "The current version of the plugin %s is %s."
+msgstr ""
+
+msgid "Please modify the version:"
+msgstr ""
+
+msgid "Readme file"
+msgstr ""
+
+msgid "The current content of %s is:"
+msgstr ""
+
+msgid "The current text"
+msgstr ""
+
+msgid "The proposed text"
+msgstr ""
+
+msgid "Save these data"
+msgstr ""
+
+msgid "There is a problem with the header of %s. It appears that there is no Version header."
+msgstr ""
+
+msgid "The data has been saved. You may close this window."
+msgstr ""
+
+msgid "The folder %s is not %s !"
+msgstr ""
+
+msgid "The file %s is not %s !"
+msgstr ""
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr ""
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr ""
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr ""
+
+msgid "Please see below:"
+msgstr ""
+
+msgid "Plugins that you may install"
+msgstr ""
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr ""
+
+msgid "Plugin not yet installed"
+msgstr ""
+
+msgid "Description and Screenshots"
+msgstr ""
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr ""
+
+msgid "Installed plugins"
+msgstr ""
+
+msgid "You have already installed the following author's plugins:"
+msgstr ""
+
+msgid "Plugin already installed"
+msgstr ""
+
+msgid "Number of download:"
+msgstr ""
+
+msgid "Your credentials do not seem to be correct. Please check them!"
+msgstr ""
+
+msgid "This file have not been written in the repository due to server problem. Nevertheless, you should retry as it often works better with a second try !"
+msgstr ""
+
+msgid "SVN client for %s"
+msgstr ""
+
+msgid "Updating the local cache"
+msgstr ""
+
+msgid "folder created"
+msgstr ""
+
+msgid "folder creation has failed !"
+msgstr ""
+
+msgid "%s bytes transfered"
+msgstr ""
+
+msgid "An error occurred during the retrieval of files on the server ! Sorry ..."
+msgstr ""
+
+msgid "Local to SVN repository"
+msgstr ""
+
+msgid "Comparing %s with %s"
+msgstr ""
+
+msgid "Confirmation"
+msgstr ""
+
+msgid "Commit comment:"
+msgstr ""
+
+msgid "Yes, the SVN version will be deleted and be replaced by the local version"
+msgstr ""
+
+msgid "SVN repository to Local"
+msgstr ""
+
+msgid "Yes, the local version will be overwritten with the repository files"
+msgstr ""
+
+msgid "Sending to the repository in progress..."
+msgstr ""
+
+msgid "The commit has ended [ %s ]... You should received an email quickly ! You may close the window or wait for the automatic closing."
+msgstr ""
+
+msgid "The commit has ended but there is an error!"
+msgstr ""
+
+msgid "Sending to the local files in progress..."
+msgstr ""
+
+msgid "The rollback has ended ..."
+msgstr ""
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr ""
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr ""
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr ""
+
+msgid "Error: security issue!"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr ""
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr ""
+
+msgid "Values"
+msgstr ""
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr ""
+
+msgid "(integer)"
+msgstr ""
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr ""
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr ""
+
+msgid "Parameters have been updated successfully!"
+msgstr ""
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Feedback form"
+msgstr ""
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr ""
+
+msgid "Contact the author"
+msgstr ""
+
+msgid "Your name:"
+msgstr ""
+
+msgid "Your email:"
+msgstr ""
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr ""
+
+msgid "Your comments:"
+msgstr ""
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr ""
+
+msgid "Send feedback"
+msgstr ""
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr ""
+
+msgid "The feedback has been sent"
+msgstr ""
+
+msgid "An error occured sending the email."
+msgstr ""
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr ""
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr ""
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr ""
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr ""
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr ""
+
+msgid "Translations installed for Wordpress"
+msgstr ""
+
+msgid "Adding a new translation for this language: %s"
+msgstr ""
+
+msgid "Sentence to translate"
+msgstr ""
+
+msgid "Translation"
+msgstr ""
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr ""
+
+msgid "Your email or your website:"
+msgstr ""
+
+msgid "Create the translation files"
+msgstr ""
+
+msgid "Modifying the translation for this language: %s"
+msgstr ""
+
+msgid "Modify the translation files"
+msgstr ""
+
+msgid "The file %s cannot be extracted from mail attachments"
+msgstr ""
+
+msgid "The file %s cannot be written in the %s folder"
+msgstr ""
+
+msgid "The file %s has been imported in the %s folder"
+msgstr ""
+
+msgid "Plugin"
+msgstr ""
+
+msgid "Language"
+msgstr "ภาษา"
+
+msgid "Information"
+msgstr ""
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "%s sentences have been newly translated and %s sentences have been modified (the old file has %s translated sentences)."
+msgstr ""
+
+msgid "See modifications and Merge"
+msgstr ""
+
+msgid "Merge"
+msgstr ""
+
+msgid "New translations are available"
+msgstr ""
+
+msgid "Updates of translations are available"
+msgstr ""
+
+msgid "What are the differences between these two files?"
+msgstr ""
+
+msgid "Old sentence"
+msgstr ""
+
+msgid "New sentence"
+msgstr ""
+
+msgid "To replace?"
+msgstr ""
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr ""
+
+msgid "The translation %s have been sent"
+msgstr ""
+
+msgid "%s file has been updated for %s"
+msgstr ""
+
+msgid "%s file has been updated from this file"
+msgstr ""
+
+msgid "%s file has been created with a new translation for %s"
+msgstr ""
+
+msgid "%s file has been created from this file"
+msgstr ""
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr ""
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr ""
+
+msgid "The following languages may be used by your Wordpress installation."
+msgstr ""
+
+msgid "There is a need to update the list of available translation at the Wordpress repository because no information are available for the version of Wordpress (i.e. %s)."
+msgstr ""
+
+msgid "Update the list of translations"
+msgstr ""
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr ""
+
+msgid "Re-download"
+msgstr ""
+
+msgid "Last update: %s"
+msgstr ""
+
+msgid "Download a new translation"
+msgstr ""
+
+msgid "You may download a new translation from Wordpress.org"
+msgstr ""
+
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+msgid "Change the default language used"
+msgstr ""
+
+msgid "If you want to modify the default language of the dashboad, and thus of the plugin, please select your language here:"
+msgstr ""
+
+msgid "Set the language"
+msgstr ""
+
+msgid "The file %s has been downloaded (version %s)"
+msgstr ""
+
+msgid "The file %s cannot be stored in %s. Check permissions."
+msgstr ""
+
+msgid "The translations files do not exists ... it is strange!"
+msgstr ""
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr ""
+
+msgid "This plugin is available in %d languages."
+msgstr ""
+
+msgid "There are %d sentences to be translated in this plugin."
+msgstr ""
+
+msgid "Ratio %"
+msgstr ""
+
+msgid "Translators"
+msgstr ""
+
+msgid "Modify"
+msgstr ""
+
+msgid "Send to the author of the plugin"
+msgstr ""
+
+msgid "Add a new translation"
+msgstr ""
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr ""
+
+msgid "There is %d languages supported for the 'SL framework'."
+msgstr ""
+
+msgid "There is %d sentence to be translated in the framework."
+msgstr ""
+
+msgid "This is the default language of the plugin framework. It cannot be modified."
+msgstr ""
+
+msgid "Send to the author of the framework"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Un-select all"
+msgstr ""
+
+msgid "Sorry, but only %s files can be diff at once, in order to avoid any memory saturation"
+msgstr ""
+
+msgid "Error: %s function is not found"
+msgstr ""
+
+msgid "The file %s cannot be read. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The folder %s cannot be opened. You should have a problem with folder permissions or security restrictions."
+msgstr ""
+
+msgid "An other process is still running (it runs for %s seconds)"
+msgstr ""
+
+msgid "The file %s cannot be modified/created. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be created. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be compressed."
+msgstr ""
+
+msgid "The file %s cannot be renamed. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "Close popup"
+msgstr ""
+
+msgid "Saved on %s"
+msgstr ""
+
+msgid "No cache file found... Regenerating one!"
+msgstr ""
+
+msgid "PHP Doc for the SL Framework"
+msgstr ""
+
+msgid "Here are the classes of the SL framework:"
+msgstr ""
+
+msgid "Here is the method of the class:"
+msgstr ""
+
+msgid "Methods"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "[METHOD]"
+msgstr ""
+
+msgid "Parameters:"
+msgstr ""
+
+msgid "[optional]"
+msgstr ""
+
+msgid "(by default, its value is:"
+msgstr ""
+
+msgid "No param"
+msgstr ""
+
+msgid "Return value:"
+msgstr ""
+
+msgid "Typical call:"
+msgstr ""
+
+msgid "See also:"
+msgstr ""
+
+msgid "[CLASS]"
+msgstr ""
+

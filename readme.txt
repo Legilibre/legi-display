@@ -1,0 +1,58 @@
+=== Legi Display ===
+
+Author: SedLex
+Contributors: SedLex
+Author URI: http://www.sedlex.fr/
+Plugin URI: http://wordpress.org/plugins/legi-display/
+Tags: tag
+Requires at least: 3.0
+Tested up to: 3.9.1
+Stable tag: trunk
+
+Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/
+
+== Description ==
+
+Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/
+
+See http://rip.journal-officiel.gouv.fr/index.php/pages/LO for the licence
+
+= Multisite - Wordpress MU =
+
+Works on multisite installation.
+
+= Localization =
+
+* English (United States), default language
+* French (France) translation provided by SedLex
+
+= Features of the framework =
+
+This plugin uses the SL framework. This framework eases the creation of new plugins by providing tools and frames (see dev-toolbox plugin for more info).
+
+You may easily translate the text of the plugin and submit it to the developer, send a feedback, or choose the location of the plugin in the admin panel.
+
+Have fun !
+
+== Installation ==
+
+1. Upload this folder legi-display to your plugin directory (for instance '/wp-content/plugins/')
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Navigate to the 'SL plugins' box
+4. All plugins developed with the SL core will be listed in this box
+5. Enjoy !
+
+== Screenshots ==
+
+1. A comparison feature of different version of an article
+2. The hierarchy tree of a code
+
+== Changelog ==
+
+= 1.0.0 = 
+* First release : enjoy !
+
+== Frequently Asked Questions ==
+
+ 
+InfoVersion:4a68b37f155d0016c39f65f1b8d3189b9aeb0bc3

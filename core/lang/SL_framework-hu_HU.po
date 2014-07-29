@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-02-17T10:04:15+00:00\n"
+"Last-Translator: LaszloPinter <pinter.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: Hungary\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Log options"
+msgstr "Napló beállítások"
+
+msgid "What is the debug level:"
+msgstr "Mi a &quot;debug&quot; szint:"
+
+msgid "See the debug logs"
+msgstr "Lásd a &quot;debug&quot; naplókat"
+
+msgid "1=log only the critical errors;"
+msgstr "1=csak súlyos hibákat rögzít;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=csak súlyos és átlagos hibákat rögzít;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=csak súlyos és átlagos hibákat és figyelmeztetéseket rögzít;"
+
+msgid "4=log information;"
+msgstr "4=információkat rögzít;"
+
+msgid "5=log verbose;"
+msgstr "5=részletes naplózás;"
+
+msgid "Multisite Management"
+msgstr "Több site karbantartása"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Engedélyezed, hogy &quot;sub-blogok&quot; is változtathassák a pluginok fordítását?"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Ha ez nincs bejelölve, akkor a fordítás fül nem lesz látható a blog karbantaró táblán."
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "A SL &quot;framewok&quot;-el készített pluginok összefoglaló oldala"
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr "Mostanáig %d plugin-t telepítettél, ezek közül %d plugin készült a SL &quot;framework&quot;el:"
+
+msgid "Plugin name"
+msgstr "A plugin neve:"
+
+msgid "Description"
+msgstr "Leírás:"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Ehhez a pluginhoz egy SQL adatbázis is tartozik"
+
+msgid "Version: %s by %s"
+msgstr "Verzió %s készítette %s"
+
+msgid "List of SL plugins"
+msgstr "SL pluginok listája"
+
+msgid "Parameters of the framework"
+msgstr "A &quot;framework&quot; paraméterei"
+
+msgid "Manage translation of the framework"
+msgstr "A &quot;framework&quot; fordításának karbantartása"
+
+msgid "The folder %s is not %s !"
+msgstr "A %s mappa nem %s !"
+
+msgid "The file %s is not %s !"
+msgstr "A %s file nem %s !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "A %s mappa nem létezik és nem hozható létre !"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "A %s file nem létezik és nem hozható létre !"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "A mappa hozzáférési jogokkal van gond. Légyszíves javitsd ki minél hamarabb, mert problémákat okozhat."
+
+msgid "Please see below:"
+msgstr "Lásd alább:"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Hiba: a beírt érték nem egy egész szám, így a paramétert nem tároltuk!"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Hiba: a beírt szöveg nem felel meg a követelményeknek"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Hiba: a file nem feltölthető!"
+
+msgid "Error: security issue!"
+msgstr "Hiba: biztonsági probléma!"
+
+msgid "Parameters"
+msgstr "Paraméterek"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Ezek a plugin paraméterei. Szabadon megváltoztathatók."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Ezek a &quot;framework&quot; paraméterei. Szabadon megváltoztathatók."
+
+msgid "Values"
+msgstr "Értékek"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Figyelem: néhány karaktert eltávolítottunk, mert itt nem megengedettek"
+
+msgid "(integer)"
+msgstr "(egész szám)"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(Ha ki akarod törölni ezt a file-t akkor jelöld be ezt a négyzetet %s)"
+
+msgid "Update"
+msgstr "Mentés"
+
+msgid "Reset to default values"
+msgstr "Visszaállítás az alapértelmezett értékekre"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "Az alábbi hiba miatt néhány paramétert nem tudtunk elmenteni"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "A paraméterek mentése sikerült. Olvasd el a figyelmeztetéseket!"
+
+msgid "Parameters have been updated successfully!"
+msgstr "A paraméterek mentése sikerült!"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "A paramétereket visszaállítottuk az alapértelmezett értékekre"
+

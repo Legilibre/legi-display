@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-10-27T08:32:55+00:00\n"
+"Last-Translator: hasegawa <lanna.in>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: Japan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr ""
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "The advanced options and output will be displayed now !"
+msgstr "高度なオプションと出力が表示されます！"
+
+msgid "The advanced options and output will be hidden now !"
+msgstr "高度なオプションと出力が非表示になります！"
+
+msgid "The developpers documentations will be displayed now !"
+msgstr "developpersのドキュメンテーションが表示されます！"
+
+msgid "The developpers documentations will be hidden now !"
+msgstr "developpersのドキュメンテーションは現在、非表示になります！"
+
+msgid "The SVN interface will be displayed now !"
+msgstr "SVNインターフェースが表示されます！"
+
+msgid "The SVN interface will be hidden now !"
+msgstr "SVNインタフェースは、非表示になります！"
+
+msgid "The SVN parameters have been updated !"
+msgstr "SVNのパラメータが更新されました！"
+
+msgid "%s has been updated with %s !"
+msgstr ""
+
+msgid "Please click %shere%s to refresh the page and ensure everything is ok!"
+msgstr ""
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr ""
+
+msgid "The core file used for the SedLex plugins is:"
+msgstr ""
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr ""
+
+msgid "Plugin name"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Status of the core"
+msgstr ""
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+msgid "This plugin does not seem to be hosted on the wordpress repository."
+msgstr ""
+
+msgid "This plugin is hosted by wordpress repository and is not up-to-date ! (i.e. %s)"
+msgstr ""
+
+msgid "(the repository)"
+msgstr ""
+
+msgid "This plugin is hosted by wordpress repository with the same version but the plugin is not exactly the same"
+msgstr ""
+
+msgid "This plugin is hosted by wordpress repository and is up-to-date !"
+msgstr ""
+
+msgid "Last update:"
+msgstr ""
+
+msgid "by %s persons"
+msgstr ""
+
+msgid "Rating:"
+msgstr ""
+
+msgid "Number of download:"
+msgstr ""
+
+msgid "Version: %s by %s"
+msgstr ""
+
+msgid "Update with the core of the %s plugin (only if you definitely know what you do)"
+msgstr ""
+
+msgid "This core is currently used by the framework and plugins !"
+msgstr ""
+
+msgid "SVN management"
+msgstr ""
+
+msgid "An error occurs when requesting %s"
+msgstr ""
+
+msgid "You do not seem to have a repository for Wordpress because %s returns a 404 error. Thus, ask for one here: %s"
+msgstr ""
+
+msgid "Overwrite the local plugin files with files stored the SVN repository"
+msgstr ""
+
+msgid "Quick"
+msgstr ""
+
+msgid "Slow"
+msgstr ""
+
+msgid "Update the SVN repository with your current local plugin files"
+msgstr ""
+
+msgid "The slow version may be useful if you have issues with the quick version."
+msgstr ""
+
+msgid "Show the advanced options and parameters:"
+msgstr ""
+
+msgid "Show/Hide"
+msgstr ""
+
+msgid "Show the developpers documentation:"
+msgstr ""
+
+msgid "Enable SVN to commit your developed plugin to wordpress.org:"
+msgstr ""
+
+msgid "Enable/Disable"
+msgstr ""
+
+msgid "Your SVN Login:"
+msgstr ""
+
+msgid "Your SVN password:"
+msgstr ""
+
+msgid "The author name displayed in the Wordpress plugin (probably close to your login):"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "List of SL plugins"
+msgstr ""
+
+msgid "The following description is a quick tutorial on about how to create a plugin with the SL framework. (Please note that the following description is in English for developpers, sorry for this inconvenience)"
+msgstr ""
+
+msgid "How to develop a plugin?"
+msgstr ""
+
+msgid "Framework documentation"
+msgstr ""
+
+msgid "Manage translation of the framework"
+msgstr ""
+
+msgid "Please find hearafter all the possible classes and methods for the development with this framework"
+msgstr ""
+
+msgid "[CLASS]"
+msgstr ""
+
+msgid "Here is the method of the class:"
+msgstr ""
+
+msgid "[METHOD]"
+msgstr ""
+
+msgid "Description:"
+msgstr ""
+
+msgid "Parameters:"
+msgstr ""
+
+msgid "[optional]"
+msgstr ""
+
+msgid "(by default, its value is:"
+msgstr ""
+
+msgid "No param"
+msgstr ""
+
+msgid "Return value:"
+msgstr ""
+
+msgid "Typical call:"
+msgstr ""
+
+msgid "See also:"
+msgstr ""
+
+msgid "Version of"
+msgstr ""
+
+msgid "MD5 fingerprint of the framework:"
+msgstr ""
+
+msgid "Last update of the core: %s at %s"
+msgstr ""
+
+msgid "The folder %s is not %s !"
+msgstr ""
+
+msgid "The file %s is not %s !"
+msgstr ""
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr ""
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr ""
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr ""
+
+msgid "Please see below:"
+msgstr ""
+
+msgid "Update the SVN repository %s with your current local plugin files (slower version)"
+msgstr ""
+
+msgid "Update the SVN repository %s with your current local plugin files"
+msgstr ""
+
+msgid "Overwrite the local plugin %s files with files stored the SVN repository"
+msgstr ""
+
+msgid "Updating the local cache"
+msgstr ""
+
+msgid "folder created"
+msgstr ""
+
+msgid "folder creation has failed !"
+msgstr ""
+
+msgid "%s bytes transfered"
+msgstr ""
+
+msgid "An error occurred during the retrieval of files on the server ! Sorry ..."
+msgstr ""
+
+msgid "To be sure that you compare the local plugin with the latest repoository files, it is necessary to download it locally. Please wait during the update (your are using the slow version which may be more reliable especially with big plugins)..."
+msgstr ""
+
+msgid "Update of the files of the %s plugin in progress (%s files)"
+msgstr ""
+
+msgid "An error occurred when listing the files of the %s plugin ! Sorry ..."
+msgstr ""
+
+msgid "Browsing the modifications"
+msgstr ""
+
+msgid "Comparing %s with %s"
+msgstr ""
+
+msgid "Confirmation"
+msgstr ""
+
+msgid "Commit comment:"
+msgstr ""
+
+msgid "Yes, the SVN version will be deleted and be replaced by the local version"
+msgstr ""
+
+msgid "Yes, the local version will be overwritten with the repository files"
+msgstr ""
+
+msgid "Sending to the repository in progress..."
+msgstr ""
+
+msgid "Preparation of the sending done !"
+msgstr ""
+
+msgid "Sending the file is finished ! Now merging the change in the repository ..."
+msgstr ""
+
+msgid "Error while preparing the sending!"
+msgstr ""
+
+msgid "The commit has ended [ %s ]... You should received an email quickly !"
+msgstr ""
+
+msgid "The commit has ended but there is an error!"
+msgstr ""
+
+msgid "Sending to the local files in progress..."
+msgstr ""
+
+msgid "The rollback has ended ..."
+msgstr ""
+
+msgid "Your name:"
+msgstr ""
+
+msgid "Your email (for response):"
+msgstr ""
+
+msgid "Your comments:"
+msgstr ""
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr ""
+
+msgid "Send feedback"
+msgstr ""
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr ""
+
+msgid "The feedback has been sent"
+msgstr ""
+
+msgid "An error occured sending the email."
+msgstr ""
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Un-select all"
+msgstr ""
+
+msgid "KB"
+msgstr ""
+
+msgid "MB"
+msgstr ""
+
+msgid "GB"
+msgstr ""
+
+msgid "The available translation for the SL framework (contained in the '%s' folder)"
+msgstr ""
+
+msgid "There is %d languages supported for the 'SL framework'."
+msgstr ""
+
+msgid "There is %d sentence to be translated in the framework."
+msgstr ""
+
+msgid "The available translation for this plugin"
+msgstr ""
+
+msgid "There is %d languages supported for this plugin."
+msgstr ""
+
+msgid "There is %d sentence to be translated in this plugin."
+msgstr ""
+
+msgid "Please note that the translation for the framework is available in the %s submenu (see the %s tab)."
+msgstr ""
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Ratio %"
+msgstr ""
+
+msgid "Translators"
+msgstr ""
+
+msgid "Modify"
+msgstr ""
+
+msgid "Send to the author of the framework"
+msgstr ""
+
+msgid "Send to the author of the plugin"
+msgstr ""
+
+msgid "Add a new translation"
+msgstr ""
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Adding a new translation for this language: %s"
+msgstr ""
+
+msgid "Sentence to translate"
+msgstr ""
+
+msgid "Translation"
+msgstr ""
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr ""
+
+msgid "Your email or your website:"
+msgstr ""
+
+msgid "Create the translation files"
+msgstr ""
+
+msgid "Modifying the translation for this language: %s"
+msgstr ""
+
+msgid "Modify the translation files"
+msgstr ""
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr ""
+
+msgid "The translation %s have been sent"
+msgstr ""
+
+msgid "%s file has been updated for %s"
+msgstr ""
+
+msgid "%s file has been updated from this file"
+msgstr ""
+
+msgid "%s file has been created with a new translation for %s"
+msgstr ""
+
+msgid "%s file has been created from this file"
+msgstr ""
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr ""
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr ""
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr ""
+
+msgid "Some parameters have not been updated due to errors (see below) !"
+msgstr ""
+
+msgid "Parameters have been updated (but with some warnings) !"
+msgstr ""
+
+msgid "Parameters have been updated successfully !"
+msgstr ""
+
+msgid "Close popup"
+msgstr ""
+
+msgid "Homepage:"
+msgstr ""
+
+msgid "The file %s cannot be created. Therefore, no svn script can be created. Please make the folder writable or visit %s to install a SubVersion package on your server."
+msgstr ""
+
+msgid "The folder %s does not exists and cannot be created. Therefore, no svn script can be created in that folder. Please create this folder (and make it writable) or visit %s to install a SubVersion package on your server."
+msgstr ""
+
+msgid "The operating system of your server is %s. No installation of SVN has been found. Please visit %s to install a SubVersion package on your server."
+msgstr ""
+
+msgid "The exec function is disabled on your installation. This function is mandatory to be able to use SVN."
+msgstr ""
+
+msgid "SVN command:"
+msgstr ""
+
+msgid "%s returns the following code: %s"
+msgstr ""
+
+msgid "Checkout has failed! Please retry ..."
+msgstr ""
+
+msgid "Indeed, it is known that the Checkout command have some difficulties to work. You may have to re-test several times (1-20 times) to finally succeed."
+msgstr ""
+
+msgid "Do not panic: once the checkout have worked one time, the update command will be used and it is far more robust!"
+msgstr ""
+
+msgid "NOTE: The command outputs the following information:"
+msgstr ""
+
+msgid "The checkout have begun but have been interrupted without any reason!"
+msgstr ""
+
+msgid "Update the local cache"
+msgstr ""
+
+msgid "Compare the local cache with the plugins files"
+msgstr ""
+
+msgid "Yes, the local version will be deleted and be replaced by the files stored on the SVN repository"
+msgstr ""
+
+msgid "Retry the SVN preparation!"
+msgstr ""
+
+msgid "Add a file: %s"
+msgstr ""
+
+msgid "Delete a file: %s"
+msgstr ""
+
+msgid "Final commit:"
+msgstr ""
+
+msgid "The commit has ended and you may restart a normal life by closing the window..."
+msgstr ""
+
+msgid "Thank you!"
+msgstr ""
+
+msgid "The overwrite has ended and you may restart a normal life by closing the window..."
+msgstr ""
+
+msgid "Your credentials do not seem to be correct. Please check them!"
+msgstr ""
+
+msgid "This file have not been written in the repository due to server problem. Nevertheless, you should retry as it often works better with a second try !"
+msgstr ""
+

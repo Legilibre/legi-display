@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-16T10:43:51+00:00\n"
+"Last-Translator: 1231 <1231>\n"
+"Last-Translator: OWenT <http://www.owent.net>\n"
+"Last-Translator: peteryeung <http://winplus.tk>\n"
+"Last-Translator: jflycn <jflycn@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: People's Republic of China\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "关于..."
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Log options"
+msgstr "日志选项"
+
+msgid "What is the debug level:"
+msgstr "什么是调试级别："
+
+msgid "See the debug logs"
+msgstr "请参阅调试日志"
+
+msgid "1=log only the critical errors;"
+msgstr "1=记录只有严重的错误;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=仅记录严重错误和标准错误;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=仅记录严重错误，标准错误和警告;"
+
+msgid "4=log information;"
+msgstr "4=记录信息;"
+
+msgid "5=log verbose;"
+msgstr "5=日志详细;"
+
+msgid "Multisite Management"
+msgstr "多站点管理"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "你是否允许子博客修改插件的翻译："
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "如果未选中此选项，翻译选项卡不会显示在博客的管理面板。"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "摘要页：基于 SL 框架开发的插件"
+
+msgid "Plugin name"
+msgstr "插件名"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "There is a SQL database for this plugin"
+msgstr "这个插件有一个SQL数据库"
+
+msgid "Version: %s by %s"
+msgstr "版本：%s 的 %s"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "目前你安装了 %s 个插件，其中 %s 个基于 SL 框架开发"
+
+msgid "The core plugin is located at %s"
+msgstr "核心插件位于 %s"
+
+msgid "List of SL plugins"
+msgstr "SL 插件清单"
+
+msgid "Parameters of the framework"
+msgstr "框架的参数"
+
+msgid "Manage translation of the framework"
+msgstr "管理框架的翻译"
+
+msgid "The folder %s is not %s !"
+msgstr "文件夹 %s 不是 %s ！"
+
+msgid "The file %s is not %s !"
+msgstr "文件 %s 不是 %s ！"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "文件夹 %s 不存在且不能被创建"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "文件 %s 不存在且不能被创建"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "文件夹的权限有一些问题。请尽快纠正，因为它们可能引起错误和不稳定性。"
+
+msgid "Please see below:"
+msgstr "请参见下文："
+
+msgid "Close popup"
+msgstr "关闭弹出窗口"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "在这里，你可以配置三个层次的翻译：插件，框架，或是仪表板。"
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "您的当前语言是%s。如果翻译文本存在，插件将被翻译。"
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "如果你想修改语言，请到%s并寻找%s或是%s。第二个参数是你的语言，你可以修改它。"
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "这个插件有可用翻译 (%s)"
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "SL框架有可用翻译 (位于 %s)"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "添加这种语言的翻译：%s"
+
+msgid "Sentence to translate"
+msgstr "要翻译的句子"
+
+msgid "Translation"
+msgstr "翻译"
+
+msgid "Your name:"
+msgstr "您的名字："
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "（如果你的名字/伪已经在列表中，无需填写此项）"
+
+msgid "Your email or your website:"
+msgstr "您的电子邮件或网站："
+
+msgid "Create the translation files"
+msgstr "创建翻译文件"
+
+msgid "Add a new translation"
+msgstr "添加一个新的翻译"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "修改此语言的翻译档：%s"
+
+msgid "Confirmation"
+msgstr "配置"
+
+msgid "Summary cached %s"
+msgstr "总缓存 %s"
+
+msgid "This plugin is available in %s languages."
+msgstr "这项插件的语言 %s 可用"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Ratio %"
+msgstr "完成度:"
+
+msgid "Translators"
+msgstr "译:"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "这是插件的默认语言，不可更改"
+
+msgid "Modify"
+msgstr "修改"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add new"
+msgstr "添加新项"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Reset to default values"
+msgstr "重置"
+
+msgid "Last update:"
+msgstr "最后更新"
+
+msgid "Rating: %s"
+msgstr "完成度: %s"
+
+msgid "Filter: %s"
+msgstr "过滤规则: %s"
+
+msgid "Current Page"
+msgstr "当前页"
+
+msgid "Donate"
+msgstr "捐赠"
+
+msgid "Contact the author"
+msgstr "联系作者"
+
+msgid "Your email:"
+msgstr "您的 E-Mail"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "重要! 作者可能会联系您"
+
+msgid "Your comments:"
+msgstr "您的评论:"
+
+msgid "Send feedback"
+msgstr "发送反馈"
+
+msgid "The feedback has been sent"
+msgstr "反馈已发送"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Error: %s function is not found"
+msgstr "错误: 函数 %s 没找到"
+
+msgid "The file %s cannot be read. You should have a problem with file permissions or security restrictions."
+msgstr "无法读取 %s 文件, 可能是权限不足或被安全策略禁止"
+
+msgid "The folder %s cannot be opened. You should have a problem with folder permissions or security restrictions."
+msgstr "无法打开 %s 文件, 可能是权限不足或被安全策略禁止"
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr "无法删除 %s 文件, 可能是权限不足或被安全策略禁止"
+
+msgid "An other process is still running (it runs for %s seconds)"
+msgstr "另一个进程仍运行(已经运行了 %s 秒)"
+
+msgid "The file %s cannot be modified/created. You should have a problem with file permissions or security restrictions."
+msgstr "无法修改或创建 %s 文件, 可能是权限不足或被安全策略禁止"
+
+msgid "The file %s cannot be created. You should have a problem with file permissions or security restrictions."
+msgstr "无法创建 %s 文件, 可能是权限不足或被安全策略禁止"
+
+msgid "The file %s cannot be compressed."
+msgstr "无法压缩 %s 文件"
+
+msgid "The file %s cannot be renamed. You should have a problem with file permissions or security restrictions."
+msgstr "无法重命名 %s 文件, 可能是权限不足或被安全策略禁止"
+
+msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
+msgstr "无法修改 %s 文件, 可能是权限不足或被安全策略禁止"
+
+msgid "Send to the author of the plugin"
+msgstr "发送给插件作者"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "错误: 要求提供整数配置"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "错误: 提交的内容不符合指定的格式"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "错误: 文件无法提交"
+
+msgid "Error: security issue!"
+msgstr "错误: 安全限制!"
+
+msgid "Parameters"
+msgstr "参数"
+
+msgid "(Delete)"
+msgstr "(删除)"
+
+msgid "Values"
+msgstr "值"
+
+msgid "(integer)"
+msgstr "(整数)"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(勾选以删除这个文件 %s)"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "发生错误,一些配置未被更新(往下看)!"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "配置已更新(发现警告)!"
+
+msgid "Parameters have been updated successfully!"
+msgstr "配置成功更新!"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "配置已还原成默认值"
+
+msgid "Plugin not yet installed"
+msgstr "插件为安装"
+
+msgid "Description and Screenshots"
+msgstr "描述和快照"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "所有插件都已安装, 谢谢使用"
+
+msgid "Installed plugins"
+msgstr "安装插件"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "您已经安装了下列作者的插件:"
+
+msgid "Plugin already installed"
+msgstr "插件已安装"
+
+msgid "The Wordpress page: %s"
+msgstr "Wordpress页: %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "在API请求时发生意外的HTTP错误"
+
+msgid "Number of download:"
+msgstr "下载量"
+
+msgid "Feedback form"
+msgstr "反馈"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "此处是联系作者提供BUS、兼容性问题等的快速通道"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "注意: 在需要的时候,您的Wordpress的一些安装信息会被发送给作者, 以帮助作者进行调试(比如 Wordpress 版本, 已安装的插件, 等等)"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "本插件的作者没有提供电子邮件地址，因此反馈不可用"
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr "%s在这两个字符串中不匹配。请注意，上下文字符串将被替换的字符串%s。"
+
+msgid "Modify the translation files"
+msgstr "修改翻译文件"
+
+msgid "Modify translations"
+msgstr "修改翻译"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s 的条目已翻译(即 %s)."
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%s 的条目已翻译(即 %s), %s %s 的条目需要核对(相似但不完全相同).%s"
+
+msgid "The translation %s have been sent"
+msgstr "国际化配置 %s 已发送"
+
+msgid "An error occured sending the email."
+msgstr "发送电子邮件失败"
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "请确保您的Wordpress可以发送电子邮件"
+
+msgid "Send translation"
+msgstr "发送翻译结果"
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "由于未配置任何国际化翻译, 文件 %s 无法创建(%s), 请配置至少一条翻译"
+
+msgid "%s file has been updated for %s"
+msgstr "文件 %s 已更新 (%s)"
+
+msgid "%s file has been updated from this file"
+msgstr "文件 %s 已由此文件更新"
+
+msgid "%s file has been created with a new translation for %s"
+msgstr "文件 %s 已创建, 并用于 %s 的新国际化配置"
+
+msgid "%s file has been created from this file"
+msgstr "文件 %s 已由此文件创建"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr "如果您不想在下一次的插件更新时丢失当前的国际化配置, 建议您 %s 点击这里 %s 把当前翻译文件发送给作者."
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr "如果您不想在下一次的插件更新时丢失当前的国际化配置, 请在更新插件前把当前配置保存到本地, 并在更新完成后恢复!"
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "这个是个英文插件. 您可以翻译这个插件内的文字以帮助其他和您使用相同语言的用户"
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "当前插件有 %s 的条目需要被翻译"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "您可以添加一项新国际化配置(建议您把您的配置发送给作者, 以便用于未来版本的多国语言配置)"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "SL framework 是一个插件开发框架(比如这个插件), 因此, 如果您愿意为我们提供翻译, 将对很多插件都大有裨益"
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "SL framework 支持 %s 语言"
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "当前框架有 %s 的条目需要被翻译"
+
+msgid "Send to the author of the framework"
+msgstr "发送给插件开发框架的作者"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "此处是插件参数, 您可以按您的需要修改它"
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "此处是插件框架参数, 您可以按您的需要修改它"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "警告: 发现禁止的字符, 已被移除"
+
+msgid "Plugins that you may install"
+msgstr "您可能感兴趣的插件"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "以下插件是当前作者开发的并且未被安装"
+
+msgid "by %s persons"
+msgstr "作者 %s"
+
+msgid "%s of %s"
+msgstr "%s (从属于%s)"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr "如果您喜欢这个插件, 希望您捐赠给我.(这个插件完全是我利用业余时间开发的)"
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr "这不是强制性的! 但是这表明您喜欢我的插件, 这会让我备受鼓舞"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "以下由当前作者开发的插件您可能会感兴趣(未被安装)"
+

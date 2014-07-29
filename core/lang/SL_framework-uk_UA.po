@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-26T20:16:38+00:00\n"
+"Last-Translator: Oleksij <tverezo@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: Ukraine\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Про"
+
+msgid "Settings"
+msgstr "Параметри"
+
+msgid "Log options"
+msgstr "Параметри логів"
+
+msgid "What is the debug level:"
+msgstr "Рівень відладчика:"
+
+msgid "See the debug logs"
+msgstr "Переглянути звіт відладчика"
+
+msgid "1=log only the critical errors;"
+msgstr "1=записувати звіти тільки критичних помилок;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=записувати звіти критичних помилок і стандартниїх;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=записувати звіти критичних помилок, стандартниїх і попереджень;"
+
+msgid "4=log information;"
+msgstr "4=звітувати інформацію;"
+
+msgid "5=log verbose;"
+msgstr "5=детальний звіт;"
+
+msgid "Multisite Management"
+msgstr "Багатосайтове керування"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Чи хочете ви дозволити під-блоги, щоб модифікувати переклад плагінів:"
+
+msgid "Plugin name"
+msgstr "Назва плагіну"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Існує SQL база даних для цього плагіну"
+
+msgid "Donate"
+msgstr "Пожертва"
+
+msgid "Contact the author"
+msgstr "Зв’язатися з автором"
+
+msgid "Your name:"
+msgstr "Ваше ім’я"
+
+msgid "Your email:"
+msgstr "Ваш email:"
+
+msgid "Your comments:"
+msgstr "Ваш коментар"
+
+msgid "Installed plugins"
+msgstr "Встановлені плагіни"
+
+msgid "Update"
+msgstr "Оновити"
+
+msgid "Reset to default values"
+msgstr "Відновити параметри за замовчуванням"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "Параметри були обновлені (але були попередження)!"
+
+msgid "Close popup"
+msgstr "Закрити вікно"
+
+msgid "Add a new translation"
+msgstr "Додати новий переклад"
+
+msgid "Send translation"
+msgstr "Надіслати переклад"
+
+msgid "Confirmation"
+msgstr "Налаштування"
+
+msgid "Language"
+msgstr "Мова"
+
+msgid "Ratio %"
+msgstr "Відсоток %"
+
+msgid "Translators"
+msgstr "Перекладачі"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Це стандартна мова плагіну. ЇЇ не можна модифікувати."
+
+msgid "Modify"
+msgstr "Модифікувати"
+
+msgid "Send to the author of the plugin"
+msgstr "Надіслати автору плагіну"
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "Send to the author of the framework"
+msgstr "Надіслати автору фреймворку"
+
+msgid "KB"
+msgstr "Кб"
+
+msgid "MB"
+msgstr "Мб"
+
+msgid "GB"
+msgstr "Гб"
+

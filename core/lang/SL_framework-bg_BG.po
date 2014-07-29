@@ -1,0 +1,433 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-07T15:16:51+00:00\n"
+"Last-Translator: KalinLynnDimitrov <cassidycornell@abv.bg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: Bulgaria\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Относно"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Log options"
+msgstr "Настройки на системната история"
+
+msgid "What is the debug level:"
+msgstr ""
+
+msgid "See the debug logs"
+msgstr ""
+
+msgid "1=log only the critical errors;"
+msgstr ""
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr ""
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr ""
+
+msgid "4=log information;"
+msgstr ""
+
+msgid "5=log verbose;"
+msgstr ""
+
+msgid "Multisite Management"
+msgstr "Управление при режим на множество сайтове"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr ""
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr ""
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr ""
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr ""
+
+msgid "The core plugin is located at %s"
+msgstr ""
+
+msgid "Plugin name"
+msgstr "Име на разширение"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "There is a SQL database for this plugin"
+msgstr "За това разширение има SQL база данни"
+
+msgid "Version: %s by %s"
+msgstr "Версия: %s от %s"
+
+msgid "List of SL plugins"
+msgstr "Списък с SL разширения"
+
+msgid "Parameters of the framework"
+msgstr "Параметри на средата"
+
+msgid "Manage translation of the framework"
+msgstr "Превод на средата"
+
+msgid "The folder %s is not %s !"
+msgstr "Папката %s не е %s!"
+
+msgid "The file %s is not %s !"
+msgstr "Файлът %s не е %s!"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "Папката %s не съществува и не може да бъде създадена!"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Файлът %s не съществува и не може да бъде създаден!"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Има проблем с правата за писане в папката. Моля, коригирайте ги възможно по-бързо, тъй като е възможно това да причини нестабилност."
+
+msgid "Please see below:"
+msgstr "Моля, вижте по-долу:"
+
+msgid "Close popup"
+msgstr "Затвори прозореца"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr ""
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr ""
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr ""
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "Преводи за това разширение (т.е. %s)"
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr ""
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Добавяне на нов превод за този език: %s"
+
+msgid "Sentence to translate"
+msgstr "Изречение за превод"
+
+msgid "Translation"
+msgstr "Превод"
+
+msgid "Your name:"
+msgstr "Името ви"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "(ако името/псевдонима вече е в списъка, то тогава няма нужда да попълвате това поле)"
+
+msgid "Your email or your website:"
+msgstr "Е-поща или уеб сайт."
+
+msgid "Create the translation files"
+msgstr "Създай преводни файлове"
+
+msgid "Add a new translation"
+msgstr "Добави нов превод"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "Модифициране на превода за този език: %s"
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr ""
+
+msgid "Modify the translation files"
+msgstr "Модифицирай преводните файлове"
+
+msgid "Modify translations"
+msgstr ""
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s изречения са преведени (т.е. %s)."
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%s изречения са преведени (т.е. %s) %s %s изречения трябва да бъдат проверени, защото са близо (но не идентични) за превод. %s"
+
+msgid "The translation %s have been sent"
+msgstr "Преводът %s беше изпратен"
+
+msgid "An error occured sending the email."
+msgstr "Имаше грешка по време на изпращане на електронното писмо."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Проверете дали вашият Wordpress може да праща е-писма."
+
+msgid "Send translation"
+msgstr ""
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "%s файл не може да бъде създаден за %s, тъй като няма преведено изречение. Моля, преведете поне едно изречение."
+
+msgid "%s file has been updated for %s"
+msgstr "%s файл беше ъпдейтнат за %s"
+
+msgid "%s file has been updated from this file"
+msgstr "%s файл беше ъпдейтнат от този файл"
+
+msgid "%s file has been created with a new translation for %s"
+msgstr "%s файл беше създаден с нов превод за %s"
+
+msgid "%s file has been created from this file"
+msgstr "%s файл беше създаден от този файл"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr ""
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr ""
+
+msgid "Confirmation"
+msgstr ""
+
+msgid "Summary cached %s"
+msgstr ""
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "Изреченията в този плъгин са на Английски. Помогнете на другите, ползващи вашият език като преведете този плъгин."
+
+msgid "This plugin is available in %s languages."
+msgstr ""
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr ""
+
+msgid "Language"
+msgstr "Език"
+
+msgid "Ratio %"
+msgstr "Съотношение %"
+
+msgid "Translators"
+msgstr "Преводачи"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Това е езикът по подразбиране на плъгина и не може да бъде модифициран."
+
+msgid "Modify"
+msgstr "Промени"
+
+msgid "Send to the author of the plugin"
+msgstr "Изпрати до автора на плъгина"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr ""
+
+msgid "Add"
+msgstr "Добави"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr ""
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr ""
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr ""
+
+msgid "Send to the author of the framework"
+msgstr "Изпрати до автора на средата"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Грешка: изпратената стойност не е цифра и затова параметърът не бе обновен!"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Грешка: изпратеният низ не отговаря на ограниченията"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Грешка: избраният файл не може да бъде качен!"
+
+msgid "Error: security issue!"
+msgstr "Грешка: проблем в сигурността!"
+
+msgid "Parameters"
+msgstr "Параметри"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Тук са параметрите на разширението. Модифицирайте ги както ви е нужно."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Тук са параметрите на средата. Можете да ги променяте по свое усмотрение така, че да отговарят на нуждите ви."
+
+msgid "Values"
+msgstr "Стойности"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Внимание: някои знаци бяха премахнати, защото не са позволени тук"
+
+msgid "(integer)"
+msgstr "(цифра)"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(ако желаете да изтриете файла, моля поставете отметка тук %s)"
+
+msgid "Update"
+msgstr "Обновяване"
+
+msgid "Reset to default values"
+msgstr "Връщане на начлните настройки"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr ""
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr ""
+
+msgid "Parameters have been updated successfully!"
+msgstr ""
+
+msgid "Parameters have been reset to their default values!"
+msgstr ""
+
+msgid "Plugins that you may install"
+msgstr "Плъгини, които можете да инсталирате"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "Следните плъгини са били разработени от автора и още не са инсталирани:"
+
+msgid "Plugin not yet installed"
+msgstr "Плъгина още не е инсталиран"
+
+msgid "Description and Screenshots"
+msgstr "Описание и Снимки"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Всички плъгини на автора бяха инсталирани. Благодаря Ви!"
+
+msgid "Installed plugins"
+msgstr "Инсталирани плъгини"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Вече сте инсталирали следните плъгини:"
+
+msgid "Plugin already installed"
+msgstr "Плъгина вече е инсталиран."
+
+msgid "The Wordpress page: %s"
+msgstr "Wordpress страницата: %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+msgid "Last update:"
+msgstr "Последен ъпдейт:"
+
+msgid "Rating: %s"
+msgstr "Рейтинг: %s"
+
+msgid "by %s persons"
+msgstr "от %s души"
+
+msgid "Number of download:"
+msgstr "Брой сваляния:"
+
+msgid "Filter: %s"
+msgstr "Филтър: %s"
+
+msgid "%s of %s"
+msgstr "%s от %s"
+
+msgid "Current Page"
+msgstr "Текуща страница"
+
+msgid "Donate"
+msgstr "Дари"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr ""
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr ""
+
+msgid "Feedback form"
+msgstr "Форма за обратна връзка"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Тази форма е един лесен начин за връзка с автора и за обсъждане проблеми, несъвместимост и т.н. с него."
+
+msgid "Contact the author"
+msgstr "Свържи се с автора"
+
+msgid "Your email:"
+msgstr "Вашият e-mail:"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Полезно... за да може автора да се свърже с теб."
+
+msgid "Your comments:"
+msgstr "Вашите коментари:"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr ""
+
+msgid "Send feedback"
+msgstr "Изпрати отзив"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr ""
+
+msgid "The feedback has been sent"
+msgstr "Отзивът е изпратен!"
+
+msgid "KB"
+msgstr "КБ"
+
+msgid "MB"
+msgstr "МБ"
+
+msgid "GB"
+msgstr "ГБ"
+
+msgid "Error: %s function is not found"
+msgstr "Грешка: %s функция не е намерена"
+
+msgid "The file %s cannot be read. You should have a problem with file permissions or security restrictions."
+msgstr "Файлът %s не може да бъде намерен. Вероятно имате проблем с правата за писане или други ограничения."
+
+msgid "The folder %s cannot be opened. You should have a problem with folder permissions or security restrictions."
+msgstr "Папката %s не може да бъде отворена. Вероятно имате проблем с правата за писане или други ограничения."
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr "Файлът %s не може да бъде изтрит. Вероятно имате проблем с правата за писане или други ограничения."
+
+msgid "An other process is still running (it runs for %s seconds)"
+msgstr "Има друг процес все още изпълняващ се процес (изпълнява се от %s сек.)."
+
+msgid "The file %s cannot be modified/created. You should have a problem with file permissions or security restrictions."
+msgstr "Файлът %s не може да бъде променен/създаден. Вероятно имате проблем с правата за писане или други ограничения."
+
+msgid "The file %s cannot be created. You should have a problem with file permissions or security restrictions."
+msgstr "Файлът %s не може да бъде създаден. Вероятно имате проблем с правата за писане или други ограничения."
+
+msgid "The file %s cannot be compressed."
+msgstr "Файлът %s не може да бъде компресиран."
+
+msgid "The file %s cannot be renamed. You should have a problem with file permissions or security restrictions."
+msgstr "Файлът %s не може да бъде преименуван. Вероятно имате проблем с правата за писане или други ограничения."
+
+msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
+msgstr "Файлът %s не може да бъде променен. Вероятно имате проблем с правата за писане или други ограничения."
+

@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-24T14:59:14+00:00\n"
+"Last-Translator: JackGarivaldis <http://diasporic.org>\n"
+"Last-Translator: Prokopis <http://www.saveandwin.gr/>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: Greece\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Σχετικά..."
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Όλα τα πρόσθετα που έχουν δημιουργηθεί με χρήση του SL framework"
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr "Για την ώρα, έχετε εγκαταστήσει % plugins συμπεριλαμβανομένων % plugins που έχει το πλαίσιο &#039;SL&#039;"
+
+msgid "Plugin name"
+msgstr "Όνομα Προσθέτου"
+
+msgid "Description"
+msgstr "Περιγραφή"
+
+msgid "Version: %s by %s"
+msgstr "Έκδοση: %s από %s"
+
+msgid "List of SL plugins"
+msgstr "Κατάλογος προσθέτων που έχουν δημιουργηθεί με χρήση του SL framework"
+
+msgid "Parameters of the framework"
+msgstr "Παράμετροι του SL framework"
+
+msgid "Manage translation of the framework"
+msgstr "Διαχείριση μετάφρασης του  SL framework"
+
+msgid "KB"
+msgstr "ΚΒ"
+
+msgid "MB"
+msgstr "ΜΒ"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Parameters"
+msgstr "Παράμετροι"
+
+msgid "Values"
+msgstr "Τιμές"
+
+msgid "Update"
+msgstr "Ενημέρωση"
+
+msgid "Translation"
+msgstr "Μετάφραση"
+
+msgid "Your name:"
+msgstr "Το όνομά σας:"
+
+msgid "Your email or your website:"
+msgstr "Το email ή την ιστοσελίδα σας:"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Language"
+msgstr "Γλώσσα"
+
+msgid "Information"
+msgstr "Πληροφορίες"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s προτάσεις έχουν ματαφραστεί (π.χ. %s)."
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "New translations are available"
+msgstr "Υπάρχουν νέες μεταφράσεις"
+
+msgid "Updates of translations are available"
+msgstr "Υπάρχουν ανανεώσεις μεταφράσεων"
+
+msgid "What are the differences between these two files?"
+msgstr "Ποιες είναι οι διαφορές μεταξύ αυτών των δυο αρχείων;"
+
+msgid "Old sentence"
+msgstr "Παλιά πρόταση"
+
+msgid "New sentence"
+msgstr "Νέα Πρόταση"
+
+msgid "To replace?"
+msgstr "Ν&#039; αντικαταστήσετε;"
+
+msgid "Merge"
+msgstr "Συγχώνεψη"
+
+msgid "The translation %s have been sent"
+msgstr "Οι μεταφράσεις %s έχουν αποσταλεί."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Σιγουρευτείτε ότι το Wordpress μπορεί να στείλει ηλεκτρονικά μηνύματα (email)."
+
+msgid "Ratio %"
+msgstr "Αναλογία %"
+
+msgid "Translators"
+msgstr "Μεταφραστές"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Αυτή είναι η προεπιλεγμένη γλώσσα για το plugin. Δεν μπορεί να αλλαχτεί."
+
+msgid "Modify"
+msgstr "Μεταρυθμίστε"
+
+msgid "Send to the author of the plugin"
+msgstr "Στείλτε το στον κατασκευαστή του plugin"
+
+msgid "Add a new translation"
+msgstr "Προσθέστε μια νέα μετάφραση"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "Μπορείτε να προσθέσετε μια νέα μετάφραση από εδώ και στο εξής (Παρακαλείστε να στείλετε τη μετάφρασή σας στον κατασκευαστή για να μπορέσει να την προσθέσει σε μελλοντικές αλλαγές του plugin)"
+
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgid "Feedback form"
+msgstr "Φόρμα αναπληροφόρησης"
+
+msgid "Contact the author"
+msgstr "Επικοινωνήστε με τον κατασκευαστή"
+
+msgid "Your email:"
+msgstr "Η ηλεκτρονική σας διεύθυνση:"
+
+msgid "Your comments:"
+msgstr "Τα σχόλιά σας;"
+
+msgid "The Wordpress page: %s"
+msgstr "Η σελίδα του Wordpress: %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Παρουσιάστηκε απροσδόκητο σφάλμα HTTP κατά την κλήση του API."
+
+msgid "Last update:"
+msgstr "Τελευταία ενημέρωση:"
+
+msgid "Rating: %s"
+msgstr "Αξιολόγηση: %s"
+
+msgid "by %s persons"
+msgstr "από %s άτομα"
+
+msgid "Number of download:"
+msgstr "Αριθμός του download:"
+
+msgid "Plugin not yet installed"
+msgstr "Το πρόσθετο δεν έχει ακόμα εγκαταστθεί"
+
+msgid "Installed plugins"
+msgstr "Εγκατεστημένα πρόσθετα"
+
+msgid "Plugin already installed"
+msgstr "Το πρόσθετο έχει ήδη εγκατασταθεί."
+
+msgid "Add new"
+msgstr "Προσθήκη νέου"
+
+msgid "(Delete)"
+msgstr "(Διαγραφή)"
+
+msgid "(integer)"
+msgstr "(ακέραιος)"
+
+msgid "Create the translation files"
+msgstr "Δημιουργία των αρχείων μετάφρασης"
+
+msgid "Modify the translation files"
+msgstr "Επεξεργασία των αρχείων μετάφρασης"
+
+msgid "Modify translations"
+msgstr "Επεξεργασία μετάφρασης"
+
+msgid "Send translation"
+msgstr "Αποστολή μετάφρασης"
+
+msgid "Confirmation"
+msgstr "Επιβεβαίωση"
+
+msgid "Log options"
+msgstr "Επιλογές αρχείου καταγραφής"
+
+msgid "Multisite Management"
+msgstr "Διαχείριση εγκατάστασης πολλαπλών σάιτ"
+
+msgid "The core plugin is located at %s"
+msgstr "Το βασικό άρθωμα του προσθέτου είναι εγκατεστημένο στο %s"
+
+msgid "The folder %s is not %s !"
+msgstr "Ο φάκελος %s δεν είναι %s !"
+
+msgid "The file %s is not %s !"
+msgstr "Το αρχείο %s δεν είναι %s !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "Ο φάκελος %s ΔΕΝ υπάρχει και ΔΕΝ μπορεί να δημιουργηθεί !"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Το αρχείο %s ΔΕΝ υπάρχει και ΔΕΝ μπορεί να δημιουργηθεί !"
+
+msgid "Please see below:"
+msgstr "Σας παρακαλούμε δείτε παρακάτω:"
+
+msgid "Filter: %s"
+msgstr "Φίλτρο: %s"
+

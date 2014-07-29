@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-17T07:09:16+00:00\n"
+"Last-Translator: willianrodrigues <http://www.willianrodrigues.com.br>\n"
+"Last-Translator: IuriJacob <http://www.bytecodex.com>\n"
+"Last-Translator: Anderson <andersonnunes40@gmail.com>\n"
+"Last-Translator: AlbertAbrantes <http://www.maxcreative.ca>\n"
+"Last-Translator: Vanderson <vandinho.on10@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: Brazil\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Sobre"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Log options"
+msgstr "Opções de log"
+
+msgid "What is the debug level:"
+msgstr "Qual é o nível de debug:"
+
+msgid "See the debug logs"
+msgstr "Visualizar os logs de debug"
+
+msgid "1=log only the critical errors;"
+msgstr "1=logar somente erros críticos;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=logar somente erros críticos e os erros padrões;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=logar somente erros críticos, os erros padrões e os avisos;"
+
+msgid "4=log information;"
+msgstr "4=log de informação;"
+
+msgid "5=log verbose;"
+msgstr "5=log completo;"
+
+msgid "Multisite Management"
+msgstr "Gerencia Multisite"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Você quer permitir que sub-blogs alterem as traduções dos plugins:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Se esta opção estiver desmarcada, a aba de tradução não será exibida no painel de administração do blog."
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Página de sumário para plugins desenvolvidos com o SL framework"
+
+msgid "Plugin name"
+msgstr "Nome do plugin"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Existe um banco de dados SQL para este plugin"
+
+msgid "Version: %s by %s"
+msgstr "Versão: %s by %s"
+
+msgid "List of SL plugins"
+msgstr "Lista de plugins"
+
+msgid "Parameters of the framework"
+msgstr "Parâmetros do framework"
+
+msgid "Manage translation of the framework"
+msgstr "Gerenciar traduções do framework"
+
+msgid "The folder %s is not %s !"
+msgstr "A pasta %s não é %s!"
+
+msgid "The file %s is not %s !"
+msgstr "O arquivo %s não é %s!"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "A pasta %s não existe e não pode ser criada!"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "O arquivo %s não existe e não pode ser criado!"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Existem alguns problemas com os direitos de acesso às pastas. Por favor corrija as permissões o quanto antes, já que elas podem induzir bugs e instabilidades."
+
+msgid "Please see below:"
+msgstr "Por favor, veja abaixo:"
+
+msgid "Close popup"
+msgstr "Fechar pop-up"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Aqui, você pode configurar três níveis de traduções: ao nível plugin, ao nível da estrutura, e ao nível do painel."
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "Informamos que seu idioma atual é %s. O texto será traduzido se a tradução está disponível."
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "Se você quiser modificar o idioma, por favor, vá em %s e encontrar %s ou %s. O segundo argumento é o seu idioma e você pode modificá-la como quiser."
+
+msgid "Confirmation"
+msgstr "Confirmação"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Erro: o valor submetido não é um inteiro e, por isso, o parâmetro não foi atualizado!"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Erro: a string submetida não corresponde com a restrição"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Erro: o arquivo submetido não pôde ser enviado!"
+
+msgid "Error: security issue!"
+msgstr "Erro: problema de segurança!"
+
+msgid "Parameters"
+msgstr "Parâmetros"
+
+msgid "Plugins that you may install"
+msgstr "Plugins que você pode instalar"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "Os seguintes plugins foram desenvolvidos pelo autor e não estão instalados ainda:"
+
+msgid "Plugin not yet installed"
+msgstr "Plugin não instalado ainda"
+
+msgid "Description and Screenshots"
+msgstr "Descrição e Screenshots"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Todos os plugins do autor foram instalados. Obrigado!"
+
+msgid "Installed plugins"
+msgstr "Plugins instalados"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Você já instalou os seguintes plugins do autor:"
+
+msgid "Plugin already installed"
+msgstr "Plugins já instalados"
+
+msgid "The Wordpress page: %s"
+msgstr "A página do Wordpress: %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Um erro de HTTP inesperado ocorreu durante a requisição da API."
+
+msgid "Last update:"
+msgstr "Última atualização:"
+
+msgid "Rating: %s"
+msgstr "Classificação: %s"
+
+msgid "by %s persons"
+msgstr "por %s pessoas"
+
+msgid "Number of download:"
+msgstr "Número de downloads:"
+
+msgid "Current Page"
+msgstr "Página Atual"
+
+msgid "Donate"
+msgstr "Doar"
+
+msgid "Feedback form"
+msgstr "Formulário de Feedback"
+
+msgid "Contact the author"
+msgstr "Entre em contato com o Author"
+
+msgid "Your name:"
+msgstr "Nome:"
+
+msgid "Your email:"
+msgstr "Email:"
+
+msgid "Your comments:"
+msgstr "Seus comentários:"
+
+msgid "Send feedback"
+msgstr "Enviar feedback"
+
+msgid "The feedback has been sent"
+msgstr "Seu feedback foi enviado"
+
+msgid "An error occured sending the email."
+msgstr "Um erro ocorreu ao enviar este email."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Se assegure que o Wordpress está habilitado para enviar emails."
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "Os seguintes plugins foram desenvolvido pelo autor e ainda não foram instalados:"
+
+msgid "Add new"
+msgstr "Adicionar novo"
+
+msgid "(Delete)"
+msgstr "(Deletar)"
+
+msgid "Values"
+msgstr "Valores"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Atenção: alguns caracteres foram removidos pois não podem ser utilizados aqui"
+
+msgid "Modify"
+msgstr "Modificar"
+
+msgid "Send to the author of the plugin"
+msgstr "Enviar para o autor do plugin"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "About SL plugins..."
+msgstr "Sobre Plugins SL"
+
+msgid "Location of the SL plugins"
+msgstr "Localização dos Plugins SL"
+
+msgid "Filter: %s"
+msgstr "Filtros: %s"
+
+msgid "%s of %s"
+msgstr "%s of %s"
+
+msgid "Update"
+msgstr "Atualizar"
+
+msgid "Reset to default values"
+msgstr "Retornar aos valores Padrões"
+
+msgid "Sentence to translate"
+msgstr "Sentenças para Traduzir"
+
+msgid "Translation"
+msgstr "Tradução"
+
+msgid "Your email or your website:"
+msgstr "Seu Email ou WebSite:"
+
+msgid "Add a new translation"
+msgstr "Adicionar uma nova Tradução"
+
+msgid "Modify translations"
+msgstr "Modificar Tradução"
+
+msgid "Send translation"
+msgstr "Enviar Tradução"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Translators"
+msgstr "Tradutore"
+

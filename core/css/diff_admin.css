@@ -1,0 +1,53 @@
+/* 
+VersionDiffCss : 1.0
+*/
+
+.numbering li.numbering_li {
+	font-size:1em;
+	line-height:1em ; 
+	color:#222222 ;
+	margin: 0px ; 
+	padding: 0px ; 
+	background-image:none ; 
+}
+
+.numbering li.numbering_li:last-child {
+	font-size:1em;
+	line-height:1em ; 
+	color:#222222 ;
+	margin: 0px ; 
+	padding: 0px ; 
+	background-image:none ; 
+}
+
+.diff_result pre {
+    font-size: 1em;
+    line-height: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.diff_del {
+	background-color:#D19275 ; 
+	color:#8E2323 ;
+	text-decoration:line-through;
+}
+
+.diff_ins {
+	background-color:#A2CD5A ; 
+	color:#2F4F2F ;
+}
+
+.diff_result {
+	border-style:solid;
+	border-width:1px;
+	border-color:#CCCCCC ; 
+	margin : 20px ;
+	padding : 20px ; 
+	font-family: "Courier New", "Courier", "Lucida Console", "Consolas" ; 
+}
+
+.diff_hr {
+	border: 1px solid #AAAAAA;
+	width: 80%;
+}
