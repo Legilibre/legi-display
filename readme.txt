@@ -49,10 +49,13 @@ Have fun !
 
 == Changelog ==
 
+= 1.0.1 = 
+* Avoid canonical redirection if the url is a code url
+
 = 1.0.0 = 
 * First release : enjoy !
 
 == Frequently Asked Questions ==
 
  
-InfoVersion:4a68b37f155d0016c39f65f1b8d3189b9aeb0bc3
+InfoVersion:cbf59b46bce29bc339edf1aa01aee65ea905a1bf
