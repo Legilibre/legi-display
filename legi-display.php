@@ -3,7 +3,8 @@
 Plugin Name: Legi Display
 Plugin Tag: tag
 Description: <p>Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/</p><p>See http://rip.journal-officiel.gouv.fr/index.php/pages/LO for the licence</p>
-Version: 1.0.1
+Version: 1.0.2
+
 
 Framework: SL_Framework
 Author: SedLex
@@ -438,6 +439,8 @@ class legi_display extends pluginSedLex {
 			$crawler = " rel='nofollow'" ; 
 		}
 		
+		$modified = false ; 
+		
 		// RECHERCHE
 		if (preg_match_all("/#LEGI#([\w]*)_RECHERCHE#LEGI#/ui", $content, $matches, PREG_SET_ORDER)) {
 			foreach ($matches as $m) {
@@ -472,6 +475,7 @@ class legi_display extends pluginSedLex {
 						echo "Aucune recherche effectuée" ; 
 					}
 				$content = str_replace($m[0], ob_get_clean(), $content) ; 
+				$modified = true ; 
 			}
 		}
 		
@@ -487,6 +491,7 @@ class legi_display extends pluginSedLex {
 					$array_to_display = $this->get_code_section($m[1]) ; 
 					SLFramework_Treelist::render($array_to_display, true, null, "code_hiera") ; 
 				$content = str_replace($m[0], ob_get_clean(), $content) ; 
+				$modified = true ; 
 			}
 			$info = @unserialize($wpdb->get_var("SELECT info_code FROM ".$this->table_name." WHERE id_code='".$m[1]."' LIMIT 1")) ; 
 		}
@@ -549,18 +554,21 @@ class legi_display extends pluginSedLex {
 					$array_to_display = $this->get_code_section($m[1],$m[2]) ; 
 					SLFramework_Treelist::render($array_to_display, true, null, "code_hiera") ; 
 				$content = str_replace($m[0], ob_get_clean(), $content) ; 
+				$modified = true ; 
 			}
 		}
 		// NOTICE
 		
-		$content .= "<p>&nbsp;</p>" ; 
-		$content .= "<div class='notice_legi'>" ; 
-		$content .= "<p>Ces informations sont issues de la base de données \"<a href='http://www.data.gouv.fr/fr/dataset/legi-codes-lois-et-reglements-consolides'>LEGI</a>\" mise à disposition par LégiFrance, la direction de l'information légale et administrative et les services du Premier ministre.</p>" ; 
-		$content .= "<p>Les données sont reproduites sans modification, si ce n'est celles nécessaires à la mise en forme de la page.</p>" ; 
-		if ((isset($info))&&(is_array($info))) {
-			$content .= "<p>La dernière mise à jour de ce code a été réalisé le ".$info['derniere_maj'].".</p>" ; 
+		if ($modified) {
+			$content .= "<p>&nbsp;</p>" ; 
+			$content .= "<div class='notice_legi'>" ; 
+			$content .= "<p>Ces informations sont issues de la base de données \"<a href='http://www.data.gouv.fr/fr/dataset/legi-codes-lois-et-reglements-consolides'>LEGI</a>\" mise à disposition par LégiFrance, la direction de l'information légale et administrative et les services du Premier ministre.</p>" ; 
+			$content .= "<p>Les données sont reproduites sans modification, si ce n'est celles nécessaires à la mise en forme de la page.</p>" ; 
+			if ((isset($info))&&(is_array($info))) {
+				$content .= "<p>La dernière mise à jour de ce code a été réalisé le ".$info['derniere_maj'].".</p>" ; 
+			}
+			$content .= "</div>" ;
 		}
-		$content .= "</div>" ;
 		
 		return $content; 
 	}

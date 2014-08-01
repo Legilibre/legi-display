@@ -49,6 +49,9 @@ Have fun !
 
 == Changelog ==
 
+= 1.0.2 = 
+* BUG: The notice was everywhere ...
+
 = 1.0.1 = 
 * Avoid canonical redirection if the url is a code url
 
@@ -58,4 +61,4 @@ Have fun !
 == Frequently Asked Questions ==
 
  
-InfoVersion:cbf59b46bce29bc339edf1aa01aee65ea905a1bf
+InfoVersion:32adce7a5ed7a975939f67a99424dcdef2cb52a5
