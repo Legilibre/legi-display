@@ -54,6 +54,7 @@ if (!class_exists('pluginSedLex')) {
 			add_filter('plugin_row_meta', array( $this, 'plugin_actions'), 10, 2);
 			add_filter('plugin_action_links', array($this, 'plugin_action_links'), 10, 2);
 			add_action('init', array( $this, 'init_textdomain'));
+			
 			add_action('init', array( $this, 'update_plugin'));
 			
 			// Public Script
@@ -92,24 +93,13 @@ if (!class_exists('pluginSedLex')) {
 			add_action('wp_ajax_add_param', array($this,'add_param_callback')) ; 
 			
 			// We add an ajax call for the feedback class
-			add_action('wp_ajax_send_feedback', array('feedbackSL','send_feedback')) ; 
+			add_action('wp_ajax_send_feedback', array('SLFramework_Feedback','send_feedback')) ; 
 						
 			// Enable the modification of the content and of the excerpt
 			add_filter('the_content', array($this,'the_content_SL'), 1000);
 			add_filter('get_the_excerpt', array( $this, 'the_excerpt_SL'),1000000);
 			add_filter('get_the_excerpt', array( $this, 'the_excerpt_ante_SL'),2);
-			
-			// We remove some functionalities
-			//remove_action('wp_head', 'feed_links_extra', 3); // Displays the links to the extra feeds such as category feeds
-			//remove_action('wp_head', 'feed_links', 2); // Displays the links to the general feeds: Post and Comment Feed
-			//remove_action('wp_head', 'rsd_link'); // Displays the link to the Really Simple Discovery service endpoint, EditURI link
-			//remove_action('wp_head', 'wlwmanifest_link'); // Displays the link to the Windows Live Writer manifest file.
-			//remove_action('wp_head', 'index_rel_link'); // index link
-			//remove_action('wp_head', 'parent_post_rel_link'); // prev link
-			//remove_action('wp_head', 'start_post_rel_link'); // start link
-			//remove_action('wp_head', 'adjacent_posts_rel_link_wp_head'); // Displays relational links for the posts adjacent to the current post.
-			//remove_action('wp_head', 'wp_generator'); // Displays the XHTML generator that is generated on the wp_head hook, WP version
-			
+						
 			$this->signature = '<p style="text-align:right;font-size:75%;">&copy; SedLex - <a href="http://www.sedlex.fr/">http://www.sedlex.fr/</a></p>' ; 
 			
 			$this->frmk = new coreSLframework() ;
@@ -205,8 +195,14 @@ if (!class_exists('pluginSedLex')) {
 		*/
 
 		public function update_plugin() {
-			if (method_exists($this,'_update')) {
-				$this->_update() ; 
+			$hash_old = $this->get_param("hash_sha1_plugin") ; 
+			$hash_new = sha1_file($this->path);
+			
+			if ($hash_new!=$hash_old){			
+				$this->set_param("hash_sha1_plugin", $hash_new) ; 
+				if (method_exists($this,'_update')) {
+					$this->_update() ; 
+				}
 			}
 		}
 

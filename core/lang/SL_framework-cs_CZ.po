@@ -4,10 +4,11 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-08-05T19:16:06+00:00\n"
+"PO-Revision-Date: 2014-09-09T08:41:58+00:00\n"
 "Last-Translator: Caseidor <borprokop@gmail.com>\n"
 "Last-Translator: david <>\n"
 "Last-Translator: MichaelKoci <michael.koci@seznam.cz>\n"
+"Last-Translator: ElvisEK <elvisek@elvisek.cz>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -110,7 +111,7 @@ msgid "Here, you may configure three levels of translations: at the plugin level
 msgstr "Zde se může nastavit tři úrovně překladů: na úrovni pluginu a na úrovni rámce."
 
 msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
-msgstr "Dovolujeme si Vás upozornit, že váš současný jazyk je %s. Text bude přeložen, pokud je překlad  k dispozici."
+msgstr "Dovolujeme si Vás upozornit, že váš současný jazyk je %s. Text bude přeložen, pokud je překlad k dispozici."
 
 msgid "Translations available for this plugin (i.e. %s)"
 msgstr "Překlady k dispozici k tomuto pluginu (tj. %s)"
@@ -152,7 +153,7 @@ msgid "%s sentences have been translated (i.e. %s)."
 msgstr "%s věty byly přeloženy (tj.%s)."
 
 msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
-msgstr "%s věty byly přeloženy (tj. %s) %s věty %s  musí být překontrolovány, protože jsou podobné (ale ne totožné) s těmi přeloženými. %s"
+msgstr "%s věty byly přeloženy (tj. %s) %s věty %s musí být překontrolovány, protože jsou podobné (ale ne totožné) s těmi přeloženými. %s"
 
 msgid "The translation %s have been sent"
 msgstr "Překlady %s byly odeslány"
@@ -179,7 +180,7 @@ msgid "If you do not want to loose your translations on the next upgrading of th
 msgstr "Pokud nechcete přijít o své překlady při další modernizaci tohoto pluginu, je doporučeno odeslat překladatelské soubory autorovi kliknutím %s zde %s !"
 
 msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
-msgstr "Pokud nechcete přijít o své překlady s další modernizací tohoto pluginu, uložte je na pevném disku před upgradem a pak je obnovte  po upgradu!"
+msgstr "Pokud nechcete přijít o své překlady s další modernizací tohoto pluginu, uložte je na pevném disku před upgradem a pak je obnovte po upgradu!"
 
 msgid "Summary cached %s"
 msgstr "Shrnutí z %s"
@@ -221,7 +222,7 @@ msgid "Error: the submitted value is not an integer and thus, the parameter has 
 msgstr "Chyba: předložená hodnota není číslo a tak parametr není aktualizován!"
 
 msgid "Error: the submitted string does not match the constrains"
-msgstr "Chyba:  řetězec neodpovídá"
+msgstr "Chyba: řetězec neodpovídá"
 
 msgid "Error: the submitted file can not be uploaded!"
 msgstr "Chyba: soubor nelze odeslat!"
@@ -411,4 +412,64 @@ msgstr "Pokud se vám líbí plugin, neváhejte darovat. Vezměte prosím na vě
 
 msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
 msgstr "To není povinné! ale může to být známkou toho, že tento plugin se hodí, co vyžaduje: to mě dělá šťastným ..."
+
+msgid "About SL plugins..."
+msgstr "O SL pluginu"
+
+msgid "Location of the SL plugins"
+msgstr "Umístění SL pluginů"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Kde chcete zobrazovat SL pluginy:"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Máte nainstalováno %s pluginů, včetně %s pluginů vytvořených v SedLex frameworku"
+
+msgid "The core plugin is located at %s"
+msgstr "Jádro pluginu se nachází v %s"
+
+msgid "Standard"
+msgstr "Normální"
+
+msgid "under Plugins"
+msgstr "pod Pluginy"
+
+msgid "under Tools"
+msgstr "pod Nástrojema"
+
+msgid "under Settings"
+msgstr "pod Nastavením"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "Následující pluginy byly vyvinuty autorem a jsou dosud nenainstalovány"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "URL je správná a ID souboru je %s."
+
+msgid "The URL is not a media file."
+msgstr "URL neobsahuje správný soubor."
+
+msgid "Choose a media"
+msgstr "Zvol medium"
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "Pro změnu jazyka, přejděte na %s a najděte %s nebo %s. Druhý parametr je jazyk a můžete jej upravit tak, jak chcete."
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr "Počet výskytu %s neodpovídá v obou řetězcích. Vezměte prosím na vědomí, že řetězec %s bude nahrazen kontextové řetězce."
+
+msgid "This plugin is available in %s languages."
+msgstr "Tento plugin je k dispozici v %s jazyce."
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "Existují %s věty, které mají být přeloženy do tohoto pluginu."
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "%s jazyků je podporováno v SL rámci."
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "%s vět je potřeba přeložit pro tento rámec."
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "%s soubor nelze vytvořit pro %s, protože není přeložena žádná věta. Prosím, přeložte alespoň jednu větu k vytvoření souboru"
 

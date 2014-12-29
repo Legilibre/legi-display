@@ -6,8 +6,9 @@ Author URI: http://www.sedlex.fr/
 Plugin URI: http://wordpress.org/plugins/legi-display/
 Tags: tag
 Requires at least: 3.0
-Tested up to: 3.9.1
+Tested up to: 4.2
 Stable tag: trunk
+License: GPLv3
 
 Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/
 
@@ -49,6 +50,9 @@ Have fun !
 
 == Changelog ==
 
+= 1.0.3 = 
+* NEW: add icons
+
 = 1.0.2 = 
 * BUG: The notice was everywhere ...
 
@@ -61,4 +65,4 @@ Have fun !
 == Frequently Asked Questions ==
 
  
-InfoVersion:32adce7a5ed7a975939f67a99424dcdef2cb52a5
+InfoVersion:0b2853542cdafbe97df671466278b24680f67fe7

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-02-18T15:48:45+00:00\n"
+"PO-Revision-Date: 2014-12-01T09:34:23+00:00\n"
 "Last-Translator: reitermarkus <me@reitermark.us>\n"
 "Last-Translator: ThorstenKallnischkies <http://desastre.eu>\n"
 "Last-Translator: blog.xmee.de <blog.xmee.de>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Last-Translator: la <info@l-aschenbrenner.de>\n"
 "Last-Translator: HenningKlocke <internet-workflow.de>\n"
 "Last-Translator: DL8AAP <http://dl8aap.koch-carsten.de>\n"
+"Last-Translator: solist <http://cts.solist.co>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -450,4 +451,34 @@ msgstr "Die folgenden Plugins von diesem Autor sind noch nicht installiert:"
 
 msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
 msgstr "Die Häufigkeit des Vorkommens von %s stimmt in beiden Strings nicht überein. Beachten Sie dass der String %s durch einen kontext bezogen String ersetzt wird."
+
+msgid "About SL plugins..."
+msgstr "SL-Plugins Einstellungen"
+
+msgid "Location of the SL plugins"
+msgstr "Zugänglichkeit der SL-Plugins-Einstellungen"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Wo sollen die SL-Plugins angezeigt werden?"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "under Plugins"
+msgstr "unter &quot;Plugins&quot;"
+
+msgid "under Tools"
+msgstr "unter &quot;Werkzeuge&quot;"
+
+msgid "under Settings"
+msgstr "unter &quot;Einstellungen&quot;"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "Die URL ist korrekt und die ID der Media-Datei ist %s"
+
+msgid "The URL is not a media file."
+msgstr "Die URL verweist auf keine Media-Datei"
+
+msgid "Choose a media"
+msgstr "Medium wählen"
 

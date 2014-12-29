@@ -4,9 +4,10 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-04-15T09:18:35+00:00\n"
+"PO-Revision-Date: 2014-10-22T14:57:14+00:00\n"
 "Last-Translator: NunoVieira <nunovieira@nuviware.pt>\n"
 "Last-Translator: JooVentura <www.xoffice.pt>\n"
+"Last-Translator: FredCardoso <http://www.fc12.co.uk>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -376,7 +377,7 @@ msgid "Parameters have been reset to their default values!"
 msgstr "Os parametros levaram reset para o seu valor de origem"
 
 msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
-msgstr "Se quer modificar a linguagem, por favor vá a %s  e procure %s ou %s. O segundo argumento é a sua linguagem e pode modificala como quiser."
+msgstr "Se quer modificar a linguagem, por favor vá a %s e procure %s ou %s. O segundo argumento é a sua linguagem e pode modificala como quiser."
 
 msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
 msgstr "%s ficheiro não pode ser criado para %s enquanto nao tiver frase traduzida. Por favor, traduza pelo menos uma frase para criar o ficheiro"
@@ -401,4 +402,73 @@ msgstr "%s de %s"
 
 msgid "Current Page"
 msgstr "Página Actual"
+
+msgid "About SL plugins..."
+msgstr "Acerca de SL Plugins..."
+
+msgid "Location of the SL plugins"
+msgstr "Localização do SL Plugins"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Onde é que pretende mostrar o SL Plugins"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Até ao momento, você instalou %s plugins incluindo %s desenvolvidos mediante o SedLex&#039;s Framework"
+
+msgid "The core plugin is located at %s"
+msgstr "O plugin principal está localizado em %s"
+
+msgid "Standard"
+msgstr "Por defeito"
+
+msgid "under Plugins"
+msgstr "nos Plugins"
+
+msgid "under Tools"
+msgstr "nas Ferramentas"
+
+msgid "under Settings"
+msgstr "nas Configurações"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "Os seguintes plugins foram desenvolvidos pelo autor e ainda não estão instalados:"
+
+msgid "Add new"
+msgstr "Adicionar novo"
+
+msgid "(Delete)"
+msgstr "(Eliminar)"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "O URL está correcto e o ID do ficheiro multimedia é %s"
+
+msgid "The URL is not a media file."
+msgstr "O URL não é um ficheiro multimedia"
+
+msgid "Choose a media"
+msgstr "Escolha um ficheiro"
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr "O número de ocorrências de %s é diferente em ambos os campos. Note que o campo %s será substituído por uma frase contextual."
+
+msgid "Modify translations"
+msgstr "Modifique traduções"
+
+msgid "Send translation"
+msgstr "Envie Tradução"
+
+msgid "Confirmation"
+msgstr "Confirmação"
+
+msgid "This plugin is available in %s languages."
+msgstr "Este plugin está disponível em %s linguagens"
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "Existem %s frases para serem traduzidas neste plugin."
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "Existem %s linguagens suportadas pelo &#039;SL Framework&#039;."
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "Existem %s frases a serem traduzidas no framework."
 

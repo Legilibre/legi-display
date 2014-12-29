@@ -1,190 +1,190 @@
 Content-Transfer-Encoding: 8bit
 
+#: core.class.php:519
+#: core.class.php:519
+#: core.class.php:521
+#: core.class.php:521
 #: core.class.php:523
 #: core.class.php:523
-#: core.class.php:525
-#: core.class.php:525
-#: core.class.php:527
-#: core.class.php:527
 #@ SL_framework
 msgid "About SL plugins..."
 msgstr ""
 
-#: core.class.php:531
-#: core.class.php:531
+#: core.class.php:527
+#: core.class.php:527
 #@ SL_framework
 msgid "About..."
 msgstr ""
 
-#: core.class.php:584
-#: core.class.php:606
-#: core.class.php:1351
+#: core.class.php:580
+#: core.class.php:602
+#: core.class.php:1347
 #@ SL_framework
 msgid "Settings"
 msgstr ""
 
-#: core.class.php:1275
+#: core.class.php:1271
 #@ SL_framework
 msgid "Log options"
 msgstr ""
 
-#: core.class.php:1276
+#: core.class.php:1272
 #@ SL_framework
 msgid "What is the debug level:"
 msgstr ""
 
-#: core.class.php:1277
+#: core.class.php:1273
 #@ SL_framework
 msgid "See the debug logs"
 msgstr ""
 
-#: core.class.php:1278
+#: core.class.php:1274
 #@ SL_framework
 msgid "1=log only the critical errors;"
 msgstr ""
 
-#: core.class.php:1279
+#: core.class.php:1275
 #@ SL_framework
 msgid "2=log only the critical errors and the standard errors;"
 msgstr ""
 
-#: core.class.php:1280
+#: core.class.php:1276
 #@ SL_framework
 msgid "3=log only the critical errors, the standard errors and the warnings;"
 msgstr ""
 
-#: core.class.php:1281
+#: core.class.php:1277
 #@ SL_framework
 msgid "4=log information;"
 msgstr ""
 
-#: core.class.php:1282
+#: core.class.php:1278
 #@ SL_framework
 msgid "5=log verbose;"
 msgstr ""
 
-#: core.class.php:1285
+#: core.class.php:1281
 #@ SL_framework
 msgid "Multisite Management"
 msgstr ""
 
-#: core.class.php:1286
+#: core.class.php:1282
 #@ SL_framework
 msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
 msgstr ""
 
-#: core.class.php:1287
+#: core.class.php:1283
 #@ SL_framework
 msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
 msgstr ""
 
-#: core.class.php:1290
+#: core.class.php:1286
 #@ SL_framework
 msgid "Location of the SL plugins"
 msgstr ""
 
-#: core.class.php:1291
+#: core.class.php:1287
 #@ SL_framework
 msgid "Where do you want to display the SL plugins:"
 msgstr ""
 
-#: core.class.php:1303
+#: core.class.php:1299
 #@ SL_framework
 msgid "Summary page for the plugins developped with the SL framework"
 msgstr ""
 
-#: core.class.php:1323
+#: core.class.php:1319
 #@ SL_framework
 msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
 msgstr ""
 
-#: core.class.php:1324
+#: core.class.php:1320
 #@ SL_framework
 msgid "The core plugin is located at %s"
 msgstr ""
 
-#: core.class.php:1335
+#: core.class.php:1331
 #@ SL_framework
 msgid "Plugin name"
 msgstr ""
 
-#: core.class.php:1335
+#: core.class.php:1331
 #@ SL_framework
 msgid "Description"
 msgstr ""
 
-#: core.class.php:1359
+#: core.class.php:1355
 #@ SL_framework
 msgid "There is a SQL database for this plugin"
 msgstr ""
 
-#: core.class.php:1363
+#: core.class.php:1359
 #@ SL_framework
 msgid "Version: %s by %s"
 msgstr ""
 
-#: core.class.php:1371
+#: core.class.php:1367
 #@ SL_framework
 msgid "List of SL plugins"
 msgstr ""
 
-#: core.class.php:1380
+#: core.class.php:1376
 #@ SL_framework
 msgid "Parameters of the framework"
 msgstr ""
 
-#: core.class.php:1394
+#: core.class.php:1390
 #@ SL_framework
 msgid "Manage translation of the framework"
 msgstr ""
 
-#: core.class.php:1531
+#: core.class.php:1527
 #@ SL_framework
 msgid "The folder %s is not %s !"
 msgstr ""
 
-#: core.class.php:1533
+#: core.class.php:1529
 #@ SL_framework
 msgid "The file %s is not %s !"
 msgstr ""
 
-#: core.class.php:1540
-#: core.class.php:1547
+#: core.class.php:1536
+#: core.class.php:1543
 #@ SL_framework
 msgid "The folder %s does not exists and cannot be created !"
 msgstr ""
 
-#: core.class.php:1552
+#: core.class.php:1548
 #@ SL_framework
 msgid "The file %s does not exists and cannot be created !"
 msgstr ""
 
-#: core.class.php:1559
+#: core.class.php:1555
 #@ SL_framework
 msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
 msgstr ""
 
-#: core.class.php:1559
+#: core.class.php:1555
 #@ SL_framework
 msgid "Please see below:"
 msgstr ""
 
-#: core.class.php:1652
+#: core.class.php:1648
 #@ SL_framework
 msgid "Standard"
 msgstr ""
 
-#: core.class.php:1653
+#: core.class.php:1649
 #@ SL_framework
 msgid "under Plugins"
 msgstr ""
 
-#: core.class.php:1654
+#: core.class.php:1650
 #@ SL_framework
 msgid "under Tools"
 msgstr ""
 
-#: core.class.php:1655
+#: core.class.php:1651
 #@ SL_framework
 msgid "under Settings"
 msgstr ""
@@ -304,57 +304,57 @@ msgid "Plugin not yet installed"
 msgstr ""
 
 #: core/otherplugins.class.php:56
-#: core/otherplugins.class.php:87
+#: core/otherplugins.class.php:89
 #@ SL_framework
 msgid "Description and Screenshots"
 msgstr ""
 
-#: core/otherplugins.class.php:78
+#: core/otherplugins.class.php:80
 #@ SL_framework
 msgid "All author's plugins have been installed. Thank you!"
 msgstr ""
 
-#: core/otherplugins.class.php:84
+#: core/otherplugins.class.php:86
 #@ SL_framework
 msgid "Installed plugins"
 msgstr ""
 
-#: core/otherplugins.class.php:85
+#: core/otherplugins.class.php:87
 #@ SL_framework
 msgid "You have already installed the following author's plugins:"
 msgstr ""
 
-#: core/otherplugins.class.php:87
+#: core/otherplugins.class.php:89
 #@ SL_framework
 msgid "Plugin already installed"
 msgstr ""
 
-#: core/otherplugins.class.php:144
+#: core/otherplugins.class.php:148
 #@ SL_framework
 msgid "The Wordpress page: %s"
 msgstr ""
 
-#: core/otherplugins.class.php:170
+#: core/otherplugins.class.php:174
 #@ SL_framework
 msgid "An Unexpected HTTP Error occurred during the API request."
 msgstr ""
 
-#: core/otherplugins.class.php:175
+#: core/otherplugins.class.php:179
 #@ SL_framework
 msgid "Last update:"
 msgstr ""
 
-#: core/otherplugins.class.php:176
+#: core/otherplugins.class.php:180
 #@ SL_framework
 msgid "Rating: %s"
 msgstr ""
 
-#: core/otherplugins.class.php:185
+#: core/otherplugins.class.php:189
 #@ SL_framework
 msgid "by %s persons"
 msgstr ""
 
-#: core/otherplugins.class.php:187
+#: core/otherplugins.class.php:191
 #@ SL_framework
 msgid "Number of download:"
 msgstr ""

@@ -8,7 +8,7 @@
 	left:0;  
 	background:#000000;  
 	border:1px solid #cecece;  
-	z-index:1000;  
+	z-index:10000;  
 }  
 
 #popupForm{  
@@ -20,7 +20,7 @@
     right:50px;
 	background:#DDDDDD;  
 	padding:10px;  
-	z-index:1001;  
+	z-index:10001;  
 }  
 
 #innerPopupForm {
@@ -29,7 +29,7 @@
     bottom:5px ; 
     left:5px;
     right:5px;
-    z-index:1002;
+    z-index:10002;
 	background:#FFFFFF;
 	overflow:auto ; 
 	padding:10px;  
@@ -45,7 +45,7 @@
 	background:#999999;
 	background-image:url('../img/title_popup.png');
 	background-repeat:repeat-x;
-	z-index:1002;
+	z-index:10002;
 	padding:0px ; 
 	padding-left:20px ;
 }

@@ -4,11 +4,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-03-03T16:30:03+00:00\n"
+"PO-Revision-Date: 2014-09-10T15:44:21+00:00\n"
 "Last-Translator: Mehdi <behzadi724@gmail.com>\n"
 "Last-Translator: AhmadWayfarer <http://7eshop.ir>\n"
 "Last-Translator: eminem <>\n"
 "Last-Translator: sehrama.ir <sehrama.ir>\n"
+"Last-Translator: Arashbytranslate.parsijoo.ir <http://arash-ne.ir>\n"
+"Last-Translator: Arash..by...translate.parsijoo.ir <http://arash-ne.ir>\n"
+"Last-Translator: Arash...by...translate.parsijoo.ir <http://arash-ne.ir>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +27,7 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 
 msgid "About..."
-msgstr "در باره"
+msgstr "درباره"
 
 msgid "Settings"
 msgstr "تنظیمات"
@@ -102,7 +105,7 @@ msgid "Please see below:"
 msgstr "به موارد زیر توجه کنید:"
 
 msgid "Close popup"
-msgstr "بستن پنجره"
+msgstr "بستن پنجره پاپ آپ"
 
 msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
 msgstr "در این‌جا، شما ممکن است در سه سطح ترجمه پیکربندی کنید: در سطح افزونه، در سطح فریم‌ورک و در سطح پیش‌خوان."
@@ -126,7 +129,7 @@ msgid "Sentence to translate"
 msgstr "جمله برای ترجمه"
 
 msgid "Translation"
-msgstr "ترجمه (توسط سئحراما)"
+msgstr "ترجمه"
 
 msgid "Your name:"
 msgstr "نام شما:"
@@ -156,7 +159,7 @@ msgid "%s sentences have been translated (i.e. %s)."
 msgstr "%s جمله ترجمه شده‌اند ( برای مثال %s )"
 
 msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
-msgstr "%s جمله ترجمه شده است. (به عبارتی %s) تعداد  %s%s جمله باید بررسی شوند به خاطر این که به طور دقیق ترجمه نشده است.%s"
+msgstr "%s جمله ترجمه شده است. (به عبارتی %s) تعداد %s%s جمله باید بررسی شوند به خاطر این که به طور دقیق ترجمه نشده است.%s"
 
 msgid "The translation %s have been sent"
 msgstr "ترجمه از %s فرستاده شده"
@@ -189,7 +192,7 @@ msgid "If you do not want to loose your translations on the next upgrading of th
 msgstr "اگر می‌خواهید ترجمه‌تان را پس از به‌روزرسانی‌ این افزونه از دست ندهید، لطفاً آن‌ها را قبل از به‌روزرسانی بر روی هارددیسک خود ذخیره نمایید و سپس بعد از به‌روزرسانی آن‌ها را بازیابی کنید!"
 
 msgid "Confirmation"
-msgstr "تأیید"
+msgstr "تایید"
 
 msgid "Summary cached %s"
 msgstr "خلاصه‌ی کش %s"
@@ -378,13 +381,13 @@ msgid "The feedback has been sent"
 msgstr "بازخورد ارسال شده است"
 
 msgid "KB"
-msgstr "KB"
+msgstr "كيلوبايت"
 
 msgid "MB"
-msgstr "MB"
+msgstr "مگابايت"
 
 msgid "GB"
-msgstr "GB"
+msgstr "گيگابايت"
 
 msgid "Error: %s function is not found"
 msgstr "خطا: %s تابع یافت نشد"
@@ -427,4 +430,28 @@ msgstr "افزونه‌ی زیر توسط نویسنده توسعه داده ش�
 
 msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
 msgstr "(اگر نام شما در لیست هست، نیازی به ورود آن ندارید)"
+
+msgid "About SL plugins..."
+msgstr "دربارهSL plugins"
+
+msgid "Location of the SL plugins"
+msgstr "مكانSL plugins"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "مي خواهيد افزونهSL plugins كجا باشد؟"
+
+msgid "Standard"
+msgstr "استاندارد"
+
+msgid "under Plugins"
+msgstr "در قسمت افزونه ها"
+
+msgid "under Tools"
+msgstr "در قسمت ابزارها"
+
+msgid "under Settings"
+msgstr "در قسمت تنظيمات"
+
+msgid "Choose a media"
+msgstr "انتخاب يك رسانه"
 

@@ -4,8 +4,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-28T21:16:10+00:00\n"
+"PO-Revision-Date: 2014-08-24T20:13:43+00:00\n"
 "Last-Translator: Lamberto75 <lambertopernici@gmail.com>\n"
+"Last-Translator: Emilio <emilio.lupi.lo@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -240,7 +241,7 @@ msgid "Add"
 msgstr "Aggiungi"
 
 msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
-msgstr "Il &#039;SL quadro&#039; è un framework utilizzato per sviluppo di molti plugin. Quindi, se si partecipa alla traduzione del framework, sarà utile per molti plugin."
+msgstr "Il &#039;SL framework&#039; è un framework utilizzato per sviluppo di molti plugin. Quindi, se si partecipa alla traduzione del framework, sarà utile per molti plugin."
 
 msgid "There is %s languages supported for the 'SL framework'."
 msgstr "Ci sono %s lingue supportate per il &#039;SL Framework&#039;."
@@ -345,7 +346,7 @@ msgid "Rating: %s"
 msgstr "Valutazione: %s"
 
 msgid "by %s persons"
-msgstr "da %s perone"
+msgstr "da %s persone"
 
 msgid "Number of download:"
 msgstr "Numero di download"
@@ -436,4 +437,37 @@ msgstr "Il file %s non può essere creato. Ci potrebbe essere un problema con i 
 
 msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
 msgstr "Il file %s non può essere modificato. Ci potrebbe essere un problema con i permessi dei file o le restrizioni di sicurezza."
+
+msgid "About SL plugins..."
+msgstr "About SL plugins..."
+
+msgid "Location of the SL plugins"
+msgstr "Posizione dei plugin SL"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Dove vuoi visualizzare i plugin SL:"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "under Plugins"
+msgstr "sotto Plugin"
+
+msgid "under Tools"
+msgstr "sotto Plugin"
+
+msgid "under Settings"
+msgstr "sotto impostazioni"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "I seguenti plugin sono stati sviluppati dall&#039;autore e non sono ancora stati installati:"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "L&#039;URL è corretto e l&#039;ID del file multimediale è %s."
+
+msgid "The URL is not a media file."
+msgstr "L&#039;URL non è un file multimediale."
+
+msgid "Choose a media"
+msgstr "Scegli un supporto"
 

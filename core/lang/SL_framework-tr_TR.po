@@ -4,8 +4,11 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-08-05T19:18:04+00:00\n"
+"PO-Revision-Date: 2014-10-21T15:07:30+00:00\n"
 "Last-Translator: GeneticAjans <http://www.geneticajans.com>\n"
+"Last-Translator: Dunyabilim <www.dunyabilim.com>\n"
+"Last-Translator: Dunyabilim.com <www.dunyabilim.com>\n"
+"Last-Translator: HarunGeit <www.dunyabilim.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -204,7 +207,7 @@ msgid "The feedback has been sent"
 msgstr "Geribildirim gönderildi."
 
 msgid "KB"
-msgstr "KM"
+msgstr "KB"
 
 msgid "MB"
 msgstr "MB"
@@ -214,4 +217,55 @@ msgstr "GB"
 
 msgid "Error: %s function is not found"
 msgstr "Hata: %s fonksiyonu bulunamadı"
+
+msgid "About SL plugins..."
+msgstr "SL Eklentisi Hakkında"
+
+msgid "Location of the SL plugins"
+msgstr "SL Eklenti Konumları"
+
+msgid "Standard"
+msgstr "Standart"
+
+msgid "An error occured sending the email."
+msgstr "E-Posta Gönderilemedi."
+
+msgid "Plugin not yet installed"
+msgstr "Eklenti yüklü değil"
+
+msgid "Description and Screenshots"
+msgstr "Açıklama ve Ekran Görüntüsü"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Eklenti tüm yazarlar için yüklendi. Teşekkürler!"
+
+msgid "Installed plugins"
+msgstr "Eklenti kuruldu"
+
+msgid "Add new"
+msgstr "Yeni"
+
+msgid "(Delete)"
+msgstr "(Sil)"
+
+msgid "Values"
+msgstr "Değerler"
+
+msgid "The URL is not a media file."
+msgstr "URL bir medya içermiyor."
+
+msgid "Choose a media"
+msgstr "Medya Seç"
+
+msgid "Reset to default values"
+msgstr "Varsayılanlara Dön"
+
+msgid "Your email or your website:"
+msgstr "E-posta adresiniz yada web siteniz"
+
+msgid "Create the translation files"
+msgstr "Çeviri dosyası oluştur"
+
+msgid "Add a new translation"
+msgstr "Yeni Çeviri Ekle"
 

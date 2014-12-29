@@ -4,15 +4,17 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-10-29T19:50:48+00:00\n"
+"PO-Revision-Date: 2014-12-09T09:14:58+00:00\n"
+"Last-Translator: SedLex <http://www.sedlex.fr/>\n"
 "Last-Translator: lan <http://www.dindan.eu/>\n"
+"Last-Translator: LinhHuongVN <adsraovat.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"
-"
+"X-Poedit-Language: Vietnamese\n"
+"X-Poedit-Country: Viet Nam\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;\n"
 "X-Poedit-Basepath: \n"
@@ -20,15 +22,420 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes\n"
 
+msgid "About SL plugins..."
+msgstr "Giới thiệu về phần mềm SL ."
+
 msgid "About..."
 msgstr "Giới thiệu ..."
+
+msgid "Settings"
+msgstr "Thiết lập"
 
 msgid "Log options"
 msgstr "Đăng nhập tùy chọn"
 
-msgid "IMAP Login:"
-msgstr "IMAP Đăng nhập:"
+msgid "What is the debug level:"
+msgstr "Mức độ lỗi là gì"
 
-msgid "IMAP Password:"
-msgstr "IMAP Mật khẩu:"
+msgid "See the debug logs"
+msgstr "Xem các bản ghi sửa lỗi"
+
+msgid "1=log only the critical errors;"
+msgstr "1=Bản chỉ các lỗi quan trọng"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=Bản chỉ các lỗi nghiêm trọng và sai số chuẩn"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=Bản chỉ các lỗi quan trọng, sai số chuẩn và việc cảnh báo"
+
+msgid "4=log information;"
+msgstr "4=Bản thông tin"
+
+msgid "5=log verbose;"
+msgstr "5= sử dụng nhiều hơn mức cần thiết"
+
+msgid "Multisite Management"
+msgstr "Quản lý nhiều trang web"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Bạn có muốn cho phép trang blog  phụ chỉnh sửa những bản dịch của các nhu lieu:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Nếu tùy chọn này không được chọn, các tab dịch sẽ không được hiển thị trong bảng điều khiển quản trị diễn đàn."
+
+msgid "Location of the SL plugins"
+msgstr "Vị trí của các nhu liệu SL"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Vị trí nào bạn muốn hiển thị các nhu liệu SL:"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Trang tóm tắt cho các nhu liệu phát triển với các khung SL"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Bây giờ, bạn đã cài đặt s %s nhu liệu bao gồm %s nhu liệu dang phát triển với khung của SedLex."
+
+msgid "The core plugin is located at %s"
+msgstr "Các nhu liệu chính nằm ở %s"
+
+msgid "Plugin name"
+msgstr "Tên nhu liệu"
+
+msgid "Description"
+msgstr "Mô Tả (Sản Phẩm)"
+
+msgid "There is a SQL database for this plugin"
+msgstr "Còn có một cơ sở dữ liệu SQL cho nhu liệu này"
+
+msgid "Version: %s by %s"
+msgstr "Phiên bản: %s của %s"
+
+msgid "List of SL plugins"
+msgstr "Danh sách các nhu liệu SL"
+
+msgid "Parameters of the framework"
+msgstr "Các thông số của khung"
+
+msgid "Manage translation of the framework"
+msgstr "Quản lý dịch thuật của khung"
+
+msgid "The folder %s is not %s !"
+msgstr "Thư mục %s không phải là %s !"
+
+msgid "The file %s is not %s !"
+msgstr "Tập tin %s không phải là %s !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "Thư mục %s không tồn tại và không thể được tạo ra!"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Tập tin %s không tồn tại và không thể được tạo ra!"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Có một số vấn đề với các thư mục có bản quyền. Hãy sửa lỗi càng sớm càng tốt vì chúng sẽ gây ra lỗi và không ổn định."
+
+msgid "Please see below:"
+msgstr "Vui lòng xem bên dưới:"
+
+msgid "Standard"
+msgstr "chuẩn"
+
+msgid "under Plugins"
+msgstr "dưới phần nhu liệu"
+
+msgid "under Tools"
+msgstr "dưới phần công cụ"
+
+msgid "under Settings"
+msgstr "dưới phần cài đặt"
+
+msgid "Filter: %s"
+msgstr "Bộ lọc: %s"
+
+msgid "%s of %s"
+msgstr "%s của %s"
+
+msgid "Current Page"
+msgstr "Trang hiện hành"
+
+msgid "Donate"
+msgstr "đóng góp"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr "Nếu bạn thích các nhu liệu này, xin đừng ngần ngại hiến tặng chút đỉnh. Xin lưu ý rằng plugin này được xây dựng trong thời gian rảnh của tôi nen toi cho miễn phí."
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr "Đây không phải là bắt buộc! nhưng nó có thể là một dấu hiệu cho thấy nhu liệu này phù hợp với nhu cầu của bạn: nó làm cho tôi vui vì hạnh phúc ..."
+
+msgid "Feedback form"
+msgstr "Mẫu góp ý"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Hình thức này là một cách dễ dàng để liên lạc với tác giả và để thảo luận về các vấn đề / không tương thích / etc. với anh ấy"
+
+msgid "Contact the author"
+msgstr "Hãy liên lạc với tác giả sáng tác"
+
+msgid "Your name:"
+msgstr "Tên của bạn:"
+
+msgid "Your email:"
+msgstr "Email của bạn"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Hữu ích ... để các tác giả sẽ có thể trả lời bạn."
+
+msgid "Your comments:"
+msgstr "bình luận của bạn"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "Xin lưu ý thêm rằng thông tin về cài đặt wordpress của bạn sẽ được gửi đến tác giả để giúp sửa lỗi nếu cần thiết (chẳng hạn như: phiên bản wordpress, các plugin được cài đặt, vv)"
+
+msgid "Send feedback"
+msgstr "Gửi ý kiến góp ý"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "Chưa có email cho tác giả sáng tác nhu liệu này. Do đó, việc ý kiến góp ý là điều không thể"
+
+msgid "The feedback has been sent"
+msgstr "Các ý kiến góp ý đã được gửi đi"
+
+msgid "An error occured sending the email."
+msgstr "Gặp lỗi khi gửi thư"
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Hãy chắc chắn rằng wordpress của bạn có thể gửi email."
+
+msgid "Plugins that you may install"
+msgstr "Nhu liệu mà bạn có thể cài đặt"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "Các Nhu liệu sau đây đã được phát triển bởi tác giả và chưa được cài đặt:"
+
+msgid "Plugin not yet installed"
+msgstr "Nhu liệu chưa được cài đặt:"
+
+msgid "Description and Screenshots"
+msgstr "Sự mô tả và hình chụp màn hình"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Tất cả nhu liệu của tác giả đã được cài đặt. Cảm ơn bạn!"
+
+msgid "Installed plugins"
+msgstr "Nhu liệu được cài đặt"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Bạn đã cài đặt nhu liệu của tác giả"
+
+msgid "Plugin already installed"
+msgstr "Nhu liệu đã được cài đặt"
+
+msgid "The Wordpress page: %s"
+msgstr "Các trang Wordpress : %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Có Lỗi HTTP bất ngờ xảy ra trong việc yêu cầu API."
+
+msgid "Last update:"
+msgstr "Cập nhật lần cuối:"
+
+msgid "Rating: %s"
+msgstr "Đánh giá: %s"
+
+msgid "by %s persons"
+msgstr "do người có %s"
+
+msgid "Number of download:"
+msgstr "số tải về:"
+
+msgid "Add new"
+msgstr "Thêm vào"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Lỗi: giá trị nộp không phải là một số nguyên và do đó, việc tham số chưa được cập nhật!"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Lỗi: chuỗi đệ trình không phù hợp"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Lỗi: Tập tin đã gửi không thể tải lên!"
+
+msgid "Error: security issue!"
+msgstr "Lỗi: vấn đề bảo mật!"
+
+msgid "Parameters"
+msgstr "Các thông số, kích thước"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Dưới đây là kích thước của phần mềm. Thay đổi chúng theo ý thích cho phù hợp với nhu cầu của bạn."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Dưới đây là kích thước của khung. Thay đổi chúng theo ý thích cho phù hợp với nhu cầu của bạn."
+
+msgid "(Delete)"
+msgstr "(Xóa)"
+
+msgid "Values"
+msgstr "Các giá trị"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Cảnh báo: một số các ký hiệu được gỡ bỏ bởi vì không được phép viết vào đây"
+
+msgid "(integer)"
+msgstr "(số nguyên)"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "URL đúng và ID của tập tin truyền thông là %s ."
+
+msgid "The URL is not a media file."
+msgstr "Các URL không phải là hồ sơ truyền thông."
+
+msgid "Choose a media"
+msgstr "Lựa chọn một phương tiện truyền thông"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(Nếu bạn muốn xóa hồ sơ này, xin vui lòng kiểm tra ô này %s )"
+
+msgid "Update"
+msgstr "Cập nhật"
+
+msgid "Reset to default values"
+msgstr "Thiết lập lại giá trị mặc định"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "Một vài thông số đã không được cập nhật do lỗi (xem bên dưới)!"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "Thông số đã được cập nhật (nhưng có một vài cảnh báo)!"
+
+msgid "Parameters have been updated successfully!"
+msgstr "Thông số đã được cập nhật thành công!"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "Thông số đã được thiết lập lại các giá trị mặc định của họ!"
+
+msgid "Close popup"
+msgstr "Đóng khung quảng cáo"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Ở đây, bạn có thể chỉnh đốn ba mức độ của các bản dịch: ở cấp phần mềm ở cấp khuôn khổ, và ở cấp bảng điều khiển. cấu hình bảng điều khiển"
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr ""
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr ""
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr ""
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr ""
+
+msgid "Adding a new translation for this language: %s"
+msgstr ""
+
+msgid "Sentence to translate"
+msgstr ""
+
+msgid "Translation"
+msgstr ""
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr ""
+
+msgid "Your email or your website:"
+msgstr ""
+
+msgid "Create the translation files"
+msgstr ""
+
+msgid "Add a new translation"
+msgstr ""
+
+msgid "Modifying the translation for this language: %s"
+msgstr ""
+
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr ""
+
+msgid "Modify the translation files"
+msgstr ""
+
+msgid "Modify translations"
+msgstr ""
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr ""
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr ""
+
+msgid "The translation %s have been sent"
+msgstr ""
+
+msgid "Send translation"
+msgstr ""
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr ""
+
+msgid "%s file has been updated for %s"
+msgstr ""
+
+msgid "%s file has been updated from this file"
+msgstr ""
+
+msgid "%s file has been created with a new translation for %s"
+msgstr ""
+
+msgid "%s file has been created from this file"
+msgstr ""
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr ""
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr ""
+
+msgid "Confirmation"
+msgstr ""
+
+msgid "Summary cached %s"
+msgstr ""
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr ""
+
+msgid "This plugin is available in %s languages."
+msgstr ""
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Ratio %"
+msgstr ""
+
+msgid "Translators"
+msgstr ""
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr ""
+
+msgid "Modify"
+msgstr ""
+
+msgid "Send to the author of the plugin"
+msgstr ""
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr ""
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr ""
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr ""
+
+msgid "Send to the author of the framework"
+msgstr ""
+
+msgid "KB"
+msgstr ""
+
+msgid "MB"
+msgstr ""
+
+msgid "GB"
+msgstr ""
 
