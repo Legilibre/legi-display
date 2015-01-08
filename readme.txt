@@ -4,7 +4,7 @@ Author: SedLex
 Contributors: SedLex
 Author URI: http://www.sedlex.fr/
 Plugin URI: http://wordpress.org/plugins/legi-display/
-Tags: tag
+Tags: law, legifrance, french, france, code
 Requires at least: 3.0
 Tested up to: 4.2
 Stable tag: trunk
@@ -65,4 +65,4 @@ Have fun !
 == Frequently Asked Questions ==
 
  
-InfoVersion:0b2853542cdafbe97df671466278b24680f67fe7
+InfoVersion:8aa92d09765e6be8f65958671cdd55b57a401c5b
