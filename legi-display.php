@@ -3,7 +3,8 @@
 Plugin Name: Legi Display
 Plugin Tag: law, legifrance, french, france, code
 Description: <p>Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/</p><p>See http://rip.journal-officiel.gouv.fr/index.php/pages/LO for the licence</p>
-Version: 1.0.3
+Version: 1.0.4
+
 Framework: SL_Framework
 Author: SedLex
 Author URI: http://www.sedlex.fr/
@@ -109,6 +110,21 @@ class legi_display extends pluginSedLex {
 			switch_to_blog($old_blog);
 		} else {
 			$wpdb->query("DROP TABLE ".$wpdb->prefix . "pluginSL_" . 'legi_display' ) ; 
+		}
+		
+		// DELETE FILES if needed
+		SLFramework_Utils::rm_rec(WP_CONTENT_DIR."/sedlex/legi-display/"); 
+		SLFramework_Utils::rm_rec(WP_CONTENT_DIR."/uploads/legi/"); 
+		$plugins_all = 	get_plugins() ; 
+		$nb_SL = 0 ; 	
+		foreach($plugins_all as $url => $pa) {
+			$info = pluginSedlex::get_plugins_data(WP_PLUGIN_DIR."/".$url);
+			if ($info['Framework_Email']=="sedlex@sedlex.fr"){
+				$nb_SL++ ; 
+			}
+		}
+		if ($nb_SL==1) {
+			SLFramework_Utils::rm_rec(WP_CONTENT_DIR."/sedlex/"); 
 		}
 	}
 	

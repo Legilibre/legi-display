@@ -50,6 +50,9 @@ Have fun !
 
 == Changelog ==
 
+= 1.0.4 = 
+* NEW: delete files upon desinstall
+
 = 1.0.3 = 
 * NEW: add icons
 
@@ -65,4 +68,4 @@ Have fun !
 == Frequently Asked Questions ==
 
  
-InfoVersion:8aa92d09765e6be8f65958671cdd55b57a401c5b
+InfoVersion:9dba0b9c41fd2c0c02140a5164565e3b96463bdf
