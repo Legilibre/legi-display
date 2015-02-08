@@ -1,203 +1,203 @@
 Content-Transfer-Encoding: 8bit
 
-#: legi-display.php:639
+#: legi-display.php:655
 #@ legi_display
 msgid "List the available LEGI code that you have imported"
 msgstr ""
 
-#: legi-display.php:718
+#: legi-display.php:734
 #@ legi_display
 msgid "The code does not seems to be an appropriate code."
 msgstr ""
 
-#: legi-display.php:723
+#: legi-display.php:739
 #@ legi_display
 msgid "The cache file %s has been deleted: it will be recreated in the next rendering of this code."
 msgstr ""
 
-#: legi-display.php:726
+#: legi-display.php:742
 #@ legi_display
 msgid "Code that has just been imported"
 msgstr ""
 
-#: legi-display.php:730
+#: legi-display.php:746
 #@ legi_display
 msgid "Choose a code to import/update in the following list:"
 msgstr ""
 
-#: legi-display.php:738
-#: legi-display.php:743
+#: legi-display.php:754
+#: legi-display.php:759
 #@ legi_display
 msgid "Import"
 msgstr ""
 
-#: legi-display.php:740
+#: legi-display.php:756
 #@ legi_display
 msgid "No code detected in your upload folder."
 msgstr ""
 
-#: legi-display.php:745
+#: legi-display.php:761
 #@ legi_display
 msgid "Here is the list of code that has already been imported:"
 msgstr ""
 
-#: legi-display.php:756
-#: legi-display.php:759
+#: legi-display.php:772
+#: legi-display.php:775
 #@ legi_display
 msgid "No code has been imported."
 msgstr ""
 
-#: legi-display.php:762
+#: legi-display.php:778
 #@ legi_display
 msgid "Already imported"
 msgstr ""
 
-#: legi-display.php:771
+#: legi-display.php:787
 #@ legi_display
 msgid "Import a code"
 msgstr ""
 
-#: legi-display.php:775
+#: legi-display.php:791
 #@ legi_display
 msgid "This plugin Display French Codes and laws once the XML files are retrieved from %s. See %s for the licence."
 msgstr ""
 
-#: legi-display.php:776
+#: legi-display.php:792
 #@ legi_display
 msgid "Purpose of that plugin"
 msgstr ""
 
-#: legi-display.php:779
+#: legi-display.php:795
 #@ legi_display
 msgid "At first, download the file %s on %s."
 msgstr ""
 
-#: legi-display.php:780
+#: legi-display.php:796
 #@ legi_display
 msgid "Unpack this file on your website (for instance, with %s if your are on Windows or any other compatible software)."
 msgstr ""
 
-#: legi-display.php:781
+#: legi-display.php:797
 #@ legi_display
 msgid "The unpacked files should be stored without modification on you website, in the %s folder (and therefore, the path should be something like this %s)."
 msgstr ""
 
-#: legi-display.php:782
+#: legi-display.php:798
 #@ legi_display
 msgid "Once this done, we should be able to import code in the Import tab."
 msgstr ""
 
-#: legi-display.php:783
+#: legi-display.php:799
 #@ legi_display
 msgid "How to import the codes?"
 msgstr ""
 
-#: legi-display.php:786
+#: legi-display.php:802
 #@ legi_display
 msgid "After the importation, you may insert in a page the shortcode %s in order to create a list of all imported codes. There is also a button in the page editor to insert such shortcode."
 msgstr ""
 
-#: legi-display.php:787
+#: legi-display.php:803
 #@ legi_display
 msgid "How to consult a code?"
 msgstr ""
 
-#: legi-display.php:792
+#: legi-display.php:808
 #@ legi_display
 msgid "How To"
 msgstr ""
 
-#: legi-display.php:796
+#: legi-display.php:812
 #@ legi_display
 msgid "Sub-Dir"
 msgstr ""
 
-#: legi-display.php:797
+#: legi-display.php:813
 #@ legi_display
 msgid "The name of the folder that will be used for displaying the French Code:"
 msgstr ""
 
-#: legi-display.php:798
+#: legi-display.php:814
 #@ legi_display
 msgid "If the folder is %s, the url to access the code would be something like %s."
 msgstr ""
 
-#: legi-display.php:799
+#: legi-display.php:815
 #@ legi_display
 msgid "For consistency, you may create a page accessible through this url and add a shortcode %s to display the list of all code you imported."
 msgstr ""
 
-#: legi-display.php:801
+#: legi-display.php:817
 #@ legi_display
 msgid "Web-Crawlers"
 msgstr ""
 
-#: legi-display.php:802
+#: legi-display.php:818
 #@ legi_display
 msgid "Allow the web crawlers (%s) to index the codes/articles:"
 msgstr ""
 
-#: legi-display.php:803
+#: legi-display.php:819
 #@ legi_display
 msgid "It is recommended to de-activate this option as most of the crawlers penalize websites with a lot of new/similar contents."
 msgstr ""
 
-#: legi-display.php:805
+#: legi-display.php:821
 #@ legi_display
 msgid "Appearance"
 msgstr ""
 
-#: legi-display.php:806
+#: legi-display.php:822
 #@ legi_display
 msgid "The CSS to be used:"
 msgstr ""
 
-#: legi-display.php:807
+#: legi-display.php:823
 #@ legi_display
 msgid "The default value is:"
 msgstr ""
 
-#: legi-display.php:812
+#: legi-display.php:828
 #@ legi_display
 msgid "Parameters"
 msgstr ""
 
-#: legi-display.php:820
+#: legi-display.php:836
 #@ legi_display
 msgid "Manage translations"
 msgstr ""
 
-#: legi-display.php:827
+#: legi-display.php:843
 #@ legi_display
 msgid "Give feedback"
 msgstr ""
 
-#: legi-display.php:835
+#: legi-display.php:851
 #@ legi_display
 msgid "Other plugins"
 msgstr ""
 
-#: legi-display.php:926
+#: legi-display.php:942
 #@ legi_display
 msgid "No folder %s may be found in %s: Please dowload the XML file on %s and upload the appropriate folder here."
 msgstr ""
 
-#: legi-display.php:930
+#: legi-display.php:946
 #@ legi_display
 msgid "The ID of the code should be 20 characters long (here, we have a %s characters long ID)."
 msgstr ""
 
-#: legi-display.php:942
+#: legi-display.php:958
 #@ legi_display
 msgid "No folder %s may be found in %s. Please make sure that the ID is correct."
 msgstr ""
 
-#: legi-display.php:957
+#: legi-display.php:973
 #@ legi_display
 msgid "%s entries have been imported (i.e. %s new entries and %s updated entries)."
 msgstr ""
 
-#: legi-display.php:1743
+#: legi-display.php:1759
 #@ legi_display
 msgid "Error: no id provided"
 msgstr ""
