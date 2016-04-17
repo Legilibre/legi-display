@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-09-10T15:44:21+00:00\n"
+"PO-Revision-Date: 2016-04-17T08:44:29+00:00\n"
 "Last-Translator: Mehdi <behzadi724@gmail.com>\n"
 "Last-Translator: AhmadWayfarer <http://7eshop.ir>\n"
 "Last-Translator: eminem <>\n"
@@ -12,6 +12,7 @@ msgstr ""
 "Last-Translator: Arashbytranslate.parsijoo.ir <http://arash-ne.ir>\n"
 "Last-Translator: Arash..by...translate.parsijoo.ir <http://arash-ne.ir>\n"
 "Last-Translator: Arash...by...translate.parsijoo.ir <http://arash-ne.ir>\n"
+"Last-Translator: shahinsalek <shst69@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -360,7 +361,7 @@ msgid "Contact the author"
 msgstr "تماس با نویسنده"
 
 msgid "Your email:"
-msgstr "ایمیل:"
+msgstr "ایمیل شما:"
 
 msgid "Useful... so that the author will be able to anwser you."
 msgstr "مفید بود... برای این که نویسنده قادر به پاسخ شما باشد."
@@ -432,13 +433,13 @@ msgid "(if your name/pseudo is already in the list, there is no need to fill thi
 msgstr "(اگر نام شما در لیست هست، نیازی به ورود آن ندارید)"
 
 msgid "About SL plugins..."
-msgstr "دربارهSL plugins"
+msgstr "درباره اس ال پلاگین"
 
 msgid "Location of the SL plugins"
-msgstr "مكانSL plugins"
+msgstr "مكان SL plugins"
 
 msgid "Where do you want to display the SL plugins:"
-msgstr "مي خواهيد افزونهSL plugins كجا باشد؟"
+msgstr "مي خواهيد افزونه SL plugins كجا باشد؟"
 
 msgid "Standard"
 msgstr "استاندارد"
@@ -454,4 +455,22 @@ msgstr "در قسمت تنظيمات"
 
 msgid "Choose a media"
 msgstr "انتخاب يك رسانه"
+
+msgid "The URL is not a media file."
+msgstr "این آدرس شامل فایل مدیا نمی باشد."
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "برخی از مسائل به دلیل حق دسترسی به فولدر ها می باشد. لطفا آن ها را برسی کرده و در اسرع وقت رفع نمایید."
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "آدرس صحیح است و آی دی فایل مدیا %s است."
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "فایل %s نمی تواند ایجاد شود برای ایجاد %s هیچ ترجمه ای وجود ندارد. لطفا حداقل یک جمله را برای ایجاد شدن فایل ترجمه کنید."
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "شما ممکن از ترجمه جدید اضافه کنید ( لطفا ترجمه خود را جوری قرار دهید که در صروت بروز شدن پلاگین ترجمه قابل استفاده باشد)"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "&#039;SL framework&#039; یک فریم ورك توسعه برای ساخت پلاگین است مانند همین پلاگین. بنابر این اگر شما به ترجمه این فریم ورك کمک کنید انگار به کل پلاگین هایی که با این فریم ورك نوشته می شود کمک کرده اید."
 

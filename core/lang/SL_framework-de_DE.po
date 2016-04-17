@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-12-01T09:34:23+00:00\n"
+"PO-Revision-Date: 2015-10-09T14:13:47+00:00\n"
 "Last-Translator: reitermarkus <me@reitermark.us>\n"
 "Last-Translator: ThorstenKallnischkies <http://desastre.eu>\n"
 "Last-Translator: blog.xmee.de <blog.xmee.de>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Last-Translator: HenningKlocke <internet-workflow.de>\n"
 "Last-Translator: DL8AAP <http://dl8aap.koch-carsten.de>\n"
 "Last-Translator: solist <http://cts.solist.co>\n"
+"Last-Translator: Gahapati <gahapati@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +67,7 @@ msgid "Multisite Management"
 msgstr "Mehrere Webseiten managen"
 
 msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
-msgstr "Möchten Sie, dass Unter-Blogs die Übersetzungen der Plugins verändern?"
+msgstr "Möchten Sie, daß Unter-Blogs die Übersetzungen der Plugins verändern?"
 
 msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
 msgstr "Wenn diese Option nicht aktiviert ist, wird der Übersetzungs-Tab auf der Blog-Administrations-Seite ausgeblendet."
@@ -81,13 +82,13 @@ msgid "Description"
 msgstr "Beschreibung"
 
 msgid "There is a SQL database for this plugin"
-msgstr "SQL-Datenbank für dieses Plugin existiert"
+msgstr "SQL-Datenbank für dieses Plugin existiert."
 
 msgid "Version: %s by %s"
 msgstr "Version: %s von %s"
 
 msgid "List of SL plugins"
-msgstr "Liste der SL Plugins"
+msgstr "Liste der SL-Plugins"
 
 msgid "Parameters of the framework"
 msgstr "Framework - Einstellungen"
@@ -96,10 +97,10 @@ msgid "Manage translation of the framework"
 msgstr "Übersetzung des Frameworks verwalten"
 
 msgid "The folder %s is not %s !"
-msgstr "Der Ordner %s ist nicht %s"
+msgstr "Der Ordner %s ist nicht %s!"
 
 msgid "The file %s is not %s !"
-msgstr "Die Datei %s ist nicht %s"
+msgstr "Die Datei %s ist nicht %s!"
 
 msgid "The folder %s does not exists and cannot be created !"
 msgstr "Das Verzeichnis %s existiert nicht und kann nicht angelegt werden!"
@@ -108,7 +109,7 @@ msgid "The file %s does not exists and cannot be created !"
 msgstr "Die Datei %s existiert nicht und kann nicht angelegt werden!"
 
 msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
-msgstr "Es gibt probleme mit Berechtigungen von Verzeichnissen. Bitte beheben Sie sie schnellstmöglich, weil sie instabiles Verhalten Ihrer Webseite bewirken können."
+msgstr "Es sind Probleme mit Berechtigungen von Verzeichnissen aufgetreten. Bitte beheben Sie sie schnellstmöglich, weil dies die Stabilität Ihrer Webseite beeinträchtigen kann."
 
 msgid "Please see below:"
 msgstr "Siehe unten:"
@@ -117,13 +118,13 @@ msgid "Close popup"
 msgstr "Pop-Up schließen"
 
 msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
-msgstr "Hier kannst du drei Ebenen der Übersetzung einstellen: Auf Plugin Ebene, auf Framework Ebene und auf Dashboard Ebene."
+msgstr "Hier können Sie drei Ebenen der Übersetzung einstellen: Auf Plugin-Ebene, auf Framework-Ebene und auf Dashboard-Ebene."
 
 msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
-msgstr "Bitte nehme zur Kenntnis das deine gegenwärtige Sprache %s ist. Der Text wird übersetzt sobald eine Übersetzung zur Verfügung steht."
+msgstr "Bitte beachten Sie, daß Ihre gegenwärtige Sprache %s ist. Der Text wird übersetzt, sobald eine Übersetzung zur Verfügung steht."
 
 msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
-msgstr "Wenn du die Sprache ändern willst, gehe bitte in %s und finde %s oder %s. Das zweite Argument ist die Sprache und könnte geändert werden."
+msgstr "Wenn Sie die Sprache ändern möchten, gehen Sie bitte in %s und suchen Sie nach %s oder %s. Das zweite Argument ist die Sprache und kann geändert werden."
 
 msgid "Translations available for this plugin (i.e. %s)"
 msgstr "Übersetzungen für dieses Plugin (%s) verfügbar"
@@ -135,7 +136,7 @@ msgid "Adding a new translation for this language: %s"
 msgstr "Eine neue Übersetzung für folgende Sprache hinzufügen: %s"
 
 msgid "Sentence to translate"
-msgstr "Satz, der zu übersetzen ist"
+msgstr "Zu übersetzender Satz"
 
 msgid "Translation"
 msgstr "Übersetzung"
@@ -144,7 +145,7 @@ msgid "Your name:"
 msgstr "Name:"
 
 msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
-msgstr "( falls dein Name/ Pseudonym bereits in der Liste ist, muss dieses Feld nicht ausgefüllt werden)"
+msgstr "(falls Ihr Name/Pseudonym bereits in der Liste ist, muß dieses Feld nicht ausgefüllt werden)"
 
 msgid "Your email or your website:"
 msgstr "Deine Email oder Webseite:"
@@ -171,13 +172,13 @@ msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be ch
 msgstr "%s Sätze wurden bereits übersetzt ( z.B. %s ) %s %s Sätze müssen korrigiert werden, weil sie nur annähernd richtig übersetzt wurden.%s"
 
 msgid "The translation %s have been sent"
-msgstr "Die Übersetzung %s wurde verschickt"
+msgstr "Die Übersetzung %s wurde verschickt."
 
 msgid "An error occured sending the email."
 msgstr "Ein Fehler trat beim Verschicken der Mail auf."
 
 msgid "Make sure that your wordpress is able to send email."
-msgstr "Bitte stellen Sie sicher, dass WordPress Mails verschicken kann."
+msgstr "Bitte stellen Sie sicher, daß WordPress E-Mails verschicken kann."
 
 msgid "Send translation"
 msgstr "Übersetzung verschicken."
@@ -237,13 +238,13 @@ msgid "Send to the author of the plugin"
 msgstr "An den Autor des Plugins senden"
 
 msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
-msgstr "Sie können hier eine neue Übersetzung hinzufügen ( bitte beachten Sie, dass Sie ihre Übersetzung auch an den Autor senden, damit die Übersetzung für zukünftige Veröffentlichungen verwendet werden kann! )"
+msgstr "Sie können hier eine neue Übersetzung hinzufügen ( bitte beachten Sie, daß Sie ihre Übersetzung auch an den Autor senden, damit die Übersetzung für zukünftige Veröffentlichungen verwendet werden kann! )"
 
 msgid "Add"
 msgstr "Hinzufügen"
 
 msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
-msgstr "Das &quot;SL Framework&quot; ist ein Framework, welches benutzt wird, um viele Plugins wie dieses hier zu entwickeln. Falls Sie sich entscheiden, dieses Framework zu übersetzen, helfen Sie einer Menge an Plugins."
+msgstr "Das &quot;SL-Framework&quot; ist ein Framework, welches benutzt wird, um viele Plugins wie dieses hier zu entwickeln. Falls Sie sich entscheiden, dieses Framework zu übersetzen, kommt dies einer ganzen Anzahl Plugins zugute."
 
 msgid "There is %s languages supported for the 'SL framework'."
 msgstr "Es sind %s Sprachen für das &quot;SL Framework&quot; verfügbar."
@@ -261,10 +262,10 @@ msgid "Error: the submitted value is not an integer and thus, the parameter has 
 msgstr "Fehler: der übergebene Wert ist nicht ganzzahlig (Integer), die Parameter wurden nicht aktualisiert!"
 
 msgid "Error: the submitted string does not match the constrains"
-msgstr "Fehler: Die Eingabe stimmt nicht mit den Anforderungen überein"
+msgstr "Fehler: Die Eingabe stimmt nicht mit den Anforderungen überein."
 
 msgid "Error: the submitted file can not be uploaded!"
-msgstr "Fehler! Die abgeschickte Datei kann nicht hochgeladen werden"
+msgstr "Fehler! Die abgeschickte Datei kann nicht hochgeladen werden."
 
 msgid "Error: security issue!"
 msgstr "Fehler! Sicherheitsproblem!"
@@ -285,13 +286,13 @@ msgid "Values"
 msgstr "Werte"
 
 msgid "Warning: some characters have been removed because they are not allowed here"
-msgstr "Warnung: Einige Zeichen wurden entfernt weil sie bei dieser Eingabe nicht erlaubt sind.."
+msgstr "Warnung: Einige Zeichen wurden entfernt, weil sie bei dieser Eingabe nicht erlaubt sind."
 
 msgid "(integer)"
 msgstr "(Integer)"
 
 msgid "(If you want to delete this file, please check this box %s)"
-msgstr "(Wenn Sie diese Datei löschen wollen, setzen Sie hier einen Haken: %s)"
+msgstr "(Wenn Sie diese Datei löschen wollen, setzen Sie hier einen Haken: %s.)"
 
 msgid "Update"
 msgstr "Aktualisierung"
@@ -324,7 +325,7 @@ msgid "Description and Screenshots"
 msgstr "Beschreibung und Screenshots"
 
 msgid "All author's plugins have been installed. Thank you!"
-msgstr "Alle Plugins des Autoren wurden installiert. Vielen Dank!"
+msgstr "Alle Plugins des Autors wurden installiert. Vielen Dank!"
 
 msgid "Installed plugins"
 msgstr "Installierte Plugins"
@@ -333,13 +334,13 @@ msgid "You have already installed the following author's plugins:"
 msgstr "Sie haben bereits Plugins des folgenden Autoren installiert:"
 
 msgid "Plugin already installed"
-msgstr "Plugin schon installiert"
+msgstr "Plugin bereits installiert"
 
 msgid "The Wordpress page: %s"
 msgstr "Wordpress-Seite: %s"
 
 msgid "An Unexpected HTTP Error occurred during the API request."
-msgstr "Ein unerwarteter HTTP Fehler ist während der API-Anfrage aufgetreten."
+msgstr "Ein unerwarteter HTTP-Fehler ist während der API-Anfrage aufgetreten."
 
 msgid "Last update:"
 msgstr "Letzte Aktualisierung:"
@@ -366,10 +367,10 @@ msgid "Donate"
 msgstr "Spenden"
 
 msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
-msgstr "Wenn dir das Plugin gefällt, zögere nicht zu spenden. Bitte beachte das dieses Plugin in meiner Freizeit entwickelt wurde und kostenlos zur Verfügung steht."
+msgstr "Wenn Ihnen das Plugin gefällt, zögeren Sie nicht zu spenden. Bitte beachten Sie, daß dieses Plugin in meiner Freizeit entwickelt wurde und kostenlos zur Verfügung steht."
 
 msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
-msgstr "Dies ist zwar keine Pflicht, wäre aber auch ein Indikator für mich, ob das Plugin eure Bedürfnisse befriedigt. Ganz nebenbei würde ich mich auch darüber freuen."
+msgstr "Dies ist zwar keine Pflicht, wäre aber auch ein Indikator für mich, ob das Plugin Ihre Bedürfnisse befriedigt. Ganz nebenbei würde ich mich auch darüber freuen."
 
 msgid "Feedback form"
 msgstr "Feedback-Formular"
@@ -390,7 +391,7 @@ msgid "Your comments:"
 msgstr "Ihre Kommentare:"
 
 msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
-msgstr "Bitte nehmen Sie zur Kenntnis, dass zusätzliche Informationen an den Autor geschickt werden, wie z.B. WordPress-Version, installierte Plugins, etc. Diese Informationen werden benötigt, um Fehler zu finden."
+msgstr "Bitte beachten Sie, daß zusätzliche Informationen an den Autor geschickt werden, wie z.B. WordPress-Version, installierte Plugins, etc. Diese Informationen werden benötigt, um Fehler zu finden."
 
 msgid "Send feedback"
 msgstr "Feedback senden"
@@ -441,7 +442,7 @@ msgid "The file %s cannot be modified. You should have a problem with file permi
 msgstr "Die Datei %s kann nicht geändert werden. Überprüfen Sie die Datei-Berechtigungen."
 
 msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
-msgstr "Bis jetzt hast Du %s Plugins installiert inclusive %s Plugins, die mit SedLex&#039;s framework entwickelt wurden."
+msgstr "Bis jetzt haben Sie %s Plugins installiert, einschließlich %s Plugins, die mit SedLex&#039; Framework entwickelt wurden."
 
 msgid "The core plugin is located at %s"
 msgstr "Das Hauptplugin ist zu finden unter %s."
@@ -450,10 +451,10 @@ msgid "The following plugins have been developed by the author and are not yet b
 msgstr "Die folgenden Plugins von diesem Autor sind noch nicht installiert:"
 
 msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
-msgstr "Die Häufigkeit des Vorkommens von %s stimmt in beiden Strings nicht überein. Beachten Sie dass der String %s durch einen kontext bezogen String ersetzt wird."
+msgstr "Die Häufigkeit des Vorkommens von %s stimmt in beiden Strings nicht überein. Beachten Sie daß der String %s durch einen kontext bezogen String ersetzt wird."
 
 msgid "About SL plugins..."
-msgstr "SL-Plugins Einstellungen"
+msgstr "SL-Plugins"
 
 msgid "Location of the SL plugins"
 msgstr "Zugänglichkeit der SL-Plugins-Einstellungen"
@@ -474,10 +475,10 @@ msgid "under Settings"
 msgstr "unter &quot;Einstellungen&quot;"
 
 msgid "The URL is correct and the ID of the media file is %s."
-msgstr "Die URL ist korrekt und die ID der Media-Datei ist %s"
+msgstr "Die URL ist korrekt und die ID der Media-Datei ist %s."
 
 msgid "The URL is not a media file."
-msgstr "Die URL verweist auf keine Media-Datei"
+msgstr "Die URL verweist auf keine Media-Datei."
 
 msgid "Choose a media"
 msgstr "Medium wählen"

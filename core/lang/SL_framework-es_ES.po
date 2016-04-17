@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-10T15:16:31+00:00\n"
+"PO-Revision-Date: 2015-04-04T21:16:52+00:00\n"
 "Last-Translator: IgnacioCalvo <http://ignaciocalvo.com>\n"
 "Last-Translator: Verto <vertofotografia.es>\n"
 "Last-Translator: SecurityNull <www.securitynull.net>\n"
@@ -30,25 +30,25 @@ msgid "About..."
 msgstr "Acerca de..."
 
 msgid "Settings"
-msgstr "Configuración"
+msgstr "Ajustes"
 
 msgid "Log options"
 msgstr "Opciones de registro"
 
 msgid "What is the debug level:"
-msgstr "Nivel de depuración:"
+msgstr "Cuál es el nivel de depuración:"
 
 msgid "See the debug logs"
-msgstr "Ver registros de depuración"
+msgstr "Ver los registros de depuración"
 
 msgid "1=log only the critical errors;"
-msgstr "1=registrar sólo errores críticos;"
+msgstr "1=registrar sólo los errores críticos;"
 
 msgid "2=log only the critical errors and the standard errors;"
-msgstr "2=registrar sólo errores críticos y estándar;"
+msgstr "2=registrar sólo los errores críticos y los estándar;"
 
 msgid "3=log only the critical errors, the standard errors and the warnings;"
-msgstr "3=registrar sólo errores críticos y estándar y advertencias;"
+msgstr "3=registrar sólo los errores críticos, los estándar y las advertencias;"
 
 msgid "4=log information;"
 msgstr "4=registrar información;"
@@ -57,19 +57,19 @@ msgid "5=log verbose;"
 msgstr "5=registrar todos los detalles;"
 
 msgid "Multisite Management"
-msgstr "Gestión de Multisitio"
+msgstr "Gestión Multisitio"
 
 msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
 msgstr "Desea que los sub-blogs modifiquen las traducciones de los plugins:"
 
 msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
-msgstr "Si no marca esta opción, la ficha de traducción no se mostrará en el panel de administración del blog."
+msgstr "Si no marca esta opción, la pestaña de traducción no se mostrará en el panel de administración del blog."
 
 msgid "Summary page for the plugins developped with the SL framework"
-msgstr "Página resumen de los plugins desarrollados con SL Framework"
+msgstr "Página resumen para los plugins desarrollados con el framework SL"
 
 msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
-msgstr "Por ahora, han instalado plugins de %s incluyendo %s plugins desarrollado con marco de SedLex"
+msgstr "Por ahora, ha instalado %s plugins incluyendo %s plugins desarrollados con el framework de SedLex"
 
 msgid "The core plugin is located at %s"
 msgstr "El plugin de base se encuentra en %s"
@@ -111,7 +111,7 @@ msgid "There are some issues with folders rights. Please corret them as soon as 
 msgstr "Hay problemas con los permisos de la carpeta. Por favor, corríjalos lo antes posible pues podrían producir errores e inestabilidades."
 
 msgid "Please see below:"
-msgstr "Por favor, ver más abajo:"
+msgstr "Por favor, vea debajo:"
 
 msgid "Close popup"
 msgstr "Cerrar elemento emergente"
@@ -126,7 +126,7 @@ msgid "If you want to modify the language, please go in %s and find %s or %s. Th
 msgstr "Si desea modificar el idioma, por favor vaya a %s y encuentre %s o %s. El segundo argumento es su idioma y puede modificarlo como quiera."
 
 msgid "Translations available for this plugin (i.e. %s)"
-msgstr "Traducciones disponibles para el plugin  %s"
+msgstr "Traducciones disponibles para el plugin %s"
 
 msgid "Translations available for the SL framework (stored in %s)"
 msgstr "Traducciones disponibles para el framework (Almacenadas en SL %s)"
@@ -357,7 +357,7 @@ msgid "Number of download:"
 msgstr "Número de descarga:"
 
 msgid "Filter: %s"
-msgstr "Filtrar: %s"
+msgstr "Filtro: %s"
 
 msgid "%s of %s"
 msgstr "%s de %s"
@@ -369,7 +369,7 @@ msgid "Donate"
 msgstr "Donar"
 
 msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
-msgstr "Si le gusta el plugin, no dude en donar. Tenga en cuenta que este plugin es desarrollado en mi tiempo libre de forma gratuita."
+msgstr "Si le gusta el plugin, no dude en donar. Por favor tenga en cuenta que este plugin es desarrollado en mi tiempo libre de forma gratuita."
 
 msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
 msgstr "Esto no es obligatorio, pero es otra posible manera de agradecer este trabajo y además me hace más feliz ."
@@ -384,10 +384,10 @@ msgid "Contact the author"
 msgstr "Contacte con el autor"
 
 msgid "Your email:"
-msgstr "Su email:"
+msgstr "Su correo electrónico:"
 
 msgid "Useful... so that the author will be able to anwser you."
-msgstr "Útil para que el autor pueda responderle."
+msgstr "Útil... para que el autor pueda responderle."
 
 msgid "Your comments:"
 msgstr "Sus comentarios:"
@@ -442,4 +442,37 @@ msgstr "El archivo %s no se puede renombrar. Debe tener un problema con los perm
 
 msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
 msgstr "El archivo %s no se puede modificar. Debe tener un problema con los permisos de los archivos o las restricciones de seguridad."
+
+msgid "Location of the SL plugins"
+msgstr "Ubicación de los plugins SL"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Dónde quiere mostrar los plugins de SL:"
+
+msgid "Standard"
+msgstr "Estándar"
+
+msgid "under Plugins"
+msgstr "bajo Plugins"
+
+msgid "under Tools"
+msgstr "bajo Herramientas"
+
+msgid "under Settings"
+msgstr "bajo Ajustes"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "Los siguientes plugins han sido desarrollados por el autor y que aún no se han instalado:"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "La URL es correcta y la ID del fichero multimedia es %s."
+
+msgid "The URL is not a media file."
+msgstr "La URL no es un fichero multimedia."
+
+msgid "Choose a media"
+msgstr "Selecione un medio"
+
+msgid "About SL plugins..."
+msgstr "Acerca de plugins SL..."
 

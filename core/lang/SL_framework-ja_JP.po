@@ -4,8 +4,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-10-27T08:32:55+00:00\n"
+"PO-Revision-Date: 2015-08-03T08:34:56+00:00\n"
 "Last-Translator: hasegawa <lanna.in>\n"
+"Last-Translator: OsamuKudo <kudo@inforent.jp>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,9 +20,6 @@ msgstr ""
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes\n"
-
-msgid "About..."
-msgstr ""
 
 msgid "Settings"
 msgstr "設定"
@@ -47,495 +45,417 @@ msgstr "SVNインタフェースは、非表示になります！"
 msgid "The SVN parameters have been updated !"
 msgstr "SVNのパラメータが更新されました！"
 
-msgid "%s has been updated with %s !"
-msgstr ""
-
-msgid "Please click %shere%s to refresh the page and ensure everything is ok!"
-msgstr ""
-
-msgid "Summary page for the plugins developped with the SL framework"
-msgstr ""
-
-msgid "The core file used for the SedLex plugins is:"
-msgstr ""
-
-msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
-msgstr ""
-
-msgid "Plugin name"
-msgstr ""
-
-msgid "Description"
-msgstr ""
-
-msgid "Status of the core"
-msgstr ""
-
-msgid "An Unexpected HTTP Error occurred during the API request."
-msgstr ""
-
-msgid "This plugin does not seem to be hosted on the wordpress repository."
-msgstr ""
-
-msgid "This plugin is hosted by wordpress repository and is not up-to-date ! (i.e. %s)"
-msgstr ""
-
-msgid "(the repository)"
-msgstr ""
-
-msgid "This plugin is hosted by wordpress repository with the same version but the plugin is not exactly the same"
-msgstr ""
-
-msgid "This plugin is hosted by wordpress repository and is up-to-date !"
-msgstr ""
-
-msgid "Last update:"
-msgstr ""
-
-msgid "by %s persons"
-msgstr ""
-
-msgid "Rating:"
-msgstr ""
-
-msgid "Number of download:"
-msgstr ""
-
-msgid "Version: %s by %s"
-msgstr ""
-
-msgid "Update with the core of the %s plugin (only if you definitely know what you do)"
-msgstr ""
-
-msgid "This core is currently used by the framework and plugins !"
-msgstr ""
-
-msgid "SVN management"
-msgstr ""
-
-msgid "An error occurs when requesting %s"
-msgstr ""
-
-msgid "You do not seem to have a repository for Wordpress because %s returns a 404 error. Thus, ask for one here: %s"
-msgstr ""
-
-msgid "Overwrite the local plugin files with files stored the SVN repository"
-msgstr ""
-
-msgid "Quick"
-msgstr ""
-
-msgid "Slow"
-msgstr ""
-
-msgid "Update the SVN repository with your current local plugin files"
-msgstr ""
-
-msgid "The slow version may be useful if you have issues with the quick version."
-msgstr ""
-
-msgid "Show the advanced options and parameters:"
-msgstr ""
-
-msgid "Show/Hide"
-msgstr ""
-
-msgid "Show the developpers documentation:"
-msgstr ""
-
-msgid "Enable SVN to commit your developed plugin to wordpress.org:"
-msgstr ""
-
-msgid "Enable/Disable"
-msgstr ""
-
-msgid "Your SVN Login:"
-msgstr ""
-
-msgid "Your SVN password:"
-msgstr ""
-
-msgid "The author name displayed in the Wordpress plugin (probably close to your login):"
-msgstr ""
-
-msgid "Update"
-msgstr ""
-
-msgid "List of SL plugins"
-msgstr ""
-
-msgid "The following description is a quick tutorial on about how to create a plugin with the SL framework. (Please note that the following description is in English for developpers, sorry for this inconvenience)"
-msgstr ""
-
-msgid "How to develop a plugin?"
-msgstr ""
-
-msgid "Framework documentation"
-msgstr ""
-
-msgid "Manage translation of the framework"
-msgstr ""
-
-msgid "Please find hearafter all the possible classes and methods for the development with this framework"
-msgstr ""
-
-msgid "[CLASS]"
-msgstr ""
-
-msgid "Here is the method of the class:"
-msgstr ""
-
-msgid "[METHOD]"
-msgstr ""
-
-msgid "Description:"
-msgstr ""
-
-msgid "Parameters:"
-msgstr ""
-
-msgid "[optional]"
-msgstr ""
-
-msgid "(by default, its value is:"
-msgstr ""
-
-msgid "No param"
-msgstr ""
-
-msgid "Return value:"
-msgstr ""
-
-msgid "Typical call:"
-msgstr ""
-
-msgid "See also:"
-msgstr ""
-
-msgid "Version of"
-msgstr ""
-
-msgid "MD5 fingerprint of the framework:"
-msgstr ""
-
-msgid "Last update of the core: %s at %s"
-msgstr ""
-
-msgid "The folder %s is not %s !"
-msgstr ""
-
-msgid "The file %s is not %s !"
-msgstr ""
-
-msgid "The folder %s does not exists and cannot be created !"
-msgstr ""
-
-msgid "The file %s does not exists and cannot be created !"
-msgstr ""
-
-msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
-msgstr ""
-
-msgid "Please see below:"
-msgstr ""
-
-msgid "Update the SVN repository %s with your current local plugin files (slower version)"
-msgstr ""
-
-msgid "Update the SVN repository %s with your current local plugin files"
-msgstr ""
-
-msgid "Overwrite the local plugin %s files with files stored the SVN repository"
-msgstr ""
-
-msgid "Updating the local cache"
-msgstr ""
-
-msgid "folder created"
-msgstr ""
-
-msgid "folder creation has failed !"
-msgstr ""
-
-msgid "%s bytes transfered"
-msgstr ""
-
-msgid "An error occurred during the retrieval of files on the server ! Sorry ..."
-msgstr ""
-
-msgid "To be sure that you compare the local plugin with the latest repoository files, it is necessary to download it locally. Please wait during the update (your are using the slow version which may be more reliable especially with big plugins)..."
-msgstr ""
-
-msgid "Update of the files of the %s plugin in progress (%s files)"
-msgstr ""
-
-msgid "An error occurred when listing the files of the %s plugin ! Sorry ..."
-msgstr ""
-
-msgid "Browsing the modifications"
-msgstr ""
-
-msgid "Comparing %s with %s"
-msgstr ""
-
-msgid "Confirmation"
-msgstr ""
-
-msgid "Commit comment:"
-msgstr ""
-
-msgid "Yes, the SVN version will be deleted and be replaced by the local version"
-msgstr ""
-
-msgid "Yes, the local version will be overwritten with the repository files"
-msgstr ""
-
-msgid "Sending to the repository in progress..."
-msgstr ""
-
-msgid "Preparation of the sending done !"
-msgstr ""
-
-msgid "Sending the file is finished ! Now merging the change in the repository ..."
-msgstr ""
-
-msgid "Error while preparing the sending!"
-msgstr ""
-
-msgid "The commit has ended [ %s ]... You should received an email quickly !"
-msgstr ""
-
-msgid "The commit has ended but there is an error!"
-msgstr ""
-
-msgid "Sending to the local files in progress..."
-msgstr ""
-
-msgid "The rollback has ended ..."
-msgstr ""
-
-msgid "Your name:"
-msgstr ""
-
-msgid "Your email (for response):"
-msgstr ""
-
-msgid "Your comments:"
-msgstr ""
-
-msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
-msgstr ""
-
-msgid "Send feedback"
-msgstr ""
-
-msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
-msgstr ""
-
-msgid "The feedback has been sent"
-msgstr ""
-
-msgid "An error occured sending the email."
-msgstr ""
-
-msgid "Make sure that your wordpress is able to send email."
-msgstr ""
-
-msgid "Select all"
-msgstr ""
-
-msgid "Un-select all"
-msgstr ""
-
-msgid "KB"
-msgstr ""
-
-msgid "MB"
-msgstr ""
-
-msgid "GB"
-msgstr ""
-
-msgid "The available translation for the SL framework (contained in the '%s' folder)"
-msgstr ""
-
-msgid "There is %d languages supported for the 'SL framework'."
-msgstr ""
-
-msgid "There is %d sentence to be translated in the framework."
-msgstr ""
-
-msgid "The available translation for this plugin"
-msgstr ""
-
-msgid "There is %d languages supported for this plugin."
-msgstr ""
-
-msgid "There is %d sentence to be translated in this plugin."
-msgstr ""
-
-msgid "Please note that the translation for the framework is available in the %s submenu (see the %s tab)."
-msgstr ""
-
 msgid "Language"
 msgstr "言語"
 
-msgid "Ratio %"
-msgstr ""
+msgid "About SL plugins..."
+msgstr "SLプラグインについて"
 
-msgid "Translators"
-msgstr ""
+msgid "About..."
+msgstr "概略"
 
-msgid "Modify"
-msgstr ""
+msgid "Log options"
+msgstr "ログ記録オプション"
 
-msgid "Send to the author of the framework"
-msgstr ""
+msgid "What is the debug level:"
+msgstr "デバッグレベルの設定"
 
-msgid "Send to the author of the plugin"
-msgstr ""
+msgid "See the debug logs"
+msgstr "デバッグログ記録を見る"
 
-msgid "Add a new translation"
-msgstr ""
+msgid "1=log only the critical errors;"
+msgstr "1=致命的なエラーのみを記録する"
 
-msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
-msgstr ""
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=致命的なエラーと標準的なエラーを記録する"
 
-msgid "Add"
-msgstr ""
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=致命的なエラーと標準的なエラーと警告を記録する"
 
-msgid "Adding a new translation for this language: %s"
-msgstr ""
+msgid "4=log information;"
+msgstr "4=ログ記録のお知らせ"
 
-msgid "Sentence to translate"
-msgstr ""
+msgid "5=log verbose;"
+msgstr "5=進捗状況をログ記録する"
 
-msgid "Translation"
-msgstr ""
+msgid "Multisite Management"
+msgstr "複数サイトの管理"
 
-msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
-msgstr ""
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "プラグインの翻訳を変更する許可をしますか？"
 
-msgid "Your email or your website:"
-msgstr ""
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "このオプションが選択されていない時は、翻訳タブは管理者パネルに表示されません。"
 
-msgid "Create the translation files"
-msgstr ""
+msgid "Location of the SL plugins"
+msgstr "SLプラグインの位置"
 
-msgid "Modifying the translation for this language: %s"
-msgstr ""
+msgid "Where do you want to display the SL plugins:"
+msgstr "SLプラグインをどこに表示するか："
 
-msgid "Modify the translation files"
-msgstr ""
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "SLフレームワークによって開発されたプラグインの要約ページ"
 
-msgid "%s sentences have been translated (i.e. %s)."
-msgstr ""
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "これによって、SedLexのフレームワークによって開発された%sのプラグインを含む%sプラグインがインストールされました。"
 
-msgid "The translation %s have been sent"
-msgstr ""
+msgid "The core plugin is located at %s"
+msgstr "コアプラグインは%sにあります。"
 
-msgid "%s file has been updated for %s"
-msgstr ""
+msgid "Plugin name"
+msgstr "プラグインの名前"
 
-msgid "%s file has been updated from this file"
-msgstr ""
+msgid "Description"
+msgstr "説明"
 
-msgid "%s file has been created with a new translation for %s"
-msgstr ""
+msgid "There is a SQL database for this plugin"
+msgstr "このプラグイン用のSQLデーターベースがあります。"
 
-msgid "%s file has been created from this file"
-msgstr ""
+msgid "Version: %s by %s"
+msgstr "バージョン：%sによる%s"
+
+msgid "List of SL plugins"
+msgstr "SLプラグインの一覧"
+
+msgid "Parameters of the framework"
+msgstr "フレームワークの変数"
+
+msgid "Manage translation of the framework"
+msgstr "フレームワークの翻訳管理"
+
+msgid "The folder %s is not %s !"
+msgstr "%sフォルダが%sに存在していない！"
+
+msgid "The file %s is not %s !"
+msgstr "%sファイルが%sに存在していない！"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "フォルダ%sが%存在せず作成できていない！"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "ファイル%sが存在せず作成できていない！"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "フォルダーの権限に問題があります。バグや不安定の原因になるので速やかに正しく設定してください。"
+
+msgid "Please see below:"
+msgstr "以下を参照："
+
+msgid "Standard"
+msgstr "標準"
+
+msgid "under Plugins"
+msgstr "プラグインの下に置く"
+
+msgid "under Tools"
+msgstr "ツールの下に置く"
+
+msgid "under Settings"
+msgstr "設定の下に置く"
+
+msgid "Filter: %s"
+msgstr "フィルター：%s"
+
+msgid "%s of %s"
+msgstr "%sの%s"
+
+msgid "Current Page"
+msgstr "現在のページ"
+
+msgid "Donate"
+msgstr "寄付"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr "このプラグインは私の空き時間を使って無償で開発されたことを覚えておいてください。もし、あなたが気に入って寄付してくれるなら謹んでお受けいたします。"
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr "強制ではありません。でも、あなたのニーズにマッチしているならそれだけでも私の幸せです。"
+
+msgid "Feedback form"
+msgstr "感想や要望の問い合わせ"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "この問い合わせフォームで作者と連絡をとることができ、問題点や不具合を議論することができます。"
+
+msgid "Contact the author"
+msgstr "作者に連絡する"
+
+msgid "Your name:"
+msgstr "あなたの名前："
+
+msgid "Your email:"
+msgstr "あなたのメール："
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "便利・・・そうすれば作者があなたにお応えできます。"
+
+msgid "Your comments:"
+msgstr "あなたのコメント"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "デバッグを手伝う為に、インストールされているwordpressの追加情報を作者にお知らせください。（wordpressのバージョンやインストール済みのプラグインなど"
+
+msgid "Send feedback"
+msgstr "要望を送る"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "このプラグインの作者にメールが送られていません。要望が送ることができていません。"
+
+msgid "The feedback has been sent"
+msgstr "要望は送られました。"
+
+msgid "An error occured sending the email."
+msgstr "メールを送るときにエラーが発生しました。"
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "wordpressがメールを送ることができることをご確認ください。"
+
+msgid "Plugins that you may install"
+msgstr "インストールできるプラグイン"
+
+msgid "The following plugins have been developed by the author and are not yet been installed:"
+msgstr "次のプラグインが作者によって開発されました。まだインストールされていません。"
+
+msgid "Plugin not yet installed"
+msgstr "まだインストールされていないプラグイン"
+
+msgid "Description and Screenshots"
+msgstr "概要と画面例"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "全ての作者のプラグインがインストールされました。感謝！"
+
+msgid "Installed plugins"
+msgstr "インストールされたプラグイン"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "次の作者のプラグインがインストールされました。"
+
+msgid "Plugin already installed"
+msgstr "プラグインはインストールされました。"
+
+msgid "The Wordpress page: %s"
+msgstr "wordpressのページ：%s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "API要求中に予期せぬHTTPエラーが発生しました。"
+
+msgid "Last update:"
+msgstr "最新の更新："
+
+msgid "Rating: %s"
+msgstr "評価：%s"
+
+msgid "by %s persons"
+msgstr "%s人数による"
+
+msgid "Number of download:"
+msgstr "ダウンロード回数"
+
+msgid "Add new"
+msgstr "新規追加"
 
 msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
-msgstr ""
-
-msgid "Warning: some characters have been removed because they are not allowed here"
-msgstr ""
+msgstr "エラー：記入された値が整数でない。変数は更新されていません。"
 
 msgid "Error: the submitted string does not match the constrains"
-msgstr ""
+msgstr "エラー：記入された文字列が一致しない"
 
-msgid "Some parameters have not been updated due to errors (see below) !"
-msgstr ""
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "エラー：記入されたファイルはアップロードされていません。"
 
-msgid "Parameters have been updated (but with some warnings) !"
-msgstr ""
+msgid "Error: security issue!"
+msgstr "エラー：セイキュリティー問題"
 
-msgid "Parameters have been updated successfully !"
-msgstr ""
+msgid "Parameters"
+msgstr "変数"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "ここではプラグインの変数を設定します。要望に合うように変数を変更してください。"
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "ここではフレームワークの変数を設定します。要望に合うように変数を変更してください。"
+
+msgid "(Delete)"
+msgstr "（削除）"
+
+msgid "Values"
+msgstr "値"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "注意喚起：ここでは許可されていないためにいくつかの文字が削除されました。"
+
+msgid "(integer)"
+msgstr "（整数）"
+
+msgid "The URL is correct and the ID of the media file is %s."
+msgstr "そのURLは正しく、そのメディアファイルのIDは%sです。"
+
+msgid "The URL is not a media file."
+msgstr "そのURLはメディアファイルではありません。"
+
+msgid "Choose a media"
+msgstr "メディアを選択する"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "（このファイルを削除したければ。、このボックス%sにチェックを入れてください）"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Reset to default values"
+msgstr "初期値にリセットする"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "いくつかの変数がエラーのために更新されていません（下記を参照）！"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "変数は更新されました（ただし、いくつかの警告が出ています）！"
+
+msgid "Parameters have been updated successfully!"
+msgstr "変数の更新に成功しました！"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "変数は初期値にリセットされました！"
 
 msgid "Close popup"
-msgstr ""
+msgstr "ポップアップ画面を閉じる"
 
-msgid "Homepage:"
-msgstr ""
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "ここでは、翻訳の3段階を定義できます（プラグインの基準、フレームワークの基準、ダッシュボードの基準）"
 
-msgid "The file %s cannot be created. Therefore, no svn script can be created. Please make the folder writable or visit %s to install a SubVersion package on your server."
-msgstr ""
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "現在の言語は%sで案内されています。もし翻訳が利用可能ならばテキストは翻訳されます。"
 
-msgid "The folder %s does not exists and cannot be created. Therefore, no svn script can be created in that folder. Please create this folder (and make it writable) or visit %s to install a SubVersion package on your server."
-msgstr ""
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr "もし、言語を変更したければ、%sに行き、%sか%sを見つけてください。次の課題はあなたの言語であり、必要であれば変更できます。"
 
-msgid "The operating system of your server is %s. No installation of SVN has been found. Please visit %s to install a SubVersion package on your server."
-msgstr ""
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "このプラグインで利用できる翻訳（例：%s）"
 
-msgid "The exec function is disabled on your installation. This function is mandatory to be able to use SVN."
-msgstr ""
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "SLフレームワークで利用できる翻訳文（%sに保管されている）"
 
-msgid "SVN command:"
-msgstr ""
+msgid "Adding a new translation for this language: %s"
+msgstr "この言語：%sで新しい翻訳を追加する"
 
-msgid "%s returns the following code: %s"
-msgstr ""
+msgid "Sentence to translate"
+msgstr "翻訳すべき文章"
 
-msgid "Checkout has failed! Please retry ..."
-msgstr ""
+msgid "Translation"
+msgstr "翻訳"
 
-msgid "Indeed, it is known that the Checkout command have some difficulties to work. You may have to re-test several times (1-20 times) to finally succeed."
-msgstr ""
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "（お名前／仮名がすでに一覧にあるならば、この欄は空白でかまいません）"
 
-msgid "Do not panic: once the checkout have worked one time, the update command will be used and it is far more robust!"
-msgstr ""
+msgid "Your email or your website:"
+msgstr "メールかウェブサイト"
 
-msgid "NOTE: The command outputs the following information:"
-msgstr ""
+msgid "Create the translation files"
+msgstr "翻訳ファイルを作成する"
 
-msgid "The checkout have begun but have been interrupted without any reason!"
-msgstr ""
+msgid "Add a new translation"
+msgstr "新しい翻訳を追加する"
 
-msgid "Update the local cache"
-msgstr ""
+msgid "Modifying the translation for this language: %s"
+msgstr "この言語の翻訳を変更する：%s"
 
-msgid "Compare the local cache with the plugins files"
-msgstr ""
+msgid "The number of occurrence of %s does not match in both string. Please note that the string %s will be replaced with a contextual string."
+msgstr "%sの発生回数は両方の文字列に一致しません。文字列%sは文脈で置き換えられることに注意してください。"
 
-msgid "Yes, the local version will be deleted and be replaced by the files stored on the SVN repository"
-msgstr ""
+msgid "Modify the translation files"
+msgstr "翻訳ファイルを変更する"
 
-msgid "Retry the SVN preparation!"
-msgstr ""
+msgid "Modify translations"
+msgstr "翻訳文を変更する"
 
-msgid "Add a file: %s"
-msgstr ""
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s文章は翻訳されました（例：%s）"
 
-msgid "Delete a file: %s"
-msgstr ""
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%sの文章が翻訳されました。（例：%s）%s %s 翻訳に近くなるように（しかし、一致でない）、%s文章はチェックされなければなりません。"
 
-msgid "Final commit:"
-msgstr ""
+msgid "The translation %s have been sent"
+msgstr "%sの翻訳文が送られました。"
 
-msgid "The commit has ended and you may restart a normal life by closing the window..."
-msgstr ""
+msgid "Send translation"
+msgstr "翻訳文を送る"
 
-msgid "Thank you!"
-msgstr ""
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr "%sとして文章が翻訳されていないので%sファイルは作成できませんでした。どうぞ、最低一つ以上の文章を翻訳してください。"
 
-msgid "The overwrite has ended and you may restart a normal life by closing the window..."
-msgstr ""
+msgid "%s file has been updated for %s"
+msgstr "%sファイルは%sとしてアップデートされました。"
 
-msgid "Your credentials do not seem to be correct. Please check them!"
-msgstr ""
+msgid "%s file has been updated from this file"
+msgstr "%sファイルはこのファイルにより更新されました。"
 
-msgid "This file have not been written in the repository due to server problem. Nevertheless, you should retry as it often works better with a second try !"
-msgstr ""
+msgid "%s file has been created with a new translation for %s"
+msgstr "%sファイルは%sの新しい翻訳で作成されました。"
+
+msgid "%s file has been created from this file"
+msgstr "このファイルから%sファイルが作成されました。"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr "もし、このプラグインをアップグレードする時に翻訳を中途半端で終わらせたくないならば、%s ここで%sをクリックして作者に翻訳文を送ってください。"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr "もし、このプラグインをアップグレードする時に翻訳を中途半端で終わらせたくないならば、その翻訳文はアップグレード後まで自分のパソコンにしまっておいてください。"
+
+msgid "Confirmation"
+msgstr "確認"
+
+msgid "Summary cached %s"
+msgstr "一時保管された%sの要約"
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "このプラグインで使われている文章は英語です。このプラグインを翻訳することによって同じ言語の利用者を助けてあげてください。"
+
+msgid "This plugin is available in %s languages."
+msgstr "このプラグインは%s言語で利用できます。"
+
+msgid "There are %s sentences to be translated in this plugin."
+msgstr "このプラグインには翻訳された%s文章があります。"
+
+msgid "Ratio %"
+msgstr "比率％"
+
+msgid "Translators"
+msgstr "翻訳者"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "これは初期設定の言語です。変更できません。"
+
+msgid "Modify"
+msgstr "変更"
+
+msgid "Send to the author of the plugin"
+msgstr "プラグインの作者にメールを送る"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "あなたは今後新しい翻訳を追加してもよい（あなたの翻訳は、作者によって将来のプラグインのリリースで追加されることがあります。そのことにご注意ください！）"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "SLフレームワークは、多くのこの類のプラグインの開発に使われているフレームワークです。だからあなたが翻訳に参加してくれると多くのプラグインにとって大変助かります。"
+
+msgid "There is %s languages supported for the 'SL framework'."
+msgstr "SLフレームワークをサポートした%s言語があります。"
+
+msgid "There is %s sentence to be translated in the framework."
+msgstr "フレームワークを翻訳した%s文章があります。"
+
+msgid "Send to the author of the framework"
+msgstr "フレームワークの作者にメールを送る"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
 

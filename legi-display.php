@@ -3,7 +3,7 @@
 Plugin Name: Legi Display
 Plugin Tag: law, legifrance, french, france, code
 Description: <p>Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/</p><p>See http://rip.journal-officiel.gouv.fr/index.php/pages/LO for the licence</p>
-Version: 1.0.4
+Version: 1.0.5
 
 Framework: SL_Framework
 Author: SedLex

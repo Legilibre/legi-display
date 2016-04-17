@@ -6,7 +6,7 @@ Author URI: http://www.sedlex.fr/
 Plugin URI: http://wordpress.org/plugins/legi-display/
 Tags: law, legifrance, french, france, code
 Requires at least: 3.0
-Tested up to: 4.2
+Tested up to: 4.5
 Stable tag: trunk
 License: GPLv3
 
@@ -50,6 +50,9 @@ Have fun !
 
 == Changelog ==
 
+= 1.0.5 = 
+* NEW: Update the core
+
 = 1.0.4 = 
 * NEW: delete files upon desinstall
 
@@ -68,4 +71,4 @@ Have fun !
 == Frequently Asked Questions ==
 
  
-InfoVersion:757ee7270343805fc1a50601dc56b2300713cdb0
+InfoVersion:00165f5622af8410791e0fce5ebb97f51c54edf6

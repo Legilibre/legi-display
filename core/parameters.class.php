@@ -831,7 +831,7 @@ if (!class_exists("SLFramework_Parameters")) {
 					}
 					
 					if ($type=="page") {
-						$cl = "<p class='paramLine'><label for='".$param."'>".$name."</label></p>".$ew ; 
+						$cl = "<p class='paramLine'><label for='".$param."'>".$name."</label></p>"; 
 						// We check if there is a comment just after it
 						while (isset($this->buffer[$iii+1])) {
 							if ($this->buffer[$iii+1][0]!="comment") break ; 

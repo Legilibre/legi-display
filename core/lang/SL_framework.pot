@@ -1,190 +1,190 @@
 Content-Transfer-Encoding: 8bit
 
-#: core.class.php:519
-#: core.class.php:519
-#: core.class.php:521
-#: core.class.php:521
-#: core.class.php:523
-#: core.class.php:523
+#: core.class.php:571
+#: core.class.php:571
+#: core.class.php:573
+#: core.class.php:573
+#: core.class.php:575
+#: core.class.php:575
 #@ SL_framework
 msgid "About SL plugins..."
 msgstr ""
 
-#: core.class.php:527
-#: core.class.php:527
+#: core.class.php:579
+#: core.class.php:579
 #@ SL_framework
 msgid "About..."
 msgstr ""
 
-#: core.class.php:580
-#: core.class.php:602
-#: core.class.php:1347
+#: core.class.php:644
+#: core.class.php:666
+#: core.class.php:1427
 #@ SL_framework
 msgid "Settings"
 msgstr ""
 
-#: core.class.php:1271
+#: core.class.php:1351
 #@ SL_framework
 msgid "Log options"
 msgstr ""
 
-#: core.class.php:1272
+#: core.class.php:1352
 #@ SL_framework
 msgid "What is the debug level:"
 msgstr ""
 
-#: core.class.php:1273
+#: core.class.php:1353
 #@ SL_framework
 msgid "See the debug logs"
 msgstr ""
 
-#: core.class.php:1274
+#: core.class.php:1354
 #@ SL_framework
 msgid "1=log only the critical errors;"
 msgstr ""
 
-#: core.class.php:1275
+#: core.class.php:1355
 #@ SL_framework
 msgid "2=log only the critical errors and the standard errors;"
 msgstr ""
 
-#: core.class.php:1276
+#: core.class.php:1356
 #@ SL_framework
 msgid "3=log only the critical errors, the standard errors and the warnings;"
 msgstr ""
 
-#: core.class.php:1277
+#: core.class.php:1357
 #@ SL_framework
 msgid "4=log information;"
 msgstr ""
 
-#: core.class.php:1278
+#: core.class.php:1358
 #@ SL_framework
 msgid "5=log verbose;"
 msgstr ""
 
-#: core.class.php:1281
+#: core.class.php:1361
 #@ SL_framework
 msgid "Multisite Management"
 msgstr ""
 
-#: core.class.php:1282
+#: core.class.php:1362
 #@ SL_framework
 msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
 msgstr ""
 
-#: core.class.php:1283
+#: core.class.php:1363
 #@ SL_framework
 msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
 msgstr ""
 
-#: core.class.php:1286
+#: core.class.php:1366
 #@ SL_framework
 msgid "Location of the SL plugins"
 msgstr ""
 
-#: core.class.php:1287
+#: core.class.php:1367
 #@ SL_framework
 msgid "Where do you want to display the SL plugins:"
 msgstr ""
 
-#: core.class.php:1299
+#: core.class.php:1379
 #@ SL_framework
 msgid "Summary page for the plugins developped with the SL framework"
 msgstr ""
 
-#: core.class.php:1319
+#: core.class.php:1399
 #@ SL_framework
 msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
 msgstr ""
 
-#: core.class.php:1320
+#: core.class.php:1400
 #@ SL_framework
 msgid "The core plugin is located at %s"
 msgstr ""
 
-#: core.class.php:1331
+#: core.class.php:1411
 #@ SL_framework
 msgid "Plugin name"
 msgstr ""
 
-#: core.class.php:1331
+#: core.class.php:1411
 #@ SL_framework
 msgid "Description"
 msgstr ""
 
-#: core.class.php:1355
+#: core.class.php:1435
 #@ SL_framework
 msgid "There is a SQL database for this plugin"
 msgstr ""
 
-#: core.class.php:1359
+#: core.class.php:1439
 #@ SL_framework
 msgid "Version: %s by %s"
 msgstr ""
 
-#: core.class.php:1367
+#: core.class.php:1447
 #@ SL_framework
 msgid "List of SL plugins"
 msgstr ""
 
-#: core.class.php:1376
+#: core.class.php:1456
 #@ SL_framework
 msgid "Parameters of the framework"
 msgstr ""
 
-#: core.class.php:1390
+#: core.class.php:1470
 #@ SL_framework
 msgid "Manage translation of the framework"
 msgstr ""
 
-#: core.class.php:1527
+#: core.class.php:1607
 #@ SL_framework
 msgid "The folder %s is not %s !"
 msgstr ""
 
-#: core.class.php:1529
+#: core.class.php:1609
 #@ SL_framework
 msgid "The file %s is not %s !"
 msgstr ""
 
-#: core.class.php:1536
-#: core.class.php:1543
+#: core.class.php:1616
+#: core.class.php:1623
 #@ SL_framework
 msgid "The folder %s does not exists and cannot be created !"
 msgstr ""
 
-#: core.class.php:1548
+#: core.class.php:1628
 #@ SL_framework
 msgid "The file %s does not exists and cannot be created !"
 msgstr ""
 
-#: core.class.php:1555
+#: core.class.php:1635
 #@ SL_framework
 msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
 msgstr ""
 
-#: core.class.php:1555
+#: core.class.php:1635
 #@ SL_framework
 msgid "Please see below:"
 msgstr ""
 
-#: core.class.php:1648
+#: core.class.php:1728
 #@ SL_framework
 msgid "Standard"
 msgstr ""
 
-#: core.class.php:1649
+#: core.class.php:1729
 #@ SL_framework
 msgid "under Plugins"
 msgstr ""
 
-#: core.class.php:1650
+#: core.class.php:1730
 #@ SL_framework
 msgid "under Tools"
 msgstr ""
 
-#: core.class.php:1651
+#: core.class.php:1731
 #@ SL_framework
 msgid "under Settings"
 msgstr ""

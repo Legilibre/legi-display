@@ -99,11 +99,27 @@ if (!class_exists('pluginSedLex')) {
 			add_filter('the_content', array($this,'the_content_SL'), 1000);
 			add_filter('get_the_excerpt', array( $this, 'the_excerpt_SL'),1000000);
 			add_filter('get_the_excerpt', array( $this, 'the_excerpt_ante_SL'),2);
+			
+			// To debug error
+			add_action('activated_plugin',array($this,'save_error_on_activation'));
+
 						
 			$this->signature = '<p style="text-align:right;font-size:75%;">&copy; SedLex - <a href="http://www.sedlex.fr/">http://www.sedlex.fr/</a></p>' ; 
 			
 			$this->frmk = new coreSLframework() ;
-			$this->excerpt_called_SL = false ; 			
+			$this->excerpt_called_SL = false ; 	
+					
+		}
+		
+		/** ====================================================================================================================================================
+		* In order to save error that can be generated on activation
+		* 
+		* @access private
+		* @return void
+		*/
+
+		function save_error_on_activation($plugin) {
+    		update_option('plugin_error_on_activation',  ob_get_contents());
 		}
 				
 		/** ====================================================================================================================================================
@@ -157,22 +173,58 @@ if (!class_exists('pluginSedLex')) {
 			global $wpdb ; 
 			global $db_version;
 			
-			if (strlen(trim($this->tableSQL))>0) {
-				if($wpdb->get_var("show tables like '".$table_name."'") != $table_name) {
-					$sql = "CREATE TABLE " . $table_name . " (".$this->tableSQL. ") DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;";
 			
-					require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
-					dbDelta($sql);
+			// If there is only one sql table
+			if (!is_array($this->tableSQL)) {
+				if (strlen(trim($this->tableSQL))>0) {
+					if($wpdb->get_var("show tables like '".$table_name."'") != $table_name) {
+						$sql = "CREATE TABLE " . $table_name . " (".$this->tableSQL. ") DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;";
 			
-					add_option("db_version", $db_version);
+						require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+						dbDelta($sql);
+						
+						// On montre les erreurs en cas de besoin
+						if ($wpdb->last_error) {
+							ob_start();
+								var_dump($wpdb->last_query) ; 
+							echo 'SQL_Error=' . ob_get_clean() ; 
+							ob_start() ; 
+								var_dump($wpdb->last_error) ; 
+							echo ' ==> ' . ob_get_clean() ;  
+						} 
+			
+						add_option("db_version", $db_version);
 					
-					// Gestion de l'erreur
-					ob_start() ; 
-					$wpdb->print_error();
-					$result = ob_get_clean() ; 
-					if (strlen($result)>0) {
-						echo $result ; 
-						die() ; 
+						// Gestion de l'erreur
+						ob_start() ; 
+						$wpdb->print_error();
+						$result = ob_get_clean() ; 
+						if (strlen($result)>0) {
+							echo $result ; 
+							die() ; 
+						}
+					}
+				}
+			} else {
+				for ($i=0 ; $i<count($this->tableSQL) ; $i++) {
+					if (strlen(trim($this->tableSQL[$i]))>0) {
+						if($wpdb->get_var("show tables like '".$table_name[$i]."'") != $table_name[$i]) {
+							$sql = "CREATE TABLE " . $table_name[$i] . " (".$this->tableSQL[$i]. ") DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;";
+			
+							require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+							dbDelta($sql);
+			
+							add_option("db_version", $db_version);
+					
+							// Gestion de l'erreur
+							ob_start() ; 
+							$wpdb->print_error();
+							$result = ob_get_clean() ; 
+							if (strlen($result)>0) {
+								echo $result ; 
+								die() ; 
+							}
+						}					
 					}
 				}
 			}
@@ -497,7 +549,7 @@ if (!class_exists('pluginSedLex')) {
 		*/
 		public function admin_menu() {   
 		
-			global $menu,$SLtopLevel_alreadyInstalled,$SLpluginActivated ;
+			global $menu,$SLtopLevel_alreadyInstalled,$SLpluginActivated, $Custom_SLtopLevel ;
 			
 			$tmp = explode('/',plugin_basename($this->path)) ; 
 			$plugin = $tmp[0]."/".$tmp[0].".php" ; 
@@ -523,8 +575,16 @@ if (!class_exists('pluginSedLex')) {
 					$page = add_submenu_page('options-general.php', __('About SL plugins...', 'SL_framework'), __('About SL plugins...', 'SL_framework'), 'activate_plugins', $topLevel, array($this,'sedlex_information'));
 				} else {
 					//add main menu
-					add_object_page('SL Plugins', 'SL Plugins', 'activate_plugins', $topLevel, array($this,'sedlex_information'));
+					add_menu_page('SL Plugins', 'SL Plugins', 'activate_plugins', $topLevel, array($this,'sedlex_information'));
 					$page = add_submenu_page($topLevel, __('About...', 'SL_framework'), __('About...', 'SL_framework'), 'activate_plugins', $topLevel, array($this,'sedlex_information'));
+				}
+			}
+			
+			// If there is a specific main menu
+			if ((isset($this->upper_level_menu))&&($this->upper_level_menu!="")) {
+				if (!isset($Custom_SLtopLevel[$this->upper_level_menu])) {
+					$Custom_SLtopLevel[$this->upper_level_menu] = $plugin ; 
+					add_menu_page($this->upper_level_menu, $this->upper_level_menu, 'activate_plugins', $plugin, array($this,'configuration_page'));
 				}
 			}
 		
@@ -545,14 +605,18 @@ if (!class_exists('pluginSedLex')) {
 			
 			$SLpluginActivated[] = $plugin ; 
 			
-			if ($selection_pos=="plugins") {
-				$page = add_submenu_page('plugins.php', $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
-			} else if ($selection_pos=="tools") {
-				$page = add_submenu_page('tools.php', $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
-			} else if ($selection_pos=="settings") {
-				$page = add_submenu_page('options-general.php', $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
+			if ((isset($this->upper_level_menu))&&($this->upper_level_menu!="")) {
+				$page = add_submenu_page($Custom_SLtopLevel[$this->upper_level_menu], $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
 			} else {
-				$page = add_submenu_page($topLevel, $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
+				if ($selection_pos=="plugins") {
+					$page = add_submenu_page('plugins.php', $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
+				} else if ($selection_pos=="tools") {
+					$page = add_submenu_page('tools.php', $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
+				} else if ($selection_pos=="settings") {
+					$page = add_submenu_page('options-general.php', $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
+				} else {
+					$page = add_submenu_page($topLevel, $this->pluginName, $this->pluginName . $number, 'activate_plugins', $plugin, array($this,'configuration_page'));			
+				}
 			}
 		}
 		
@@ -728,7 +792,12 @@ if (!class_exists('pluginSedLex')) {
 		
 		public function add_js($url) {
 			global $sedlex_list_scripts ; 
-			$sedlex_list_scripts[] = str_replace(plugin_dir_url("/"),WP_PLUGIN_DIR,$url) ; 
+			if ($url=="jquery-tokenize") {
+				// pour le plugin tokenize jQuery
+				$sedlex_list_scripts[] = str_replace(plugin_dir_url("/"),WP_PLUGIN_DIR, SL_FRAMEWORK_DIR . "/core/include/tokenize/jquery.tokenize.js") ; 
+			} else {
+				$sedlex_list_scripts[] = str_replace(plugin_dir_url("/"),WP_PLUGIN_DIR,$url) ; 
+			}
 		}
 		
 		/** ====================================================================================================================================================
@@ -863,7 +932,6 @@ if (!class_exists('pluginSedLex')) {
 			if ($sedlex_adminJavascript_tobedisplayed) {
 				$sedlex_adminJavascript_tobedisplayed = false ; 
 				
-			//if (str_replace(basename( __FILE__),"",plugin_basename( __FILE__))==str_replace(basename( $this->path),"",plugin_basename($this->path))) {
 				// For the tabs of the admin page
 				wp_enqueue_script('jquery');   
 				wp_enqueue_script('jquery-ui-core', '', array('jquery'), false );   
@@ -892,6 +960,9 @@ if (!class_exists('pluginSedLex')) {
 						}
 					}
 				}
+				
+				// pour le plugin tokenize jQuery
+				$this->add_js("jquery-tokenize") ; 
 			}
 			
 			$name = 'js/js_admin.js' ; 
@@ -938,7 +1009,12 @@ if (!class_exists('pluginSedLex')) {
 		
 		public function add_css($url) {
 			global $sedlex_list_styles ; 
-			$sedlex_list_styles[] = str_replace(content_url(),WP_CONTENT_DIR,$url) ; 
+			if ($url=="jquery-tokenize") {
+				// pour le plugin tokenize jQuery
+				$sedlex_list_styles[] = str_replace(plugin_dir_url("/"),WP_PLUGIN_DIR, SL_FRAMEWORK_DIR . "/core/include/tokenize/jquery.tokenize.css") ; 
+			} else {
+				$sedlex_list_styles[] = str_replace(content_url(),WP_CONTENT_DIR,$url) ; 
+			}
 		}
 		
 		/** ====================================================================================================================================================
@@ -1099,8 +1175,6 @@ if (!class_exists('pluginSedLex')) {
 				// Pour le media box
 				wp_enqueue_style('thickbox');		
 
-			//if (str_replace(basename( __FILE__),"",plugin_basename( __FILE__))==str_replace(basename( $this->path),"",plugin_basename($this->path))) {
-			
 				wp_enqueue_style('wp-admin');
 				wp_enqueue_style('dashboard');
 				wp_enqueue_style('plugin-install');
@@ -1118,6 +1192,9 @@ if (!class_exists('pluginSedLex')) {
 						}
 					}
 				}
+				
+				// Pour le plugin tokenize
+				$this->add_css("jquery-tokenize") ; 
 			}
 			
 			$name = 'css/css_admin.css' ; 
@@ -1264,6 +1341,9 @@ if (!class_exists('pluginSedLex')) {
 			global $submenu;
 			global $blog_id ; 
 			global $SLpluginActivated ; 
+			
+			echo get_option('plugin_error_on_activation');
+			update_option('plugin_error_on_activation',  "");
 			
 			if (((is_multisite())&&($blog_id == 1))||(!is_multisite())) {
 				ob_start() ; 

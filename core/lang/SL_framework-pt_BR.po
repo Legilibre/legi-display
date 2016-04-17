@@ -4,12 +4,13 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-06-17T07:09:16+00:00\n"
+"PO-Revision-Date: 2015-12-22T21:28:27+00:00\n"
 "Last-Translator: willianrodrigues <http://www.willianrodrigues.com.br>\n"
 "Last-Translator: IuriJacob <http://www.bytecodex.com>\n"
 "Last-Translator: Anderson <andersonnunes40@gmail.com>\n"
 "Last-Translator: AlbertAbrantes <http://www.maxcreative.ca>\n"
 "Last-Translator: Vanderson <vandinho.on10@gmail.com>\n"
+"Last-Translator: GustavoBretas <newts3.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -284,4 +285,19 @@ msgstr "Idioma"
 
 msgid "Translators"
 msgstr "Tradutore"
+
+msgid "Where do you want to display the SL plugins:"
+msgstr "Onde deseja ver o SL Plugin:"
+
+msgid "For now, you have installed %s plugins including %s plugins developped with the SedLex's framework"
+msgstr "Para agora, você tem instalado %s plugins, incluindo %s desenvolvido com o SL"
+
+msgid "The core plugin is located at %s"
+msgstr "O plugin está localizado em %s"
+
+msgid "Standard"
+msgstr "Comun"
+
+msgid "under Plugins"
+msgstr "Plugins Abaixo"
 

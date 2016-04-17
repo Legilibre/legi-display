@@ -35,10 +35,22 @@ class my_plugin extends pluginSedLex {
 		// Name of the plugin (Please modify)
 		$this->pluginName = 'My Plugin' ; 
 		
+		// Name of the upper level of menu (Please modify, ex. "Your upper menu")
+		$this->upper_level_menu = '' ; 
+
 		// The structure of the SQL table if needed (for instance, 'id_post mediumint(9) NOT NULL, short_url TEXT DEFAULT '', UNIQUE KEY id_post (id_post)') 
 		$this->tableSQL = "" ; 
+		// If you want a plurality of table
+		//$this->tableSQL = array() ; 
+		//$this->tableSQL[] = "" ; 
+		//$this->tableSQL[] = "" ; 
+		
 		// The name of the SQL table (Do no modify except if you know what you do)
 		$this->table_name = $wpdb->prefix . "pluginSL_" . get_class() ; 
+		// If you want a plurality of table
+		//$this->table_name = array() ; 
+		//$this->table_name[] = $wpdb->prefix . "pluginSL_" . "table1" ; 
+		//$this->table_name[] = $wpdb->prefix . "pluginSL_" . "table2" ; 
 
 		//Initilisation of plugin variables if needed (Please modify)
 		$this->your_var1 = 1 ; 
@@ -242,6 +254,11 @@ class my_plugin extends pluginSedLex {
 	*	- integer, the input form will be an input text accepting only integer
 	*	- string beggining with a '*', the input form will be a textarea
 	* 	- boolean, the input form will be a checkbox 
+	* 	- array, the input form will be a list, the entry beginning with a * will be the default one
+	*   - "[file]", an upload of file may be possible (prefer the media tag)
+	*   - "[password]" the entry will be a password field
+	*   - "[media]" you can select a media in the media library
+	*   - "[page]" you may selected a page 
 	* 
 	* @param string $option the name of the option
 	* @return variant of the option
