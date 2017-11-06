@@ -1,4 +1,4 @@
-=== Legi Display ===
+# Legi Display
 
 Author: SedLex
 Contributors: SedLex
@@ -12,22 +12,22 @@ License: GPLv3
 
 Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/
 
-== Description ==
+## Description
 
 Display French Codes and laws once the XML files are retrieved from ftp://legi@ftp2.journal-officiel.gouv.fr/
 
 See http://rip.journal-officiel.gouv.fr/index.php/pages/LO for the licence
 
-= Multisite - Wordpress MU =
+### Multisite - Wordpress MU
 
 Works on multisite installation.
 
-= Localization =
+### Localization
 
 * English (United States), default language
 * French (France) translation provided by SedLex
 
-= Features of the framework =
+### Features of the framework
 
 This plugin uses the SL framework. This framework eases the creation of new plugins by providing tools and frames (see dev-toolbox plugin for more info).
 
@@ -35,7 +35,7 @@ You may easily translate the text of the plugin and submit it to the developer, 
 
 Have fun !
 
-== Installation ==
+## Installation
 
 1. Upload this folder legi-display to your plugin directory (for instance '/wp-content/plugins/')
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -43,32 +43,39 @@ Have fun !
 4. All plugins developed with the SL core will be listed in this box
 5. Enjoy !
 
-== Screenshots ==
+## Screenshots
 
 1. A comparison feature of different version of an article
+![Screenshot 1](https://raw.githubusercontent.com/Legilibre/legi-display/master/screenshot-1.png)
 2. The hierarchy tree of a code
+![Screenshot 2](https://raw.githubusercontent.com/Legilibre/legi-display/master/screenshot-2.png)
 
-== Changelog ==
 
-= 1.0.5 = 
+## Changelog
+
+### 1.0.5
+
 * NEW: Update the core
 
-= 1.0.4 = 
+### 1.0.4
+
 * NEW: delete files upon desinstall
 
-= 1.0.3 = 
+### 1.0.3
+
 * NEW: add icons
 
-= 1.0.2 = 
+### 1.0.2
+
 * BUG: The notice was everywhere ...
 
-= 1.0.1 = 
+### 1.0.1
+ 
 * Avoid canonical redirection if the url is a code url
 
-= 1.0.0 = 
+### 1.0.0
+ 
 * First release : enjoy !
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
- 
-InfoVersion:00165f5622af8410791e0fce5ebb97f51c54edf6
